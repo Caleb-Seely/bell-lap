@@ -1,0 +1,496 @@
+#CH 2025-WC|World Championships|Tokyo|2025
+@M100
+WR|9.58|Usain Bolt|2009
+1|Oblique Seville|JAM|9.77|
+2|Kishane Thompson|JAM|9.82|
+3|Noah Lyles|USA|9.89|
+4|Kenneth Bednarek|USA|9.92|
+5|Gift Leotlela|RSA|9.95|
+6|Kayinsola Ajayi|NGR|10.00|
+7|Akani Simbine|RSA|10.04|
+@M200
+WR|19.19|Usain Bolt|2009
+1|Noah Lyles|USA|19.52|
+2|Kenny Bednarek|USA|19.58|
+3|Bryan Levell|JAM|19.64|
+4|Letsile Tebogo|BOT|19.65|
+5|Zharnel Hughes|GBR|19.78|
+6|Alexander Ogando|DOM|20.01|
+7|Tapiwanashe Makarawu|ZIM|20.12|
+8|Sinesipho Dambile|RSA|20.23|
+@M400
+WR|43.03|Wayde van Niekerk|2016
+1|Collen Kebinatshipi|BOT|43.53|
+2|Jereem Richards|TRI|43.72|
+3|Bayapo Ndori|BOT|44.20|
+4|Rusheen McDonald|JAM|44.28|
+5|Zakithi Nene|RSA|44.55|
+6|Yuki Joseph Nakajima|JPN|44.62|
+7|Jacory Patterson|USA|44.70|
+8|Lee Eppie|BOT|44.77|
+@M800
+WR|1:40.91|David Rudisha|2012
+1|Emmanuel Wanyonyi|KEN|1:41.86|
+2|Djamel Sedjati|ALG|1:41.90|
+3|Marco Arop|CAN|1:41.95|
+4|Cian McPhillips|IRL|1:42.15|
+5|Mohamed Attaoui|ESP|1:42.21|
+6|Max Burgin|GBR|1:42.29|
+7|Navasky Anderson|JAM|1:42.76|
+8|Tshepiso Masalela|BOT|1:42.77|
+@M1500
+WR|3:26.00|Hicham El Guerrouj|1998
+1|Isaac Nader|POR|3:34.10|
+2|Jake Wightman|GBR|3:34.12|
+3|Reynold Cheruiyot|KEN|3:34.25|
+4|Timothy Cheruiyot|KEN|3:34.50|
+5|Niels Laros|NED|3:34.52|
+6|Robert Farken|GER|3:35.15|
+7|Federico Riva|ITA|3:35.33|
+8|Adrián Ben|ESP|3:35.38|
+9|Tshepo Tshite|RSA|3:35.50|
+10|Neil Gourley|GBR|3:35.56|
+11|Samuel Pihlström|SWE|3:35.74|
+12|Andrew Coscoran|IRL|3:35.87|
+13|Jonah Koech|USA|3:37.00|
+14|Josh Kerr|GBR|4:11.23|
+@M5000
+WR|12:35.36|Joshua Cheptegei|2020
+1|Cole Hocker|USA|12:58.30|
+2|Isaac Kimeli|BEL|12:58.78|
+3|Jimmy Gressier|FRA|12:59.33|
+4|Ky Robinson|AUS|12:59.61|
+5|Biniam Mehary|ETH|12:59.95|
+6|Nico Young|USA|13:00.07|
+7|Birhanu Balew|BRN|13:00.55|
+8|Grant Fisher|USA|13:00.79|
+9|Yann Schrub|FRA|13:01.34|
+10|Jakob Ingebrigtsen|NOR|13:02.00|
+11|Mathew Kipsang|KEN|13:03.67|
+12|Mike Foppen|NED|13:05.94|
+13|Hagos Gebrhiwet|ETH|13:07.02|
+14|Etienne Daguinos|FRA|13:11.72|
+15|Valentín Soca|URU|13:34.35|
+16|George Mills|GBR|13:44.88|
+@M10000
+WR|26:11.00|Joshua Cheptegei|2020
+1|Jimmy Gressier|FRA|28:55.77|
+2|Yomif Kejelcha|ETH|28:55.83|
+3|Andreas Almgren|SWE|28:56.02|
+4|Ishmael Kipkurui|KEN|28:56.48|
+5|Nico Young|USA|28:56.62|
+6|Selemon Barega|ETH|28:57.21|
+7|Edwin Kurgat|KEN|28:57.83|
+8|Grant Fisher|USA|28:57.85|
+9|Thierry Ndikumwenayo|ESP|28:59.07|
+10|Adriaan Wildschutt|RSA|28:59.47|
+23|Aaron Bienenfeld|GER|29:51.41|
+@Mmarathon
+WR|2:00:35|Kelvin Kiptum|2023
+1|Alphonce Simbu|TAN|2:09:48|
+2|Amanal Petros|GER|2:09:48|
+3|Iliass Aouani|ITA|2:09:53|
+4|Haimro Alame|ISR|2:10:03|
+5|Abel Chelangat|UGA|2:10:11|
+6|Yohanes Chiappinelli|ITA|2:10:15|
+7|Gashau Ayale|ISR|2:10:27|
+8|Samsom Amare|ERI|2:10:34|
+9|Clayton Young|USA|2:10:43|
+10|Isaac Mpofu|ZIM|2:10:46|
+66|Maxim Răileanu|MDA|2:32:15|
+@M110H
+WR|12.80|Aries Merritt|2012
+1|Cordell Tinch|USA|12.99|
+2|Orlando Bennett|JAM|13.08|
+3|Tyler Mason|JAM|13.12|
+4|Enrique Llopis|ESP|13.16|
+5|Rachid Muratake|JPN|13.18|
+6|Ja'Kobe Tharp|USA|13.31|
+7|Just Kwaou-Mathey|FRA|13.42|
+@M400H
+WR|45.94|Karsten Warholm|2021
+1|Rai Benjamin|USA|46.52|
+2|Alison dos Santos|BRA|46.84|
+3|Abderrahman Samba|QAT|47.06|
+4|Ezekiel Nathaniel|NGR|47.11|
+5|Karsten Warholm|NOR|47.58|
+6|Emil Agyekum|GER|47.98|
+7|Caleb Dean|USA|48.20|
+8|Ismail Abakar|QAT|49.82|
+@M3000SC
+WR|7:52.11|Lamecha Girma|2023
+1|Geordie Beamish|NZL|8:33.88|
+2|Soufiane El Bakkali|MAR|8:33.95|
+3|Edmund Serem|KEN|8:34.56|
+4|Samuel Firewu|ETH|8:34.68|
+5|Salaheddine Ben Yazide|MAR|8:35.16|
+6|Lamecha Girma|ETH|8:35.60|
+7|Nicolas-Marie Daru|FRA|8:35.77|
+8|Ryuji Miura|JPN|8:35.90|
+9|Daniel Michalski|USA|8:37.12|
+10|Ruben Querinjean|LUX|8:37.49|
+11|Ahmed Jaziri|TUN|8:39.30|
+12|Frederik Ruppert|GER|8:39.83|
+13|Jean-Simon Desgagnés|CAN|8:39.96|
+14|Getnet Wale|ETH|8:41.23|
+15|Niklas Buchholz|GER|8:42.81|
+@MHJ
+WR|2.45|Javier Sotomayor|1993
+1|Hamish Kerr|NZL|2.36|
+2|Woo Sang-hyeok|KOR|2.34|
+3|Jan Štefela|CZE|2.31|
+4|Oleh Doroshchuk|UKR|2.31|
+5|JuVaughn Harrison|USA|2.28|
+6|Sarvesh Kushare|IND|2.28|
+6|Tyus Wilson|USA|2.28|
+8|Matteo Sioli|ITA|2.24|
+8|Ryoichi Akamatsu|JPN|2.24|
+10|Yuto Seko|JPN|2.20|
+11|Yual Reath|AUS|2.20|
+11|Thomas Carmoy|BEL|2.20|
+@MPV
+WR|6.29|Armand Duplantis|2025
+1|Armand Duplantis|SWE|6.30|WR
+2|Emmanouil Karalis|GRE|6.00|
+3|Kurtis Marschall|AUS|5.95|
+4|Sam Kendricks|USA|5.95|
+5|Thibaut Collet|FRA|5.90|
+6|Sondre Guttormsen|NOR|5.90|
+7|Menno Vloon|NED|5.90|
+8|Renaud Lavillenie|FRA|5.75|
+9|Seif Heneida|QAT|5.75|
+10|Bo Kanda Lita Baehre|GER|5.75|
+11|Ethan Cormont|FRA|5.55|
+@MLJ
+WR|8.95|Mike Powell|1991
+1|Mattia Furlani|ITA|8.39|
+2|Tajay Gayle|JAM|8.34|
+3|Shi Yuhao|CHN|8.33|
+4|Simon Ehammer|SUI|8.30|
+5|Bozhidar Sarâboyukov|BUL|8.19|
+6|Zhang Mingkun|CHN|8.18|
+7|Thobias Montler|SWE|8.17|
+8|Lester Lescay|ESP|7.97|
+9|Nikaoli Williams|JAM|7.85|
+10|Isaac Grimes|USA|7.85|
+11|Miltiadis Tentoglou|GRE|7.83|
+12|Jaime Guerra|ESP|7.81|
+@MTJ
+WR|18.29|Jonathan Edwards|1995
+1|Pedro Pichardo|POR|17.91|
+2|Andrea Dallavalle|ITA|17.64|
+3|Lázaro Martínez|CUB|17.49|
+4|Yasser Triki|ALG|17.25|
+5|Jordan Scott|JAM|17.21|
+6|Andy Díaz|ITA|17.19|
+7|Hugues Fabrice Zango|BUR|16.92|
+8|Jonathan Seremes|FRA|16.82|
+9|Endiorass Kingley|AUT|16.71|
+10|Su Wen|CHN|16.66|
+11|Zhu Yaming|CHN|16.51|
+12|Salif Mane|USA|16.29|
+@MSP
+WR|23.56|Ryan Crouser|2023
+1|Ryan Crouser|USA|22.34|
+2|Uziel Muñoz|MEX|21.97|
+3|Leonardo Fabbri|ITA|21.94|
+4|Tom Walsh|NZL|21.94|
+5|Chukwuebuka Enekwechi|NGR|21.52|
+6|Adrian Piperi|USA|21.50|
+7|Josh Awotunde|USA|21.14|
+8|Scott Lincoln|GBR|21.00|
+9|Konrad Bukowiecki|POL|20.66|
+10|Marcus Thomsen|NOR|20.53|
+11|Wictor Petersson|SWE|20.35|
+12|Tomáš Staněk|CZE|19.91|
+@MDT
+WR|75.56|Mykolas Alekna|2025
+1|Daniel Ståhl|SWE|70.47|
+2|Mykolas Alekna|LTU|67.84|
+3|Alex Rose|SAM|66.96|
+4|Matthew Denny|AUS|65.57|
+5|Mario Díaz|CUB|64.71|
+6|Andrius Gudžius|LTU|63.43|
+7|Martynas Alekna|LTU|63.34|
+8|Kristjan Čeh|SLO|63.07|
+9|Lukas Weißhaidinger|AUT|62.26|
+10|Connor Bell|NZL|59.97|
+11|Mika Sosna|GER|58.60|
+@MHT
+WR|86.74|Yuriy Sedykh|1986
+1|Ethan Katzberg|CAN|84.70|
+2|Merlin Hummel|GER|82.77|
+3|Bence Halász|HUN|82.69|
+4|Mykhaylo Kokhan|UKR|82.02|
+5|Rudy Winkler|USA|78.52|
+6|Thomas Mardal|NOR|78.02|
+7|Paweł Fajdek|POL|77.75|
+8|Ármin Szabados|HUN|77.15|
+9|Eivind Henriksen|NOR|76.47|
+10|Trey Knight|USA|76.11|
+11|Dániel Rába|HUN|75.22|
+12|Denzel Comenentia|NED|74.86|
+@MJT
+WR|98.48|Jan Železný|1996
+1|Keshorn Walcott|TRI|88.16|
+2|Anderson Peters|GRN|87.38|
+3|Curtis Thompson|USA|86.67|
+4|Sachin Yadav|IND|86.27|
+5|Julian Weber|GER|86.11|
+6|Julius Yego|KEN|85.54|
+7|Rumesh Tharanga|SRI|84.38|
+8|Neeraj Chopra|IND|84.03|
+9|Dawid Wegner|POL|83.03|
+10|Arshad Nadeem|PAK|82.75|
+11|Jakub Vadlejch|CZE|78.71|
+12|Cameron McEntyre|AUS|75.65|
+@W100
+WR|10.49|Florence Griffith Joyner|1988
+1|Melissa Jefferson-Wooden|USA|10.61|
+2|Tina Clayton|JAM|10.76|
+3|Julien Alfred|LCA|10.84|
+4|Shericka Jackson|JAM|10.88|
+5|Sha'Carri Richardson|USA|10.94|
+6|Shelly-Ann Fraser-Pryce|JAM|11.03|
+7|Marie Josée Ta Lou-Smith|CIV|11.04|
+8|Dina Asher-Smith|GBR|11.08|
+@W200
+WR|21.34|Florence Griffith Joyner|1988
+1|Melissa Jefferson-Wooden|USA|21.68|
+2|Amy Hunt|GBR|22.14|
+3|Shericka Jackson|JAM|22.18|
+4|Anavia Battle|USA|22.22|
+5|Dina Asher-Smith|GBR|22.43|
+6|Brittany Brown|USA|22.54|
+7|Marie Josée Ta Lou-Smith|CIV|22.62|
+8|Mckenzie Long|USA|22.78|
+@W400
+WR|47.60|Marita Koch|1985
+1|Sydney McLaughlin-Levrone|USA|47.78|
+2|Marileidy Paulino|DOM|47.98|
+3|Salwa Eid Naser|BRN|48.19|
+4|Natalia Bukowiecka|POL|49.27|
+5|Amber Anning|GBR|49.36|
+6|Roxana Gómez|CUB|49.48|
+7|Henriette Jæger|NOR|49.74|
+8|Nickisha Pryce|JAM|49.97|
+@W800
+WR|1:53.28|Jarmila Kratochvílová|1983
+1|Lilian Odira|KEN|1:54.62|
+2|Georgia Hunter Bell|GBR|1:54.90|
+3|Keely Hodgkinson|GBR|1:54.91|
+4|Sarah Moraa|KEN|1:55.74|
+5|Sage Hurta-Klecker|USA|1:55.89|
+6|Audrey Werro|SUI|1:56.17|
+7|Mary Moraa|KEN|1:57.10|
+8|Jessica Hull|AUS|1:57.30|
+@W1500
+WR|3:48.68|Faith Kipyegon|2025
+1|Faith Kipyegon|KEN|3:52.15|
+2|Dorcus Ewoi|KEN|3:54.92|
+3|Jessica Hull|AUS|3:55.16|
+4|Nelly Chepchirchir|KEN|3:55.25|
+5|Nikki Hiltz|USA|3:57.08|
+6|Freweyni Hailu|ETH|3:57.33|
+7|Klaudia Kazimierska|POL|3:57.95|
+8|Sarah Madeleine|FRA|3:58.09|
+9|Marta Pérez|ESP|3:58.54|
+10|Sarah Healy|IRL|3:59.14|
+11|Gabriela DeBues-Stafford|CAN|3:59.65|
+12|Salomé Afonso|POR|4:00.47|
+13|Sinclaire Johnson|USA|4:00.92|
+14|Nele Weßel|GER|4:10.31|
+@W5000
+WR|13:58.06|Beatrice Chebet|2025
+1|Beatrice Chebet|KEN|14:54.36|
+2|Faith Kipyegon|KEN|14:55.07|
+3|Nadia Battocletti|ITA|14:55.42|
+4|Shelby Houlihan|USA|14:57.42|
+5|Gudaf Tsegay|ETH|14:57.82|
+6|Josette Andrews|USA|15:00.25|
+7|Marta García|ESP|15:01.02|
+8|Hannah Nuttall|GBR|15:01.25|
+9|Fantaye Belayneh|ETH|15:02.05|
+10|Rose Davies|AUS|15:03.61|
+11|Linden Hall|AUS|15:04.03|
+12|Nozomi Tanaka|JPN|15:07.34|
+13|Medina Eisa|ETH|15:07.47|
+14|Maureen Koster|NED|15:07.58|
+15|Agnes Jebet Ngetich|KEN|15:13.78|
+16|Joy Cheptoyek|UGA|15:18.98|
+@W10000
+WR|28:54.14|Beatrice Chebet|2024
+1|Beatrice Chebet|KEN|30:37.61|
+2|Nadia Battocletti|ITA|30:38.23|
+3|Gudaf Tsegay|ETH|30:39.65|
+4|Agnes Jebet Ngetich|KEN|30:42.66|
+5|Ejgayehu Taye|ETH|30:55.52|
+6|Ririka Hironaka|JPN|31:09.62|
+7|Joy Cheptoyek|UGA|31:15.03|
+8|Fotyen Tesfay|ETH|31:21.67|
+9|Lauren Ryan|AUS|31:27.78|
+10|Megan Keith|GBR|31:33.85|
+24|Núbia Silva|BRA|36:00.21|
+@Wmarathon
+WR|2:09:56|Ruth Chepngetich|2024
+1|Peres Jepchirchir|KEN|2:24:43|
+2|Tigst Assefa|ETH|2:24:45|
+3|Julia Paternain|URU|2:27:23|
+4|Susanna Sullivan|USA|2:28:17|
+5|Alisa Vainio|FIN|2:28:32|
+6|Shitaye Eshete|BRN|2:28:41|
+7|Kana Kobayashi|JPN|2:28:50|
+8|Jessica McClain|USA|2:29:20|
+9|Fionnuala McCormack|IRL|2:30:16|
+10|Dolshi Tesfu|ERI|2:30:41|
+62|Margarita Hernández|MEX|3:02:26|
+@W100H
+WR|12.12|Tobi Amusan|2022
+1|Ditaji Kambundji|SUI|12.24|
+2|Tobi Amusan|NGR|12.29|
+3|Grace Stark|USA|12.34|
+4|Masai Russell|USA|12.44|
+5|Pia Skrzyszowska|POL|12.49|
+6|Devynne Charlton|BAH|12.49|
+7|Danielle Williams|JAM|12.53|
+8|Nadine Visser|NED|12.56|
+@W400H
+WR|50.37|Sydney McLaughlin-Levrone|2024
+1|Femke Bol|NED|51.54|
+2|Jasmine Jones|USA|52.08|
+3|Emma Zapletalová|SVK|53.00|
+4|Anna Cockrell|USA|53.13|
+5|Gianna Woodruff|PAN|53.34|
+6|Naomi Van den Broeck|BEL|53.70|
+7|Dalilah Muhammad|USA|54.82|
+8|Shiann Salmon|JAM|56.27|
+@W3000SC
+WR|8:44.32|Beatrice Chepkoech|2018
+1|Faith Cherotich|KEN|8:51.59|
+2|Winfred Yavi|BRN|8:56.46|
+3|Sembo Almayew|ETH|8:58.86|
+4|Marwa Bouzayani|TUN|9:01.46|
+5|Doris Lemngole|KEN|9:02.39|
+6|Norah Jeruto|KAZ|9:06.34|
+7|Gesa Felicitas Krause|GER|9:14.27|
+8|Lomi Muleta|ETH|9:14.90|
+9|Angelina Napoleon|USA|9:17.44|
+10|Kaylee Mitchell|USA|9:18.66|
+11|Elise Thorner|GBR|9:19.02|
+12|Lea Meyer|GER|9:24.42|
+13|Flavie Renouard|FRA|9:25.15|
+14|Lexy Halladay|USA|9:34.03|
+@WHJ
+WR|2.10|Yaroslava Mahuchikh|2024
+1|Nicola Olyslagers|AUS|2.00|
+2|Maria Żodzik|POL|2.00|
+3|Yaroslava Mahuchikh|UKR|1.97|
+3|Angelina Topić|SRB|1.97|
+5|Yuliya Levchenko|UKR|1.97|
+5|Eleanor Patterson|AUS|1.97|
+7|Christina Honsel|GER|1.93|
+7|Morgan Lake|GBR|1.93|
+9|Elena Kulichenko|CYP|1.93|
+10|Merel Maes|BEL|1.93|
+11|Imke Onnen|GER|1.93|
+12|Michaela Hrubá|CZE|1.88|
+12|Fatoumata Balley|GUI|1.88|
+12|Marija Vuković|MNE|1.88|
+15|Rose Amoanimaa Yeboah|GHA|1.88|
+@WPV
+WR|5.06|Yelena Isinbayeva|2009
+1|Katie Moon|USA|4.90|
+2|Sandi Morris|USA|4.85|
+3|Tina Šutej|SLO|4.80|
+4|Amálie Švábíková|CZE|4.75|
+5|Angelica Moser|SUI|4.65|
+6|Hana Moll|USA|4.65|
+6|Amanda Moll|USA|4.65|
+8|Marie-Julie Bonnin|FRA|4.65|
+8|Olivia McTaggart|NZL|4.65|
+10|Imogen Ayris|NZL|4.45|
+11|Roberta Bruni|ITA|4.45|
+11|Niu Chunge|CHN|4.45|
+@WLJ
+WR|7.52|Galina Chistyakova|1988
+1|Tara Davis-Woodhall|USA|7.13|
+2|Malaika Mihambo|GER|6.99|
+3|Natalia Linares|COL|6.92|
+4|Hilary Kpatcha|FRA|6.82|
+5|Claire Bryant|USA|6.68|
+6|Agate de Sousa|POR|6.67|
+7|Pauline Hondema|NED|6.60|
+8|Quanesha Burks|USA|6.60|
+9|Maja Åskag|SWE|6.49|
+10|Marthe Koala|BUR|6.49|
+11|Esraa Owis|EGY|6.37|
+12|Chantel Malone|IVB|6.33|
+@WTJ
+WR|15.74|Yulimar Rojas|2022
+1|Leyanis Pérez|CUB|14.94|
+2|Thea LaFond|DMA|14.89|
+3|Yulimar Rojas|VEN|14.76|
+4|Liadagmis Povea|CUB|14.72|
+5|Shanieka Ricketts|JAM|14.56|
+6|Saly Sarr|SEN|14.55|
+7|Jasmine Moore|USA|14.51|
+8|Ackelia Smith|JAM|14.37|
+9|Neja Filipič|SLO|14.03|
+10|Caroline Joyeux|GER|14.00|
+11|Maja Åskag|SWE|13.92|
+12|Tuğba Danışmaz|TUR|13.43|
+@WSP
+WR|22.63|Natalya Lisovskaya|1987
+1|Jessica Schilder|NED|20.29|
+2|Chase Jackson|USA|20.21|
+3|Maddi Wesche|NZL|20.06|
+4|Sarah Mitton|CAN|19.81|
+5|Fanny Roos|SWE|19.54|
+6|Yemisi Ogunleye|GER|19.33|
+7|Zhang Linru|CHN|19.16|
+8|Jaida Ross|USA|19.01|
+9|Gong Lijiao|CHN|18.96|
+10|Alina Kenzel|GER|18.42|
+11|Katharina Maisch|GER|18.21|
+12|Sara Lennman|SWE|17.78|
+@WDT
+WR|76.80|Gabriele Reinsch|1988
+1|Valarie Allman|USA|69.48|
+2|Jorinde van Klinken|NED|67.50|
+3|Silinda Morales|CUB|67.25|
+4|Vanessa Kamga|SWE|66.61|
+5|Sandra Elkasević|CRO|65.82|
+6|Laulauga Tausaga|USA|65.49|
+7|Feng Bin|CHN|65.28|
+8|Shanice Craft|GER|65.21|
+9|Izabela da Silva|BRA|63.22|
+10|Alexandra Emilianov|MDA|62.59|
+11|Alida van Daalen|NED|62.24|
+12|Samantha Hall|JAM|60.69|
+@WHT
+WR|82.98|Anita Włodarczyk|2016
+1|Camryn Rogers|CAN|80.51|
+2|Zhao Jie|CHN|77.60|
+3|Zhang Jiale|CHN|77.10|
+4|Silja Kosonen|FIN|75.28|
+5|DeAnna Price|USA|75.10|
+6|Anita Włodarczyk|POL|74.64|
+7|Sara Fantini|ITA|73.06|
+8|Katrine Koch Jacobsen|DEN|71.59|
+9|Aileen Kuhn|GER|71.57|
+10|Janee' Kassanavoid|USA|70.35|
+11|Nicola Tuthill|IRL|69.49|
+@WJT
+WR|72.28|Barbora Špotáková|2008
+1|Juleisy Angulo|ECU|65.12|
+2|Anete Sietiņa|LAT|64.64|
+3|Mackenzie Little|AUS|63.58|
+4|Jo-Ané du Plessis|RSA|63.06|
+5|Elina Tzengko|GRE|62.72|
+6|Flor Ruiz|COL|62.32|
+7|Tori Moorby|NZL|61.53|
+8|Adriana Vilagoš|SRB|61.29|
+9|Su Lingdan|CHN|59.56|
+10|Victoria Hudson|AUT|59.52|
+11|Valentina Barrios|COL|59.14|
+12|Małgorzata Maślak-Glugla|POL|57.80|

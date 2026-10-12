@@ -1,0 +1,116 @@
+<title>Photo Finish</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
+<style>
+/* Layout: one narrow column like a single lane; the red track surface appears only where it carries meaning (current lane, the reveal straight). */
+:root{
+  --bg:#f7f7f8; --surface:#ffffff; --ink:#15171c; --muted:#6c707a; --line:#e2e3e7;
+  --track:#c8442c; --on-track:#ffffff;
+  --f-display:"Barlow Condensed","Arial Narrow",sans-serif;
+  --f-body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#121317; --surface:#1a1b20; --ink:#f0f1f3; --muted:#9a9ea8; --line:#2b2d33; --track:#d9573d; --on-track:#ffffff; color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121317; --surface:#1a1b20; --ink:#f0f1f3; --muted:#9a9ea8; --line:#2b2d33; --track:#d9573d; --on-track:#ffffff; color-scheme:dark}
+
+html,body{background:var(--bg);color:var(--ink)}
+body{font-family:var(--f-body);font-size:16px;line-height:1.45}
+.app{max-width:460px;margin:0 auto;padding-inline:16px;padding-block:14px 40px;display:flex;flex-direction:column;gap:20px}
+button,input{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--track);outline-offset:2px}
+
+/* header */
+.top{display:flex;justify-content:space-between;align-items:center}
+.mark{display:flex;align-items:center;gap:8px;font-family:var(--f-display);font-weight:700;font-size:22px;letter-spacing:.06em;text-transform:uppercase}
+.mark i{width:10px;height:20px;background:repeating-conic-gradient(var(--ink) 0 25%,transparent 0 50%) 0 0/10px 10px}
+.day{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+
+/* rounds as five lanes */
+.lanes{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--line);border-width:1px 0}
+.lanes li{border-left:1px solid var(--line);padding:6px 8px;display:flex;justify-content:space-between;align-items:baseline;font-family:var(--f-mono);font-size:11px;color:var(--muted);min-width:0}
+.lanes li:last-child{border-right:1px solid var(--line)}
+.lanes li b{font-weight:600;color:var(--ink);font-size:12px}
+.lanes li.cur{background:var(--track);color:var(--on-track);border-color:var(--track)}
+
+/* round */
+.eyebrow{margin:0;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.event{margin:2px 0 0;font-family:var(--f-display);font-weight:700;font-size:44px;line-height:1;text-transform:uppercase;text-wrap:balance}
+.ask{margin:6px 0 0;color:var(--muted)}
+.clue{display:flex;flex-direction:column;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.cr{display:flex;align-items:baseline;column-gap:12px;flex-wrap:wrap;padding:10px 0}
+.cr+.cr{border-top:1px dashed var(--line)}
+.cr .l{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);flex-basis:100%}
+.cr .v{font-family:var(--f-mono);font-weight:600;font-size:24px;font-variant-numeric:tabular-nums}
+.cr .w{color:var(--muted);font-size:14px;min-width:0}
+.badge{display:inline-block;margin-top:4px;font-family:var(--f-display);font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;background:var(--track);color:var(--on-track);padding:1px 8px;border-radius:3px}
+.board tr.wr td{color:var(--muted);font-style:italic}
+.board tr.wr td:first-child{font-style:normal}
+.hint{margin:0;font-weight:500}
+.hint b{color:var(--track)}
+.guess{display:flex;gap:8px}
+.guess input{flex:1;min-width:0;font-family:var(--f-mono);font-weight:600;font-size:28px;padding:10px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);font-variant-numeric:tabular-nums}
+.guess input::placeholder{color:var(--line)}
+.guess input:focus{outline:none;border-color:var(--ink)}
+.btn{border:0;border-radius:10px;background:var(--ink);color:var(--bg);font-family:var(--f-display);font-weight:700;font-size:20px;letter-spacing:.06em;text-transform:uppercase;padding:0 22px;min-height:56px;cursor:pointer}
+.btn:disabled{opacity:.25;cursor:default}
+.btn.wide{width:100%}
+.btn.quiet{background:transparent;color:var(--ink);border:1.5px solid var(--line)}
+.readas{margin:-12px 0 0;min-height:20px;font-size:13px;color:var(--muted)}
+.readas b{color:var(--ink);font-family:var(--f-mono)}
+.readas.err b{color:var(--track)}
+
+/* reveal */
+.answer{display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
+.l{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.big{font-family:var(--f-mono);font-weight:600;font-size:34px;line-height:1.1;font-variant-numeric:tabular-nums}
+.who{font-size:14px;color:var(--muted)}
+.score{text-align:right}
+.placed{margin:0;font-family:var(--f-display);font-weight:600;font-size:24px;line-height:1.15}
+
+/* the straight: last place at the left, the finish line at the right */
+.straight{position:relative;height:96px}
+.surface{position:absolute;left:0;right:0;top:40px;height:24px;background:var(--track);border-radius:2px;box-shadow:inset 0 2px 0 rgba(255,255,255,.55),inset 0 -2px 0 rgba(255,255,255,.55)}
+.finish{position:absolute;top:34px;height:36px;width:8px;transform:translateX(-50%);background:repeating-conic-gradient(var(--ink) 0 25%,var(--bg) 0 50%) 0 0/8px 8px}
+.tick{position:absolute;top:46px;height:12px;width:2px;background:var(--on-track);opacity:.8;transform:translateX(-50%)}
+.pin{position:absolute;top:0;display:flex;flex-direction:column;align-items:center;transform:translateX(-50%)}
+.pin span{font-family:var(--f-mono);font-size:12px;font-weight:600;white-space:nowrap;background:var(--ink);color:var(--bg);padding:2px 7px;border-radius:4px}
+.pin::after{content:"";width:2px;height:22px;background:var(--ink)}
+.pin.el{transform:translateX(-1px);align-items:flex-start}
+.pin.er{transform:translateX(calc(-100% + 1px));align-items:flex-end}
+.end{position:absolute;bottom:0;font-family:var(--f-mono);font-size:11px;color:var(--muted)}
+.end.r{right:0;text-align:right}
+
+.board{width:100%;border-collapse:collapse;font-variant-numeric:tabular-nums;font-size:15px}
+.board td{padding:9px 4px;border-top:1px solid var(--line)}
+.board td:first-child{width:2em;font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.board td.m{text-align:right;font-family:var(--f-mono);white-space:nowrap}
+.board small{font-family:var(--f-mono);font-size:11px;color:var(--muted);margin-left:4px}
+.board tr.you td{background:color-mix(in srgb,var(--track) 13%,transparent);font-weight:600}
+.board tr.you td:first-child{color:var(--track)}
+.board tr.gap td{padding:2px 4px;color:var(--muted);font-size:12px;border-top-style:dashed}
+.note{margin:0;font-size:13px;color:var(--muted)}
+
+/* results */
+.total{font-family:var(--f-display);font-weight:700;font-size:80px;line-height:.9}
+.total small{font-size:24px;color:var(--muted)}
+.sum td.s{text-align:right;font-family:var(--f-mono);font-weight:600;white-space:nowrap}
+.sum td small{display:block;margin:0}
+.share{margin:0;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;font-family:var(--f-mono);font-size:14px;white-space:pre-wrap}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.foot{font-size:13px;color:var(--muted);margin:0}
+
+.stage{display:flex;flex-direction:column;gap:20px}
+@media (prefers-reduced-motion:no-preference){.stage>*{animation:in .3s ease-out both}@keyframes in{from{transform:translateY(4px)}to{transform:none}}}
+</style>
+
+<div class="app">
+  <header class="top">
+    <div class="mark"><i aria-hidden="true"></i>Photo Finish</div>
+    <div class="day" id="day"></div>
+  </header>
+  <ol class="lanes" id="lanes" aria-label="Rounds"></ol>
+  <main class="stage" id="stage"></main>
+  <p class="foot">Five Olympic and World Championships finals a day, 2016 to 2025. One guess at each winning mark.</p>
+</div>
+
