@@ -109,7 +109,7 @@ function render(){
 
   // Hint: the clue row, in a popup from the header button.
   const c=clueRow(q);
-  $("#hintpop").innerHTML=`<span class="w">${esc(c[1])}</span> <span class="v">${fmt(c[3],q.fmt)}</span>`;
+  $("#hintpop").innerHTML=`<span class="l">Finished ${ord(c[0])} of ${q.n}</span><span class="w">${esc(c[1])}</span> <span class="v">${fmt(c[3],q.fmt)}</span>`;
   $("#stage").innerHTML=`${head}
     <p class="ask">What was the winning ${q.field?"mark":"time"}? One guess.</p>
     <form class="guess" id="f" autocomplete="off">

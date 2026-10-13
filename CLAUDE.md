@@ -41,7 +41,7 @@ Current bank: 304 finals, covering every individual event at the 2016, 2020 and 
 ## Game decisions (keep unless asked to change)
 
 - **One guess per final.** A second guess with a higher/lower hint was tried and removed.
-- **Clue = last finisher**, shown only as a popup ("Name  mark", no place) from a "Hint" button in the header during a guess. Free: no points cost or share marker. Exceptions:
+- **Clue = last finisher**, shown only as a popup ("Finished 8th of 8" over "Name  mark") from a "Hint" button in the header during a guess. Free: no points cost or share marker. Exceptions:
   - If the last finisher was far behind (an injury, e.g. Ta Lou-Smith 13.84 in the Paris 100 m), the clue is the next one up. "Far behind" means the last gap is more than 3× the typical gap and more than half the rest of the field's spread.
   - Partial (big) fields use 10th place.
   
