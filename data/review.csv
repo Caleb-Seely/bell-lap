@@ -1,4 +1,51 @@
 id,issue,note
+2000-OG-M100,short-field,only 7 finishers with a time
+2000-OG-M400,short-field,only 7 finishers with a time
+2000-OG-M800,outlier-last,Glody Dube 1:46.24 far behind; clue uses Yuriy Borzakovskiy 1:45.83
+2000-OG-M1500,outlier-last,Youssef Baba 3:56.08 far behind; clue uses Driss Maazouzi 3:45.46
+2000-OG-M3000SC,outlier-last,Damian Kallabis 9:09.78 far behind; clue uses Gael Pencreach 8:41.19
+2000-OG-W100,short-field,only 7 finishers with a time
+2000-OG-W100,outlier-last,Debbie Ferguson 11.29 far behind; clue uses Sevatheda Fynes 11.22
+2000-OG-W200,short-field,only 7 finishers with a time
+2000-OG-W400,outlier-last,Olga Kotlyarova 51.04 far behind; clue uses Falilat Ogunkoya 50.12
+2000-OG-W5000,outlier-last,Vivian Cheruiyot 15:25.67 far behind; clue uses Tatyana Tomashova 15:01.28
+2000-OG-W100H,outlier-last,Brigitte Foster 13.49 far behind; clue uses Linda Ferga 13.11
+2004-OG-M100,short-field,only 7 finishers with a time
+2004-OG-M100,outlier-last,Obadele Thompson 10.10 far behind; clue uses Kim Collins 10.00
+2004-OG-M200,short-field,only 7 finishers with a time
+2004-OG-M200,outlier-last,Tobias Unger 20.64 far behind; clue uses Stéphane Buckland 20.24
+2004-OG-M400,outlier-last,Michael Blackwood 45.55 far behind; clue uses Leslie Djhone 44.94
+2004-OG-M800,outlier-last,Ismail Ahmed Ismail 1:52.49 far behind; clue uses Djabir Saïd-Guerni 1:45.61
+2004-OG-M1500,outlier-last,Isaac Kiprono Songok 3:41.72 far behind; clue uses Kamal Boulahfane 3:39.02
+2004-OG-M3000SC,outlier-last,Khamis Abdullah Saifeldin 8:36.66 far behind; clue uses Antonio David Jiménez 8:22.63
+2004-OG-MJT,outlier-last,Breaux Greer 74.36 far behind; clue uses Esko Mikkola 79.43
+2004-OG-W1500,outlier-last,Hasna Benhassi 4:12.90 far behind; clue uses Olga Yegorova 4:05.65
+2004-OG-W5000,outlier-last,Sonia O'Sullivan 16:20.90 far behind; clue uses Liliya Shobukhova 15:15.64
+2004-OG-W100H,short-field,only 6 finishers with a time
+2008-OG-M200,short-field,only 6 finishers with a time
+2008-OG-M800,outlier-last,Nadjim Manseur 1:47.19 far behind; clue uses Nabil Madi 1:45.96
+2008-OG-M5000,outlier-last,Jesús España 13:55.94 far behind; clue uses Matthew Tegenkamp 13:33.13
+2008-OG-M400H,outlier-last,Periklis Iakovakis 49.96 far behind; clue uses Markino Buckley 48.60
+2008-OG-M3000SC,outlier-last,Abdelkader Hachlaf 9:02.06 far behind; clue uses Ruben Ramolefi 8:34.58
+2008-OG-W400,short-field,only 6 finishers with a time
+2008-OG-W800,outlier-last,Tatyana Andrianova 2:02.63 far behind; clue uses Yuliya Krevsun 1:58.73
+2008-OG-W5000,outlier-last,Megan Metcalfe 17:06.82 far behind; clue uses Jennifer Rhines 16:34.63
+2008-OG-W100H,outlier-last,Sarah Claxton 12.94 far behind; clue uses LoLo Jones 12.72
+2008-OG-W400H,outlier-last,Tiffany Ross-Williams 57.55 far behind; clue uses Zuzana Hejnová 54.97
+2008-OG-W3000SC,outlier-last,Roisin McGettigan 9:55.89 far behind; clue uses Habiba Ghribi 9:36.43
+2008-OG-WHT,outlier-last,Stilianí Papadopoúlou 64.97 far behind; clue uses Yelena Priyma 69.72
+2012-OG-M100,short-field,only 7 finishers with a time
+2012-OG-M100,outlier-last,Asafa Powell 11.99 far behind; clue uses Richard Thompson 9.98
+2012-OG-M1500,outlier-last,Asbel Kiprop 3:43.83 far behind; clue uses Nixon Chepseba 3:39.04
+2012-OG-M110H,short-field,only 7 finishers with a time
+2012-OG-W200,short-field,only 7 finishers with a time
+2012-OG-W400,short-field,only 7 finishers with a time
+2012-OG-W400,outlier-last,Rosemarie Whyte 50.79 far behind; clue uses Francena McCorory 50.33
+2012-OG-W100H,short-field,only 7 finishers with a time
+2012-OG-W100H,outlier-last,Beate Schrott 13.07 far behind; clue uses Jessica Zelinka 12.69
+2012-OG-W400H,short-field,only 7 finishers with a time
+2012-OG-WTJ,outlier-last,Dana Velďáková 11.92 far behind; clue uses Marija Šestak 13.98
+2012-OG-WHT,outlier-last,Sophie Hitchon 69.33 far behind; clue uses Joanna Fiodorow 72.37
 2016-NCAAI-M60,outlier-last,Bryce Robinson 7.33 far behind; clue uses Kenzo Cotton 6.70
 2016-NCAAI-M200,short-field,only 7 finishers with a time
 2016-NCAAI-M200,outlier-last,Sam Watts 22.06 far behind; clue uses Nick Gray 21.11
@@ -23,6 +70,15 @@ id,issue,note
 2016-OG-W100,outlier-last,Christania Williams 11.80 far behind; clue uses English Gardner 10.94
 2016-OG-W400,short-field,only 7 finishers with a time
 2016-OG-W100H,check-mark,a mark was unclear on the source page
+2016-WI-M400,short-field,only 6 finishers with a time
+2016-WI-M800,outlier-last,Mostafa Smaili 1:52.32 far behind; clue uses Musaeb Abdulrahman Balla 1:48.31
+2016-WI-M1500,outlier-last,Ayanleh Souleiman 3:53.69 far behind; clue uses Chris O'Hare 3:46.50
+2016-WI-W60,short-field,only 7 finishers with a time
+2016-WI-W60,outlier-last,Marie-Josée Ta Lou 7.29 far behind; clue uses Tori Bowie 7.14
+2016-WI-W400,short-field,only 6 finishers with a time
+2016-WI-W400,outlier-last,Iveta Putalová 54.39 far behind; clue uses Justyna Święty 52.46
+2016-WI-W800,outlier-last,Habitam Alemu 2:04.61 far behind; clue uses Aníta Hinriksdóttir 2:02.58
+2016-WI-W60H,outlier-last,Kendra Harrison 8.87 far behind; clue uses Serita Solomon 8.29
 2017-NCAAI-M400,short-field,only 7 finishers with a time
 2017-NCAAI-M400,outlier-last,Jermaine Griffith 47.10 far behind; clue uses Eric Janise 46.33
 2017-NCAAI-M800,outlier-last,Blair Henderson 1:49.69 far behind; clue uses Daniel Kuhn 1:48.72
@@ -51,6 +107,13 @@ id,issue,note
 2018-NCAAO-W200,outlier-last,Shania Collins 24.01 far behind; clue uses Deanna Hill 23.53
 2018-NCAAO-W400,outlier-last,Makenzie Dunmore 1:49.13 far behind; clue uses Rachel Misher 52.23
 2018-NCAAO-W100H,outlier-last,Rushelle Burton 13.51 far behind; clue uses Alaysha Johnson 13.22
+2018-WI-M1500,outlier-last,Vincent Kibet 4:02.32 far behind; clue uses Chris O'Hare 4:00.65
+2018-WI-M60H,short-field,only 7 finishers with a time
+2018-WI-W60,outlier-last,Remona Burchell 7.50 far behind; clue uses Carolle Zahi 7.19
+2018-WI-W400,short-field,only 6 finishers with a time
+2018-WI-W1500,outlier-last,Meraf Bahta 4:23.05 far behind; clue uses Colleen Quigley 4:15.97
+2018-WI-W3000,outlier-last,Tamara Amroush 9:45.68 far behind; clue uses Claudia Bobocea 9:23.70
+2018-WI-WLJ,outlier-last,Jessamyn Sauceda 5.99 far behind; clue uses Éloyse Lesueur 6.34
 2019-NCAAI-W200,short-field,only 7 finishers with a time
 2019-NCAAI-W60H,short-field,only 7 finishers with a time
 2019-NCAAI-W60H,outlier-last,Mecca McGlaston 8.48 far behind; clue uses Dior Hall 8.11
@@ -87,7 +150,7 @@ id,issue,note
 2020-OG-WTJ,outlier-last,Thea LaFond 12.57 far behind; clue uses Kristiina Mäkelä 14.17
 2021-NCAAI-W200,outlier-last,Amira Young 23.47 far behind; clue uses Delecia McDuffie 23.01
 2021-NCAAO-M200,outlier-last,Javonte Harding 25.79 far behind; clue uses Robert Gregory 21.74
-2021-NCAAO-W100,cr-mismatch,winner 10.74 beats CR going in 10.75 but is not marked CR (wind? annulled?)
+2021-NCAAO-W100,cr-mismatch,winner 10.74 beats CR going in 10.75 but is not marked as a record (wind? annulled?)
 2021-NCAAO-W1500,outlier-last,Maudie Skyring 4:21.04 far behind; clue uses Lauren Berman 4:16.37
 2021-NCAAO-W100H,outlier-last,TeJyrica Robinson 29.11 far behind; clue uses Cha'Mia Rothwell 13.14
 2021-NCAAO-W3000SC,outlier-last,Alissa Niggemann 10:12.13 far behind; clue uses Abby Kohut-Jackson 9:50.89
@@ -107,7 +170,13 @@ id,issue,note
 2022-WC-M110H,short-field,only 5 finishers with a time
 2022-WC-W1500,outlier-last,Winny Chebet 4:15.13 far behind; clue uses Hirut Meshesha 4:05.86
 2022-WC-W100H,short-field,only 7 finishers with a time
-2022-WC-W100H,wr-mismatch,winner 12.06 beats WR going in 12.20 but is not marked WR (wind? annulled?)
+2022-WC-W100H,wr-mismatch,winner 12.06 beats WR going in 12.20 but is not marked as a record (wind? annulled?)
+2022-WI-M400,short-field,only 6 finishers with a time
+2022-WI-M800,outlier-last,Marco Arop 1:47.58 far behind; clue uses Isaiah Harris 1:47.00
+2022-WI-M3000,outlier-last,Baldvin Magnússon 8:04.77 far behind; clue uses Michael Somers 7:51.65
+2022-WI-W60,outlier-last,Vitória Cristina Rosa 7.21 far behind; clue uses Michelle-Lee Ahye 7.11
+2022-WI-W400,short-field,only 6 finishers with a time
+2022-WI-W60H,short-field,only 7 finishers with a time
 2023-NCAAI-M60,short-field,only 7 finishers with a time
 2023-NCAAI-M400,short-field,only 7 finishers with a time
 2023-NCAAI-M400,outlier-last,Michael Joseph 47.18 far behind; clue uses Nathaniel Ezekiel 45.73
@@ -116,13 +185,13 @@ id,issue,note
 2023-NCAAI-M60H,outlier-last,Jerome Campbell 7.99 far behind; clue uses Antoine Andrews 7.73
 2023-NCAAI-W800,outlier-last,Aurora Rynda 2:06.83 far behind; clue uses Wilma Nielsen 2:03.34
 2023-NCAAI-W60H,short-field,only 7 finishers with a time
-2023-NCAAI-W60H,cr-mismatch,winner 7.73 beats CR going in 7.78 but is not marked CR (wind? annulled?)
+2023-NCAAI-W60H,cr-mismatch,winner 7.73 beats CR going in 7.78 but is not marked as a record (wind? annulled?)
 2023-NCAAI-WHJ,order,Bara Sajdokova 1.77 placed below Lucy Corbett 1.72
 2023-NCAAO-M200,outlier-last,Javonte Harding 20.90 far behind; clue uses Cameron Miller 20.30
-2023-NCAAO-W100,cr-mismatch,winner 10.72 beats CR going in 10.75 but is not marked CR (wind? annulled?)
-2023-NCAAO-W200,cr-mismatch,winner 21.73 beats CR going in 21.80 but is not marked CR (wind? annulled?)
+2023-NCAAO-W100,cr-mismatch,winner 10.72 beats CR going in 10.75 but is not marked as a record (wind? annulled?)
+2023-NCAAO-W200,cr-mismatch,winner 21.73 beats CR going in 21.80 but is not marked as a record (wind? annulled?)
 2023-NCAAO-W1500,outlier-last,Sophie O'Sullivan 4:22.81 far behind; clue uses Melissa Riggins 4:16.57
-2023-NCAAO-W100H,cr-mismatch,winner 12.25 beats CR going in 12.36 but is not marked CR (wind? annulled?)
+2023-NCAAO-W100H,cr-mismatch,winner 12.25 beats CR going in 12.36 but is not marked as a record (wind? annulled?)
 2023-WC-M400,short-field,only 7 finishers with a time
 2023-WC-M1500,outlier-last,Isaac Nader 3:35.41 far behind; clue uses Azeddine Habz 3:33.14
 2023-WC-MJT,outlier-last,Timothy Herman 74.56 far behind; clue uses Andrian Mardare 79.66
@@ -149,6 +218,15 @@ id,issue,note
 2024-OG-W100H,short-field,only 7 finishers with a time
 2024-OG-W100H,outlier-last,Alaysha Johnson 12.93 far behind; clue uses Devynne Charlton 12.56
 2024-OG-WLJ,outlier-last,Prestina Ochonogor 6.24 far behind; clue uses Hilary Kpatcha 6.56
+2024-WI-M60,outlier-last,Chituru Ali 8.00 far behind; clue uses Shuhei Tada 6.70
+2024-WI-M400,short-field,only 6 finishers with a time
+2024-WI-M800,outlier-last,Mariano García 1:48.77 far behind; clue uses Catalin Tecuceanu 1:46.39
+2024-WI-M1500,outlier-last,Adam Fogg 3:43.81 far behind; clue uses Kieran Lumb 3:41.37
+2024-WI-M3000,outlier-last,Mohammad Karim Yaqoot 9:37.10 far behind; clue uses Federico Riva 8:02.66
+2024-WI-W60,short-field,only 7 finishers with a time
+2024-WI-W400,short-field,only 6 finishers with a time
+2024-WI-W800,outlier-last,Halimah Nakaayi 2:05.53 far behind; clue uses Habitam Alemu 2:03.89
+2024-WI-W3000,outlier-last,Emeline Imanizabayo 9:28.58 far behind; clue uses Roisin Flanagan 8:53.02
 2025-NCAAI-M200,short-field,only 7 finishers with a time
 2025-NCAAI-Mmile,outlier-last,Harrison Witt 3:59.71 far behind; clue uses Benne Anderson 3:57.63
 2025-NCAAI-M60H,outlier-last,Vashaun Vascinna 7.64 far behind; clue uses Ja'qualon Scott 7.57
@@ -164,3 +242,15 @@ id,issue,note
 2025-WC-M110H,short-field,only 7 finishers with a time
 2025-WC-M400H,outlier-last,Ismail Abakar 49.82 far behind; clue uses Caleb Dean 48.20
 2025-WC-W1500,outlier-last,Nele Weßel 4:10.31 far behind; clue uses Sinclaire Johnson 4:00.92
+2025-WI-M60,short-field,only 7 finishers with a time
+2025-WI-M400,short-field,only 6 finishers with a time
+2025-WI-M800,outlier-last,Tom Dradiga 1:50.19 far behind; clue uses Brandon Miller 1:46.44
+2025-WI-M1500,outlier-last,Samuel Prakel 3:44.48 far behind; clue uses Mariano García 3:41.83
+2025-WI-M3000,outlier-last,Sun Ningkai 8:02.72 far behind; clue uses James Gormley 7:56.43
+2025-WI-MLJ,outlier-last,Hibiki Tsuha 7.13 far behind; clue uses Cheswill Johnson 7.64
+2025-WI-MTJ,outlier-last,Lázaro Martínez 14.04 far behind; clue uses Marcos Ruiz 16.20
+2025-WI-W400,short-field,only 6 finishers with a time
+2025-WI-W400,outlier-last,Rosey Effiong 52.90 far behind; clue uses Justyna Święty-Ersetic 51.97
+2025-WI-W800,outlier-last,Tsige Duguma 2:04.76 far behind; clue uses Anna Wielgosz 2:00.34
+2025-WI-W3000,outlier-last,Li Yuan 9:14.14 far behind; clue uses Adva Cohen 8:59.62
+2025-WI-WPV,outlier-last,Elina Lampela 4.30 far behind; clue uses Olivia McTaggart 4.45

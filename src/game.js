@@ -6,6 +6,10 @@ const ROUNDS=5, START=new Date(2026,9,11), SITE="https://bell-lap.vercel.app";
 // unused time carries over; ends on an empty clock or a guess under SPLIT points.
 const MODES={warmup:{name:"Warm-up",set:1}, standard:{name:"Standard",set:0}, bell:{name:"Bell-Lap",tag:"60 s",set:2,clock:60000}, workout:{name:"Workout",clock:15000}};
 const SPLIT=500, MC_PTS=[1000,300,100,0];
+// Record shown on the reveal: world (default), world indoor, or collegiate (NCAA)
+const RECORD={WR:["WR","world"], WIR:["WR","world indoor"], CR:["CR","collegiate"]};
+const rec=q=>RECORD[q.wr&&q.wr[3]||"WR"];
+const cap=s=>s[0].toUpperCase()+s.slice(1);
 const PLACEHOLDER={s:"0.00", ms:"0:00.00", hms:"0:00:00", m:"0.00"};
 const BYID={};
 BANK.forEach(q=>{q.mark=q.results[0][3]; q.n=q.results[q.results.length-1][0]; BYID[q.id]=q;});
@@ -44,7 +48,7 @@ function parse(str,f,ref){
   if(f==="hms"&&p.length===2) p.push("0");
   return p.reduce((a,x)=>a*60+(+x),0);
 }
-// Typo guard: the winner is never more than ~26% from the clue mark, so a guess 1.5x away is
+// Typo guard: the winner is never more than ~35% from the clue mark, so a guess 1.5x away is
 // probably a slip. fixes() re-reads the digits with the separator moved and keeps the closest sane reading.
 const sane=(v,ref)=>Math.abs(Math.log(v/ref))<=0.4;
 function fixes(str,f,ref,v){
@@ -271,7 +275,7 @@ function board(q,g){
     }
     flush();
     if(rw.t==="you") html+=`<tr class="you"><td>You</td><td>Your guess</td><td class="m">${fmt(g,q.fmt)}</td></tr>`;
-    else if(rw.t==="wr") html+=`<tr class="wr"><td>${q.wr[3]==="CR"?"CR":"WR"}</td><td>${q.wr[3]==="CR"?"Collegiate":"World"} record going in <small>${q.wr[2]}</small></td><td class="m">${fmt(q.wr[0],q.fmt)}</td></tr>`;
+    else if(rw.t==="wr") html+=`<tr class="wr"><td>${rec(q)[0]}</td><td>${cap(rec(q)[1])} record going in <small>${q.wr[2]}</small></td><td class="m">${fmt(q.wr[0],q.fmt)}</td></tr>`;
     else html+=`<tr><td>${rw.x[0]}</td><td>${who(rw.x)}</td><td class="m">${fmt(rw.v,q.fmt)}</td></tr>`;
   });
   flush();
@@ -280,11 +284,11 @@ function board(q,g){
 
 function renderReveal(head,r,q){
   const g=r.g1, w=q.results[0], wo=game.mode==="workout", last=wo?r.score<SPLIT:game.cur===ROUNDS-1;
-  const note=(q.wrBroken&&q.wr?`Broke the ${q.wr[3]==="CR"?"collegiate":"world"} record of ${fmt(q.wr[0],q.fmt)} set by ${esc(q.wr[1])} in ${q.wr[2]}. `:"")
+  const note=(q.wrBroken&&q.wr?`Broke the ${rec(q)[1]} record of ${fmt(q.wr[0],q.fmt)} set by ${esc(q.wr[1])} in ${q.wr[2]}. `:"")
     +`<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(q.src.replace(/ /g,"_"))}" target="_blank" rel="noopener">Full results</a>`;
   $("#stage").innerHTML=`${head}
     <div class="answer">
-      <div><span class="l">Winner</span><div class="big">${fmt(q.mark,q.fmt)}</div><div class="who">${esc(w[1])}, ${w[2]}</div>${q.wrBroken?`<span class="badge">New ${q.wr&&q.wr[3]==="CR"?"collegiate":"world"} record</span>`:""}</div>
+      <div><span class="l">Winner</span><div class="big">${fmt(q.mark,q.fmt)}</div><div class="who">${esc(w[1])}, ${w[2]}</div>${q.wrBroken?`<span class="badge">New ${rec(q)[1]} record</span>`:""}</div>
       <div class="score"><span class="l">Points</span><div class="big">${r.score}</div></div>
     </div>
     <p class="placed">${wo&&r.score<SPLIT?"Missed split. ":""}${placedLine(q,g)}</p>

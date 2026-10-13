@@ -29,7 +29,7 @@ GROUP = {"60": "sprint", "60H": "hurdles", "mile": "middle", "3000": "distance",
          "800": "middle", "1500": "middle", "5000": "distance", "10000": "distance", "3000SC": "distance",
          "marathon": "road", "HJ": "jumps", "PV": "jumps", "LJ": "jumps", "TJ": "jumps",
          "SP": "throws", "DT": "throws", "HT": "throws", "JT": "throws"}
-WIKI_EVENT = {"10000": "10,000 metres", "marathon": "marathon", "100H": "100 metres hurdles", "110H": "110 metres hurdles",
+WIKI_EVENT = {"60H": "60 metres hurdles", "10000": "10,000 metres", "marathon": "marathon", "100H": "100 metres hurdles", "110H": "110 metres hurdles",
               "400H": "400 metres hurdles", "3000SC": "3000 metres steeplechase", "HJ": "high jump", "PV": "pole vault",
               "LJ": "long jump", "TJ": "triple jump", "SP": "shot put", "DT": "discus throw", "HT": "hammer throw",
               "JT": "javelin throw"}
@@ -40,6 +40,9 @@ def wiki_page(champ, gender, ev):
     y = champ["id"][:4]
     if champ["name"].startswith("NCAA"):   # one page per meet
         return f'{y} NCAA Division I {champ["name"].split()[1]} Track and Field Championships'
+    if champ["name"] == "World Indoor Championships":
+        org = "IAAF" if int(y) < 2020 else "World Athletics"
+        return f"{y} {org} Indoor Championships – {gender}'s {WIKI_EVENT.get(ev, ev + ' metres')}"
     games = f"Athletics at the {y} Summer Olympics" if champ["name"] == "Olympic Games" else \
         f"{y} World Athletics Championships" if int(y) >= 2019 else f"{y} World Championships in Athletics"
     return f"{games} – {gender}'s {WIKI_EVENT.get(ev, ev + ' metres')}"
@@ -184,7 +187,7 @@ def build():
                 if wr is None:
                     flag("no-cr", "no collegiate record found for this event")
             wr_value = wr["value"] if wr and "value" in wr else to_value(wr["mark"], fmt) if wr else None
-            kind = "CR" if ncaa else "WR"
+            kind = "CR" if ncaa else "WIR" if champ["name"] == "World Indoor Championships" else "WR"
             if ncaa:
                 # a record set in this final shows up in the T&FN history with the meet's dates (or in the notes)
                 # Without wind, beating the record is a record, unless it already fell earlier at this meet
@@ -197,11 +200,11 @@ def build():
                 # Trust the source's WR annotation (wind-aided or semifinal records must not count)
                 wr_broken = winner["flag"] == "WR"
             if not wr_broken and wr_value is not None and better(winner["value"], wr_value):
-                flag(kind.lower() + "-mismatch", f'winner {winner["mark"]} beats {kind} going in {wr["mark"]} but is not marked {kind} (wind? annulled?)')
+                flag(kind.lower() + "-mismatch", f'winner {winner["mark"]} beats {kind} going in {wr["mark"]} but is not marked as a record (wind? annulled?)')
 
             note = None
             if wr_broken:
-                note = f'{"Collegiate" if ncaa else "World"} record. The old mark was {wr["mark"]} by {wr["holder"]} ({wr["year"]}).'
+                note = f'{ {"CR": "Collegiate", "WIR": "World indoor", "WR": "World"}[kind]} record. The old mark was {wr["mark"]} by {wr["holder"]} ({wr["year"]}).'
 
             questions.append({
                 "id": qid,
@@ -228,7 +231,7 @@ def build():
     for q in questions:
         if q["ncaa"]:   # collegiate records live in cr_history.json
             continue
-        key = f'{q["gender"][0]}{q["event"]}'
+        key = ("I-" if q["championship"] == "World Indoor Championships" else "") + f'{q["gender"][0]}{q["event"]}'
         h = history.setdefault(key, {"label": q["label"], "fmt": q["fmt"], "records": {}})
         if q["wr_before"]:
             w = q["wr_before"]
@@ -239,7 +242,7 @@ def build():
             h["records"].setdefault(q["answer_mark"], {"mark": q["answer_mark"], "value": q["answer"], "holder": win[1], "year": q["year"], "seen_before": []})
             h["records"][q["answer_mark"]]["set_in"] = q["id"]
     for key, h in history.items():
-        field = FIELD.get(key[1:])
+        field = FIELD.get(key.split("-")[-1][1:])
         recs = sorted(h["records"].values(), key=lambda r: (r["year"], -r["value"] if not field else r["value"]))
         h["records"] = recs
         # Consistency: a later record should never be worse than an earlier one

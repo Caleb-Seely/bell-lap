@@ -4,7 +4,7 @@ import datetime, json, os, random, shutil
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 qs = json.load(open(os.path.join(ROOT, "data", "questions.json")))
 CTX = {"Olympic Games": "Olympic final", "World Championships": "World Championships final",
-       "NCAA Indoor Championships": "NCAA Indoor final", "NCAA Outdoor Championships": "NCAA Outdoor final"}
+       "NCAA Indoor Championships": "NCAA Indoor final", "World Indoor Championships": "World Indoor final", "NCAA Outdoor Championships": "NCAA Outdoor final"}
 out = []
 for q in qs:
     w = q["wr_before"]
@@ -16,7 +16,7 @@ for q in qs:
     if q["partial"]: item["partial"] = 1
     if q["cut"]: item["cut"] = 1
     if q["ncaa"]: item["ncaa"] = 1
-    if w: item["wr"] = [round(w["value"], 2), w["holder"], w["year"]] + (["CR"] if w.get("kind") == "CR" else [])
+    if w: item["wr"] = [round(w["value"], 2), w["holder"], w["year"]] + ([w["kind"]] if w.get("kind") in ("CR", "WIR") else [])
     if q["wr_broken"]: item["wrBroken"] = 1
     out.append(item)
 # The bank is scrambled so answers and athlete names can't be read with View Source or Ctrl-F: every printable ASCII

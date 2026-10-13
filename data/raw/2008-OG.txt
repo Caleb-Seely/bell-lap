@@ -1,0 +1,469 @@
+#CH 2008-OG|Olympic Games|Beijing|2008
+@M100
+WR|9.72|Usain Bolt|2008
+1|Usain Bolt|JAM|9.69|WR
+2|Richard Thompson|TTO|9.89|
+3|Walter Dix|USA|9.91|
+4|Churandy Martina|AHO|9.93|
+5|Asafa Powell|JAM|9.95|
+6|Michael Frater|JAM|9.97|
+7|Marc Burns|TTO|10.01|
+8|Darvis Patton|USA|10.03|
+@M200
+WR|19.32|Michael Johnson|1996
+1|Usain Bolt|JAM|19.30|WR
+2|Shawn Crawford|USA|19.96|
+3|Walter Dix|USA|19.98|
+4|Brian Dzingai|ZIM|20.22|
+5|Christian Malcolm|GBR|20.40|
+6|Kim Collins|SKN|20.59|
+@M400
+WR|43.18|Michael Johnson|1999
+1|LaShawn Merritt|USA|43.75|
+2|Jeremy Wariner|USA|44.74|
+3|David Neville|USA|44.80|
+4|Chris Brown|BAH|44.84|
+5|Leslie Djhone|FRA|45.11|
+6|Martyn Rooney|GBR|45.12|
+7|Renny Quow|TTO|45.22|
+8|Johan Wissman|SWE|45.39|
+@M800
+WR|1:41.11|Wilson Kipketer|1997
+1|Wilfred Bungei|KEN|1:44.65|
+2|Ismail Ahmed Ismail|SUD|1:44.70|
+3|Alfred Kirwa Yego|KEN|1:44.82|
+4|Gary Reed|CAN|1:44.94|
+5|Yusuf Saad Kamel|BRN|1:44.95|
+6|Yeimer López|CUB|1:45.88|
+7|Nabil Madi|ALG|1:45.96|
+8|Nadjim Manseur|ALG|1:47.19|
+@M1500
+WR|3:26.00|Hicham El Guerrouj|1998
+1|Asbel Kiprop|KEN|3:33.11|
+2|Nicholas Willis|NZL|3:34.16|
+3|Mehdi Baala|FRA|3:34.21|
+4|Juan Carlos Higuero|ESP|3:34.44|
+5|Abdalaati Iguider|MAR|3:34.66|
+6|Juan van Deventer|RSA|3:34.77|
+7|Belal Mansoor Ali|BRN|3:35.23|
+8|Andrew Baddeley|GBR|3:35.37|
+9|Augustine Kiprono Choge|KEN|3:35.50|
+10|Daham Najim Bashir|QAT|3:37.68|
+11|Christian Obrist|ITA|3:39.87|
+@M5000
+WR|12:37.35|Kenenisa Bekele|2004
+1|Kenenisa Bekele|ETH|12:57.82|
+2|Eliud Kipchoge|KEN|13:02.80|
+3|Edwin Cheruiyot Soi|KEN|13:06.22|
+4|Moses Ndiema Kipsiro|UGA|13:10.56|
+5|Abreham Cherkos|ETH|13:16.46|
+6|Tariku Bekele|ETH|13:19.06|
+7|Juan Luis Barrios|MEX|13:19.79|
+8|James Kwalia C'Kurui|QAT|13:23.48|
+9|Bernard Lagat|USA|13:26.89|
+10|Kidane Tadasse|ERI|13:28.40|
+11|Alemayehu Bezabeh|ESP|13:30.48|
+12|Thomas Pkemei Longosiwa|KEN|13:31.34|
+13|Matthew Tegenkamp|USA|13:33.13|
+14|Jesús España|ESP|13:55.94|
+@M10000
+WR|26:17.53|Kenenisa Bekele|2005
+1|Kenenisa Bekele|ETH|27:01.17|
+2|Sileshi Sihine|ETH|27:02.77|
+3|Micah Kogo|KEN|27:04.11|
+4|Moses Ndiema Masai|KEN|27:04.11|
+5|Zersenay Tadese|ERI|27:05.11|
+6|Haile Gebrselassie|ETH|27:06.68|
+7|Martin Irungu Mathathi|KEN|27:08.25|
+8|Ahmad Hassan Abdullah|QAT|27:23.75|
+9|Fabiano Joseph Naasi|TAN|27:25.33|
+10|Boniface Kiprop Toroitich|UGA|27:27.28|
+35|Alejandro Suárez|MEX|29:24.78|
+@Mmarathon
+WR|2:04:26|Haile Gebrselassie|2007
+1|Samuel Wanjiru|KEN|2:06:32|
+2|Jaouad Gharib|MAR|2:07:16|
+3|Tsegaye Kebede|ETH|2:10:00|
+4|Deriba Merga|ETH|2:10:21|
+5|Martin Lel|KEN|2:10:24|
+6|Viktor Röthlin|SUI|2:10:35|
+7|Gashaw Asfaw|ETH|2:10:52|
+8|Yared Asmerom|ERI|2:11:11|
+9|Dathan Ritzenhein|USA|2:11:59|
+10|Ryan Hall|USA|2:12:33|
+76|Atsushi Sato|JPN|2:41:08|
+@M110H
+WR|12.87|Dayron Robles|2008
+1|Dayron Robles|CUB|12.93|
+2|David Payne|USA|13.17|
+3|David Oliver|USA|13.18|
+4|Ladji Doucouré|FRA|13.24|
+5|Artur Noga|POL|13.36|
+6|Maurice Wignall|JAM|13.46|
+7|Richard Phillips|JAM|13.60|
+8|Jackson Quiñónez|ESP|13.69|
+@M400H
+WR|46.78|Kevin Young|1992
+1|Angelo Taylor|USA|47.25|
+2|Kerron Clement|USA|47.98|
+3|Bershawn Jackson|USA|48.06|
+4|Danny McFarlane|JAM|48.30|
+5|L. J. van Zyl|RSA|48.42|
+6|Marek Plawgo|POL|48.52|
+7|Markino Buckley|JAM|48.60|
+8|Periklis Iakovakis|GRE|49.96|
+@M3000SC
+WR|7:53.63|Saif Saaeed Shaheen|2004
+1|Brimin Kiprop Kipruto|KEN|8:10.34|
+2|Mahiedine Mekhissi-Benabbad|FRA|8:10.49|
+3|Richard Kipkemboi Mateelong|KEN|8:11.01|
+4|Yacob Jarso|ETH|8:13.47|
+5|Bouabdellah Tahri|FRA|8:14.79|
+6|Youcef Abdi|AUS|8:16.36|
+7|Ezekiel Kemboi|KEN|8:16.38|
+8|Abubaker Ali Kamal|QAT|8:16.59|
+9|Benjamin Kiplagat|UGA|8:20.27|
+10|Mustafa Mohamed|SWE|8:20.69|
+11|Tareq Mubarak Taher|BRN|8:21.59|
+12|Ion Luchianov|MDA|8:27.82|
+13|Anthony Famiglietti|USA|8:31.21|
+14|Ruben Ramolefi|RSA|8:34.58|
+15|Abdelkader Hachlaf|MAR|9:02.06|
+@MHJ
+WR|2.45|Javier Sotomayor|1993
+1|Andrey Silnov|RUS|2.36|
+2|Germaine Mason|GBR|2.34|
+3|Yaroslav Rybakov|RUS|2.34|
+4|Stefan Holm|SWE|2.32|
+5|Raúl Spank|GER|2.32|
+6|Jaroslav Bába|CZE|2.29|
+7|Tomáš Janků|CZE|2.29|
+8|Tom Parsons|GBR|2.25|
+9|Martyn Bernard|GBR|2.25|
+10|Jessé de Lima|BRA|2.20|
+10|Filippo Campioli|ITA|2.20|
+12|Rožle Prezelj|SLO|2.20|
+@MPV
+WR|6.14|Sergey Bubka|1994
+1|Steven Hooker|AUS|5.96|
+2|Yevgeny Lukyanenko|RUS|5.85|
+3|Derek Miles|USA|5.70|
+4|Dmitry Starodubtsev|RUS|5.70|
+5|Danny Ecker|GER|5.70|
+6|Jérôme Clavier|FRA|5.60|
+7|Raphael Holzdeppe|GER|5.60|
+8|Igor Pavlov|RUS|5.60|
+9|Jan Kudlička|CZE|5.45|
+10|Przemysław Czerwiński|POL|5.45|
+@MLJ
+WR|8.95|Mike Powell|1991
+1|Irving Saladino|PAN|8.34|
+2|Khotso Mokoena|RSA|8.24|
+3|Ibrahim Camejo|CUB|8.20|
+4|Ngonidzashe Makusha|ZIM|8.19|
+5|Ndiss Kaba Badji|SEN|8.16|
+6|Luis Felipe Méliz|ESP|8.07|
+7|Roman Novotný|CZE|8.00|
+8|Gable Garenamotse|BOT|7.85|
+9|Greg Rutherford|GBR|7.84|
+10|Hussein Taher Al-Sabee|KSA|7.80|
+@MTJ
+WR|18.29|Jonathan Edwards|1995
+1|Nelson Évora|POR|17.67|
+2|Phillips Idowu|GBR|17.62|
+3|Leevan Sands|BAH|17.59|
+4|Arnie David Giralt|CUB|17.52|
+5|Marian Oprea|ROU|17.22|
+6|Jadel Gregório|BRA|17.20|
+7|Onochie Achike|GBR|17.17|
+8|Viktor Kuznyetsov|UKR|16.87|
+9|Igor Spasovkhodskiy|RUS|16.79|
+10|Yanxi Li|CHN|16.77|
+11|Momchil Karailiev|BUL|16.48|
+12|Héctor Dairo Fuentes|CUB|16.28|
+@MSP
+WR|23.12|Randy Barnes|1990
+1|Tomasz Majewski|POL|21.51|
+2|Christian Cantwell|USA|21.09|
+3|Dylan Armstrong|CAN|21.04|
+4|Yuriy Bilonog|UKR|20.63|
+5|Reese Hoffa|USA|20.53|
+6|Pavel Sofin|RUS|20.42|
+7|Rutger Smith|NED|20.41|
+8|Yury Bialou|BLR|20.06|
+@MDT
+WR|74.08|Jürgen Schult|1986
+1|Gerd Kanter|EST|68.82|
+2|Piotr Małachowski|POL|67.82|
+3|Virgilijus Alekna|LTU|67.79|
+4|Robert Harting|GER|67.09|
+5|Frank Casañas|ESP|66.49|
+6|Bogdan Pishchalnikov|RUS|65.88|
+7|Rutger Smith|NED|65.39|
+8|Róbert Fazekas|HUN|63.43|
+9|Mario Pestano|ESP|63.42|
+10|Rashid Shafi Al-Dosari|QAT|62.55|
+11|Frantz Kruger|FIN|61.98|
+12|Aleksander Tammert|EST|61.38|
+@MHT
+WR|86.74|Yuriy Sedykh|1986
+1|Primož Kozmus|SLO|82.02|
+2|Vadim Devyatovskiy|BLR|81.61|
+3|Ivan Tsikhan|BLR|81.51|
+4|Krisztián Pars|HUN|80.96|
+5|Koji Murofushi|JPN|80.71|
+6|Olli-Pekka Karjalainen|FIN|79.59|
+7|Szymon Ziółkowski|POL|79.22|
+8|Libor Charfreitag|SVK|78.65|
+9|Markus Esser|GER|77.10|
+10|András Haklits|CRO|76.58|
+11|Dilshod Nazarov|TJK|76.54|
+12|James Steacy|CAN|75.72|
+@MJT
+WR|98.48|Jan Železný|1996
+1|Andreas Thorkildsen|NOR|90.57|
+2|Ainārs Kovals|LAT|86.64|
+3|Tero Pitkämäki|FIN|86.16|
+4|Tero Järvenpää|FIN|83.95|
+5|Teemu Wirkkala|FIN|83.46|
+6|Jarrod Bannister|AUS|83.45|
+7|Ilya Korotkov|RUS|83.15|
+8|Uladzimir Kazlou|BLR|82.06|
+9|Vadims Vasiļevskis|LAT|81.32|
+10|Scott Russell|CAN|80.90|
+11|Magnus Arvidsson|SWE|80.16|
+12|Vítězslav Veselý|CZE|76.76|
+@W100
+WR|10.49|Florence Griffith-Joyner|1988
+1|Shelly-Ann Fraser|JAM|10.78|
+2|Sherone Simpson|JAM|10.98|
+2|Kerron Stewart|JAM|10.98|
+4|Lauryn Williams|USA|11.03|
+5|Muna Lee|USA|11.07|
+6|Jeanette Kwakye|GBR|11.14|
+7|Debbie Ferguson|BAH|11.19|
+8|Torri Edwards|USA|11.20|
+@W200
+WR|21.34|Florence Griffith-Joyner (United States)|1988
+1|Veronica Campbell-Brown|JAM|21.74|
+2|Allyson Felix|USA|21.93|
+3|Kerron Stewart|JAM|22.00|
+4|Muna Lee|USA|22.01|
+5|Marshevet Hooker|USA|22.34|
+6|Sherone Simpson|JAM|22.36|
+7|Debbie Ferguson-McKenzie|BAH|22.61|
+8|Cydonie Mothersille|CAY|22.68|
+@W400
+WR|47.60|Marita Koch|1985
+1|Christine Ohuruogu|GBR|49.62|
+2|Shericka Williams|JAM|49.69|
+3|Sanya Richards|USA|49.93|
+4|Yulia Gushchina|RUS|50.01|
+5|Rosemarie Whyte|JAM|50.68|
+6|Amantle Montsho|BOT|51.18|
+@W800
+WR|1:53.28|Jarmila Kratochvílová|1983
+1|Pamela Jelimo|KEN|1:54.87|
+2|Janeth Jepkosgei|KEN|1:56.07|
+3|Hasna Benhassi|MAR|1:56.73|
+4|Svetlana Klyuka|RUS|1:56.94|
+5|Maria de Lurdes Mutola|MOZ|1:57.68|
+6|Kenia Sinclair|JAM|1:58.24|
+7|Yuliya Krevsun|UKR|1:58.73|
+8|Tatyana Andrianova|RUS|2:02.63|
+@W1500
+WR|3:50.46|Qu Yunxia|1993
+1|Nancy Langat|KEN|4:00.03|
+2|Iryna Lishchynska|UKR|4:01.63|
+3|Nataliya Tobias|UKR|4:01.78|
+4|Lisa Dobriskey|GBR|4:02.10|
+5|Maryam Yusuf Jamal|BRN|4:02.71|
+6|Natalia Rodríguez|ESP|4:03.19|
+7|Shannon Rowbury|USA|4:03.58|
+8|Iris Fuentes-Pila|ESP|4:04.86|
+9|Anna Mishchenko|UKR|4:05.13|
+10|Siham Hilali|MAR|4:05.57|
+11|Anna Alminova|RUS|4:06.99|
+12|Btissam Lakhouad|MAR|4:07.25|
+@W5000
+WR|14:11.15|Tirunesh Dibaba|2008
+1|Tirunesh Dibaba|ETH|15:41.40|
+2|Meseret Defar|ETH|15:44.12|
+3|Sylvia Kibet|KEN|15:44.96|
+4|Vivian Cheruiyot|KEN|15:46.32|
+5|Liliya Shobukhova|RUS|15:46.62|
+6|Alemitu Bekele|TUR|15:48.48|
+7|Meselech Melkamu|ETH|15:49.03|
+8|Kara Goucher|USA|15:49.39|
+9|Shalane Flanagan|USA|15:50.80|
+10|Priscah Jepleting Cherono|KEN|15:51.78|
+11|Gulnara Samitova-Galkina|RUS|15:56.97|
+12|Xue Fei|CHN|16:09.84|
+13|Jennifer Rhines|USA|16:34.63|
+14|Megan Metcalfe|CAN|17:06.82|
+@W10000
+WR|29:31.78|Wang Junxia|1993
+1|Tirunesh Dibaba|ETH|29:54.66|
+2|Shalane Flanagan|USA|30:22.22|
+3|Linet Chepkwemoi Masai|KEN|30:26.50|
+4|Mariya Konovalova|RUS|30:35.84|
+5|Lucy Kabuu Wangui|KEN|30:39.96|
+6|Lornah Kiplagat|NED|30:40.27|
+7|Kimberley Smith|NZL|30:51.00|
+8|Kara Goucher|USA|30:55.16|
+9|Kayoko Fukushi|JPN|31:01.14|
+10|Joanne Pavey|GBR|31:12.30|
+27|Isabel Checa|ESP|33:17.88|
+@Wmarathon
+WR|2:15:25|Paula Radcliffe|2003
+1|Constantina Diță|ROU|2:26:44|
+2|Catherine Ndereba|KEN|2:27:06|
+3|Zhou Chunxiu|CHN|2:27:07|
+4|Zhu Xiaolin|CHN|2:27:16|
+5|Martha Komu|KEN|2:27:23|
+6|Mara Yamauchi|GBR|2:27:29|
+7|Irina Timofeyeva|RUS|2:27:31|
+8|Lidia Șimon|ROU|2:27:51|
+9|Souad Aït Salem|ALG|2:28:29|
+10|Salina Jebet Kosgei|KEN|2:29:28|
+69|Oksana Sklyarenko|UKR|2:55:39|
+@W100H
+WR|12.21|Yordanka Donkova|1988
+1|Dawn Harper|USA|12.54|
+2|Sally McLellan|AUS|12.64|
+3|Priscilla Lopes-Schliep|CAN|12.64|
+4|Damu Cherry|USA|12.65|
+5|Delloreen Ennis-London|JAM|12.65|
+6|Brigitte Foster-Hylton|JAM|12.66|
+7|LoLo Jones|USA|12.72|
+8|Sarah Claxton|GBR|12.94|
+@W400H
+WR|52.34|Yuliya Pechonkina|2003
+1|Melaine Walker|JAM|52.64|
+2|Sheena Tosta|USA|53.70|
+3|Tasha Danvers|GBR|53.84|
+4|Anastasiya Rabchenyuk|UKR|53.96|
+5|Anna Jesień|POL|54.29|
+6|Ekaterina Bikert|RUS|54.96|
+7|Zuzana Hejnová|CZE|54.97|
+8|Tiffany Ross-Williams|USA|57.55|
+@W3000SC
+WR|9:01.59|Gulnara Samitova-Galkina|2004
+1|Gulnara Samitova-Galkina|RUS|8:58.81|WR
+2|Eunice Jepkorir|KEN|9:07.41|
+3|Tatyana Petrova|RUS|9:12.33|
+4|Cristina Casandra|ROU|9:16.85|
+5|Ruth Bisibori Nyangau|KEN|9:17.35|
+6|Zemzem Ahmed|ETH|9:17.85|
+7|Wioletta Frankiewicz|POL|9:21.76|
+8|Jennifer Barringer|USA|9:22.26|
+9|Anna Willard|USA|9:25.63|
+10|Elena Romagnolo|ITA|9:30.04|
+11|Zulema Fuentes-Pila|ESP|9:35.16|
+12|Habiba Ghribi|TUN|9:36.43|
+13|Roisin McGettigan|IRL|9:55.89|
+@WHJ
+WR|2.09|Stefka Kostadinova|1987
+1|Tia Hellebaut|BEL|2.05|
+2|Blanka Vlašić|CRO|2.05|
+3|Chaunté Howard|USA|1.99|
+4|Ariane Friedrich|GER|1.96|
+4|Ruth Beitia|ESP|1.96|
+6|Emma Green|SWE|1.96|
+7|Marina Aitova|KAZ|1.93|
+7|Antonietta Di Martino|ITA|1.93|
+9|Iva Straková|CZE|1.93|
+9|Vita Styopina|UKR|1.93|
+11|Svetlana Shkolina|RUS|1.93|
+12|Romana Dubnová|CZE|1.89|
+@WPV
+WR|5.04|Yelena Isinbayeva|2008
+1|Yelena Isinbayeva|RUS|5.05|WR
+2|Jennifer Stuczynski|USA|4.80|
+3|Svetlana Feofanova|RUS|4.75|
+4|Yulia Golubchikova|RUS|4.75|
+5|Monika Pyrek|POL|4.70|
+6|Carolin Hingst|GER|4.65|
+7|Silke Spiegelburg|GER|4.65|
+8|April Steiner Bennett|USA|4.55|
+9|Vanessa Boslak|FRA|4.55|
+10|Fabiana Murer|BRA|4.45|
+10|Anna Rogowska|POL|4.45|
+12|Gao Shuying|CHN|4.45|
+@WLJ
+WR|7.52|Galina Chistyakova|1988
+1|Maurren Higa Maggi|BRA|7.04|
+2|Blessing Okagbare|NGR|6.91|
+3|Chelsea Hammond|JAM|6.79|
+4|Brittney Reese|USA|6.76|
+5|Oksana Udmurtova|RUS|6.70|
+6|Jade Johnson|GBR|6.64|
+7|Grace Upshaw|USA|6.58|
+8|Carolina Klüft|SWE|6.49|
+9|Tabia Charles|CAN|6.47|
+10|Keila Costa|BRA|6.43|
+11|Funmi Jimoh|USA|6.29|
+@WTJ
+WR|15.50|Inessa Kravets|1995
+1|Françoise Mbango Etone|CMR|15.39|
+2|Olga Rypakova|KAZ|15.11|
+3|Yargelis Savigne|CUB|15.05|
+4|Marija Šestak|SLO|15.03|
+5|Viktoriya Gurova|RUS|14.77|
+6|Anna Pyatykh|RUS|14.73|
+7|Olha Saladukha|UKR|14.70|
+8|Kaire Leibak|EST|14.13|
+9|Trecia-Kaye Smith|JAM|14.12|
+10|Xie Limei|CHN|14.09|
+@WSP
+WR|22.63|Natalya Lisovskaya|1987
+1|Valerie Vili|NZL|20.56|
+2|Misleydis González|CUB|19.50|
+3|Gong Lijiao|CHN|19.20|
+4|Anna Omarova|RUS|19.08|
+5|Nadine Kleinert|GER|19.01|
+6|Li Meiju|CHN|19.00|
+7|Olga Ivanova|RUS|18.44|
+8|Mailín Vargas|CUB|18.28|
+9|Christina Schwanitz|GER|18.27|
+10|Jillian Camarena|USA|18.24|
+11|Chiara Rosa|ITA|18.22|
+12|Li Ling|CHN|17.94|
+13|Michelle Carter|USA|17.74|
+@WDT
+WR|76.80|Gabriele Reinsch|1988
+1|Stephanie Brown Trafton|USA|64.74|
+2|Olena Antonova|UKR|62.59|
+3|Song Aimin|CHN|62.20|
+4|Vera Pospíšilová-Cechlová|CZE|61.75|
+5|Ellina Zvereva|BLR|60.82|
+6|Li Yanfeng|CHN|60.68|
+7|Mélina Robert-Michon|FRA|60.66|
+8|Dani Samuels|AUS|60.15|
+9|Aretha Thurmond|USA|59.80|
+10|Iryna Yatchenko|BLR|59.27|
+11|Nicoleta Grasu|ROU|58.63|
+@WHT
+WR|77.80|Tatyana Lysenko|2006
+1|Yipsi Moreno|CUB|75.20|
+2|Zhang Wenxiu|CHN|74.32|
+3|Manuela Montebrun|FRA|72.54|
+4|Anita Włodarczyk|POL|71.56|
+5|Clarissa Claretti|ITA|71.33|
+6|Martina Danišová-Hrasnová|SVK|71.00|
+7|Betty Heidler|GER|70.06|
+8|Yelena Priyma|RUS|69.72|
+9|Stilianí Papadopoúlou|GRE|64.97|
+@WJT
+WR|71.70|Osleidys Menéndez|2005
+1|Barbora Špotáková|CZE|71.42|
+2|Christina Obergföll|GER|66.13|
+3|Goldie Sayers|GBR|65.75|
+4|Steffi Nerius|GER|65.29|
+5|Osleidys Menéndez|CUB|63.35|
+6|Barbara Madejczyk|POL|62.02|
+7|Katharina Molitor|GER|59.64|
+8|Mercedes Chilla|ESP|58.13|
+9|Zhang Li|CHN|56.14|
+10|Sinta Ozoliņa|LAT|53.38|
+11|Felicia Tilea-Moldovan|ROU|53.04|

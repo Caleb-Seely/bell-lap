@@ -36,10 +36,12 @@ FIELD_SIZE = {"O": {"1500": 12, "3000SC": 12, "5000": 24, "10000": 24, "HJ": 24,
 
 
 class Walker(HTMLParser):
-    """Headings and tables in document order: ("h", level, text) and ("table", class, rows of cell text)."""
-    def __init__(self):
+    """Headings and tables in document order: ("h", level, text) and ("table", class, rows of cell text).
+    With grid=True, merged cells (rowspan/colspan) are expanded so every row lines up with the header."""
+    def __init__(self, grid=False):
         super().__init__(convert_charrefs=True)
         self.items, self.h, self.depth, self.rows, self.cell, self.skip = [], None, 0, None, None, 0
+        self.grid, self.spans = grid, None
 
     def handle_starttag(self, tag, a):
         a = dict(a)
@@ -54,16 +56,23 @@ class Walker(HTMLParser):
         if tag == "table":
             self.depth += 1
             if self.depth == 1:
-                self.rows, self.tclass = [], cls
+                self.rows, self.tclass, self.spans = [], cls, []
         if self.depth == 1:
             if tag == "tr":
                 self.rows.append([])
+                self.spans.append([])
             elif tag in ("td", "th"):
                 self.cell = ""
+                num = lambda k: int(re.sub(r"\D", "", a.get(k) or "1") or 1)
+                self.span = (num("rowspan"), num("colspan"))
             elif tag == "br" and self.cell is not None:
                 self.cell += " "
-        if tag == "img" and self.cell is not None and a.get("alt"):
-            self.cell += " {" + a["alt"] + "} "
+        if tag == "img" and self.cell is not None:
+            # flag icons often have empty alt text; the country is in the file name (Flag_of_Kenya.svg)
+            flag = re.search(r"Flag_of_(?:the_)?([^./]+?)(?:_\(\d+.*?\))?\.svg", a.get("src", ""))
+            label = a.get("alt") or (urllib.parse.unquote(flag.group(1)).replace("_", " ") if flag else "")
+            if label:
+                self.cell += " {" + label + "} "
 
     def handle_endtag(self, tag):
         if self.skip:
@@ -76,11 +85,33 @@ class Walker(HTMLParser):
         if tag in ("td", "th") and self.depth == 1 and self.cell is not None:
             if self.rows:
                 self.rows[-1].append(re.sub(r"\s+", " ", self.cell).strip())
+                self.spans[-1].append(self.span)
             self.cell = None
         if tag == "table" and self.depth:
             self.depth -= 1
             if not self.depth:
-                self.items.append(("table", self.tclass, self.rows))
+                self.items.append(("table", self.tclass, self.expand() if self.grid else self.rows))
+
+    def expand(self):
+        """Lay cells out on a grid: a rowspan cell repeats down, a colspan cell repeats across."""
+        out, pending = [], {}   # column -> [rows still covered, text]
+        for cells, spans in zip(self.rows, self.spans):
+            row = {c: text for c, (left, text) in pending.items()}   # cells reaching down from above
+            for c in list(pending):
+                pending[c][0] -= 1
+                if not pending[c][0]:
+                    del pending[c]
+            col = 0
+            for text, (rs, cs) in zip(cells, spans):
+                while col in row:
+                    col += 1
+                for c in range(col, col + cs):
+                    row[c] = text
+                    if rs > 1:
+                        pending[c] = [rs - 1, text]
+                col += cs
+            out.append([row.get(c, "") for c in range(max(row) + 1)] if row else [])
+        return out
 
     def handle_data(self, d):
         if self.skip:

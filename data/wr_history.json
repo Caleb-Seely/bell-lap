@@ -1,4 +1,96 @@
 {
+ "M100": {
+  "label": "Men's 100 m",
+  "fmt": "s",
+  "records": [
+   {
+    "mark": "9.79",
+    "value": 9.79,
+    "holder": "Maurice Greene",
+    "year": 1999,
+    "seen_before": [
+     "2000-OG-M100",
+     "2004-OG-M100"
+    ]
+   },
+   {
+    "mark": "9.72",
+    "value": 9.72,
+    "holder": "Usain Bolt",
+    "year": 2008,
+    "seen_before": [
+     "2008-OG-M100"
+    ]
+   },
+   {
+    "mark": "9.69",
+    "value": 9.69,
+    "holder": "Usain Bolt",
+    "year": 2008,
+    "seen_before": [],
+    "set_in": "2008-OG-M100"
+   },
+   {
+    "mark": "9.58",
+    "value": 9.58,
+    "holder": "Usain Bolt",
+    "year": 2009,
+    "seen_before": [
+     "2012-OG-M100",
+     "2016-OG-M100",
+     "2017-WC-M100",
+     "2019-WC-M100",
+     "2020-OG-M100",
+     "2022-WC-M100",
+     "2023-WC-M100",
+     "2024-OG-M100",
+     "2025-WC-M100"
+    ]
+   }
+  ]
+ },
+ "M200": {
+  "label": "Men's 200 m",
+  "fmt": "s",
+  "records": [
+   {
+    "mark": "19.32",
+    "value": 19.32,
+    "holder": "Michael Johnson",
+    "year": 1996,
+    "seen_before": [
+     "2000-OG-M200",
+     "2004-OG-M200",
+     "2008-OG-M200"
+    ]
+   },
+   {
+    "mark": "19.30",
+    "value": 19.3,
+    "holder": "Usain Bolt",
+    "year": 2008,
+    "seen_before": [],
+    "set_in": "2008-OG-M200"
+   },
+   {
+    "mark": "19.19",
+    "value": 19.19,
+    "holder": "Usain Bolt",
+    "year": 2009,
+    "seen_before": [
+     "2012-OG-M200",
+     "2016-OG-M200",
+     "2017-WC-M200",
+     "2019-WC-M200",
+     "2020-OG-M200",
+     "2022-WC-M200",
+     "2023-WC-M200",
+     "2024-OG-M200",
+     "2025-WC-M200"
+    ]
+   }
+  ]
+ },
  "M400": {
   "label": "Men's 400 m",
   "fmt": "s",
@@ -9,6 +101,10 @@
     "holder": "Michael Johnson",
     "year": 1999,
     "seen_before": [
+     "2000-OG-M400",
+     "2004-OG-M400",
+     "2008-OG-M400",
+     "2012-OG-M400",
      "2016-OG-M400"
     ]
    },
@@ -30,54 +126,30 @@
    }
   ]
  },
- "M100": {
-  "label": "Men's 100 m",
-  "fmt": "s",
-  "records": [
-   {
-    "mark": "9.58",
-    "value": 9.58,
-    "holder": "Usain Bolt",
-    "year": 2009,
-    "seen_before": [
-     "2016-OG-M100",
-     "2017-WC-M100",
-     "2019-WC-M100",
-     "2020-OG-M100",
-     "2022-WC-M100",
-     "2023-WC-M100",
-     "2024-OG-M100",
-     "2025-WC-M100"
-    ]
-   }
-  ]
- },
- "M200": {
-  "label": "Men's 200 m",
-  "fmt": "s",
-  "records": [
-   {
-    "mark": "19.19",
-    "value": 19.19,
-    "holder": "Usain Bolt",
-    "year": 2009,
-    "seen_before": [
-     "2016-OG-M200",
-     "2017-WC-M200",
-     "2019-WC-M200",
-     "2020-OG-M200",
-     "2022-WC-M200",
-     "2023-WC-M200",
-     "2024-OG-M200",
-     "2025-WC-M200"
-    ]
-   }
-  ]
- },
  "M800": {
   "label": "Men's 800 m",
   "fmt": "ms",
   "records": [
+   {
+    "mark": "1:41.11",
+    "value": 101.11,
+    "holder": "Wilson Kipketer",
+    "year": 1997,
+    "seen_before": [
+     "2000-OG-M800",
+     "2004-OG-M800",
+     "2008-OG-M800"
+    ]
+   },
+   {
+    "mark": "1:41.01",
+    "value": 101.00999999999999,
+    "holder": "David Rudisha",
+    "year": 2010,
+    "seen_before": [
+     "2012-OG-M800"
+    ]
+   },
    {
     "mark": "1:40.91",
     "value": 100.91,
@@ -92,7 +164,8 @@
      "2023-WC-M800",
      "2024-OG-M800",
      "2025-WC-M800"
-    ]
+    ],
+    "set_in": "2012-OG-M800"
    }
   ]
  },
@@ -106,6 +179,10 @@
     "holder": "Hicham El Guerrouj",
     "year": 1998,
     "seen_before": [
+     "2000-OG-M1500",
+     "2004-OG-M1500",
+     "2008-OG-M1500",
+     "2012-OG-M1500",
      "2016-OG-M1500",
      "2017-WC-M1500",
      "2019-WC-M1500",
@@ -123,11 +200,23 @@
   "fmt": "ms",
   "records": [
    {
+    "mark": "12:39.36",
+    "value": 759.36,
+    "holder": "12:39.36",
+    "year": 1998,
+    "seen_before": [
+     "2000-OG-M5000"
+    ]
+   },
+   {
     "mark": "12:37.35",
     "value": 757.35,
     "holder": "Kenenisa Bekele",
     "year": 2004,
     "seen_before": [
+     "2004-OG-M5000",
+     "2008-OG-M5000",
+     "2012-OG-M5000",
      "2016-OG-M5000",
      "2017-WC-M5000",
      "2019-WC-M5000"
@@ -153,11 +242,31 @@
   "fmt": "ms",
   "records": [
    {
+    "mark": "26:22.75",
+    "value": 1582.75,
+    "holder": "26:22.75",
+    "year": 1998,
+    "seen_before": [
+     "2000-OG-M10000"
+    ]
+   },
+   {
+    "mark": "26:20.31",
+    "value": 1580.31,
+    "holder": "Kenenisa Bekele",
+    "year": 2004,
+    "seen_before": [
+     "2004-OG-M10000"
+    ]
+   },
+   {
     "mark": "26:17.53",
     "value": 1577.53,
     "holder": "Kenenisa Bekele",
     "year": 2005,
     "seen_before": [
+     "2008-OG-M10000",
+     "2012-OG-M10000",
      "2016-OG-M10000",
      "2017-WC-M10000",
      "2019-WC-M10000"
@@ -182,6 +291,42 @@
   "label": "Men's marathon",
   "fmt": "hms",
   "records": [
+   {
+    "mark": "2:05:42",
+    "value": 7542.0,
+    "holder": "Khalid Khannouchi",
+    "year": 1999,
+    "seen_before": [
+     "2000-OG-Mmarathon"
+    ]
+   },
+   {
+    "mark": "2:04:55",
+    "value": 7495.0,
+    "holder": "Paul Tergat",
+    "year": 2003,
+    "seen_before": [
+     "2004-OG-Mmarathon"
+    ]
+   },
+   {
+    "mark": "2:04:26",
+    "value": 7466.0,
+    "holder": "Haile Gebrselassie",
+    "year": 2007,
+    "seen_before": [
+     "2008-OG-Mmarathon"
+    ]
+   },
+   {
+    "mark": "2:03:38",
+    "value": 7418.0,
+    "holder": "Patrick Makau Musyoki",
+    "year": 2011,
+    "seen_before": [
+     "2012-OG-Mmarathon"
+    ]
+   },
    {
     "mark": "2:02:57",
     "value": 7377.0,
@@ -229,6 +374,26 @@
   "fmt": "s",
   "records": [
    {
+    "mark": "12.91",
+    "value": 12.91,
+    "holder": "Colin Jackson",
+    "year": 1993,
+    "seen_before": [
+     "2000-OG-M110H",
+     "2004-OG-M110H"
+    ]
+   },
+   {
+    "mark": "12.87",
+    "value": 12.87,
+    "holder": "Dayron Robles",
+    "year": 2008,
+    "seen_before": [
+     "2008-OG-M110H",
+     "2012-OG-M110H"
+    ]
+   },
+   {
     "mark": "12.80",
     "value": 12.8,
     "holder": "Aries Merritt",
@@ -256,6 +421,10 @@
     "holder": "Kevin Young",
     "year": 1992,
     "seen_before": [
+     "2000-OG-M400H",
+     "2004-OG-M400H",
+     "2008-OG-M400H",
+     "2012-OG-M400H",
      "2016-OG-M400H",
      "2017-WC-M400H",
      "2019-WC-M400H"
@@ -290,11 +459,31 @@
   "fmt": "ms",
   "records": [
    {
+    "mark": "7:55.72",
+    "value": 475.72,
+    "holder": "7:55.72",
+    "year": 1997,
+    "seen_before": [
+     "2000-OG-M3000SC"
+    ]
+   },
+   {
+    "mark": "7:55.28",
+    "value": 475.28,
+    "holder": "Brahim Boulami",
+    "year": 2001,
+    "seen_before": [
+     "2004-OG-M3000SC"
+    ]
+   },
+   {
     "mark": "7:53.63",
     "value": 473.63,
     "holder": "Saif Saaeed Shaheen",
     "year": 2004,
     "seen_before": [
+     "2008-OG-M3000SC",
+     "2012-OG-M3000SC",
      "2016-OG-M3000SC",
      "2017-WC-M3000SC",
      "2019-WC-M3000SC",
@@ -325,6 +514,10 @@
     "holder": "Javier Sotomayor",
     "year": 1993,
     "seen_before": [
+     "2000-OG-MHJ",
+     "2004-OG-MHJ",
+     "2008-OG-MHJ",
+     "2012-OG-MHJ",
      "2016-OG-MHJ",
      "2017-WC-MHJ",
      "2019-WC-MHJ",
@@ -341,6 +534,18 @@
   "label": "Men's pole vault",
   "fmt": "m",
   "records": [
+   {
+    "mark": "6.14",
+    "value": 6.14,
+    "holder": "Sergey Bubka",
+    "year": 1994,
+    "seen_before": [
+     "2000-OG-MPV",
+     "2004-OG-MPV",
+     "2008-OG-MPV",
+     "2012-OG-MPV"
+    ]
+   },
    {
     "mark": "6.16",
     "value": 6.16,
@@ -433,6 +638,10 @@
     "holder": "Mike Powell",
     "year": 1991,
     "seen_before": [
+     "2000-OG-MLJ",
+     "2004-OG-MLJ",
+     "2008-OG-MLJ",
+     "2012-OG-MLJ",
      "2016-OG-MLJ",
      "2017-WC-MLJ",
      "2019-WC-MLJ",
@@ -455,6 +664,10 @@
     "holder": "Jonathan Edwards",
     "year": 1995,
     "seen_before": [
+     "2000-OG-MTJ",
+     "2004-OG-MTJ",
+     "2008-OG-MTJ",
+     "2012-OG-MTJ",
      "2016-OG-MTJ",
      "2017-WC-MTJ",
      "2019-WC-MTJ",
@@ -477,6 +690,10 @@
     "holder": "Randy Barnes",
     "year": 1990,
     "seen_before": [
+     "2000-OG-MSP",
+     "2004-OG-MSP",
+     "2008-OG-MSP",
+     "2012-OG-MSP",
      "2016-OG-MSP",
      "2017-WC-MSP",
      "2019-WC-MSP"
@@ -515,6 +732,10 @@
     "holder": "Jürgen Schult",
     "year": 1986,
     "seen_before": [
+     "2000-OG-MDT",
+     "2004-OG-MDT",
+     "2008-OG-MDT",
+     "2012-OG-MDT",
      "2016-OG-MDT",
      "2017-WC-MDT",
      "2019-WC-MDT",
@@ -553,6 +774,10 @@
     "holder": "Yuriy Sedykh",
     "year": 1986,
     "seen_before": [
+     "2000-OG-MHT",
+     "2004-OG-MHT",
+     "2008-OG-MHT",
+     "2012-OG-MHT",
      "2016-OG-MHT",
      "2017-WC-MHT",
      "2019-WC-MHT",
@@ -575,6 +800,10 @@
     "holder": "Jan Železný",
     "year": 1996,
     "seen_before": [
+     "2000-OG-MJT",
+     "2004-OG-MJT",
+     "2008-OG-MJT",
+     "2012-OG-MJT",
      "2016-OG-MJT",
      "2017-WC-MJT",
      "2019-WC-MJT",
@@ -594,9 +823,13 @@
    {
     "mark": "10.49",
     "value": 10.49,
-    "holder": "Florence Griffith-Joyner",
+    "holder": "Florence Griffith Joyner",
     "year": 1988,
     "seen_before": [
+     "2000-OG-W100",
+     "2004-OG-W100",
+     "2008-OG-W100",
+     "2012-OG-W100",
      "2016-OG-W100",
      "2017-WC-W100",
      "2019-WC-W100",
@@ -616,9 +849,13 @@
    {
     "mark": "21.34",
     "value": 21.34,
-    "holder": "Florence Griffith-Joyner",
+    "holder": "21.34 s",
     "year": 1988,
     "seen_before": [
+     "2000-OG-W200",
+     "2004-OG-W200",
+     "2008-OG-W200",
+     "2012-OG-W200",
      "2016-OG-W200",
      "2017-WC-W200",
      "2019-WC-W200",
@@ -638,9 +875,13 @@
    {
     "mark": "47.60",
     "value": 47.6,
-    "holder": "Marita Koch",
+    "holder": "47.60",
     "year": 1985,
     "seen_before": [
+     "2000-OG-W400",
+     "2004-OG-W400",
+     "2008-OG-W400",
+     "2012-OG-W400",
      "2016-OG-W400",
      "2017-WC-W400",
      "2019-WC-W400",
@@ -660,9 +901,13 @@
    {
     "mark": "1:53.28",
     "value": 113.28,
-    "holder": "Jarmila Kratochvílová",
+    "holder": "1:53.28",
     "year": 1983,
     "seen_before": [
+     "2000-OG-W800",
+     "2004-OG-W800",
+     "2008-OG-W800",
+     "2012-OG-W800",
      "2016-OG-W800",
      "2017-WC-W800",
      "2019-WC-W800",
@@ -679,6 +924,18 @@
   "label": "Women's 1500 m",
   "fmt": "ms",
   "records": [
+   {
+    "mark": "3:50.46",
+    "value": 230.46,
+    "holder": "3:50.46",
+    "year": 1993,
+    "seen_before": [
+     "2000-OG-W1500",
+     "2004-OG-W1500",
+     "2008-OG-W1500",
+     "2012-OG-W1500"
+    ]
+   },
    {
     "mark": "3:50.07",
     "value": 230.07,
@@ -726,11 +983,31 @@
   "fmt": "ms",
   "records": [
    {
+    "mark": "14:28.09",
+    "value": 868.09,
+    "holder": "14:28.09",
+    "year": 1997,
+    "seen_before": [
+     "2000-OG-W5000"
+    ]
+   },
+   {
+    "mark": "14:24.68",
+    "value": 864.68,
+    "holder": "Elvan Abeylegesse",
+    "year": 2004,
+    "seen_before": [
+     "2004-OG-W5000"
+    ]
+   },
+   {
     "mark": "14:11.15",
     "value": 851.15,
     "holder": "Tirunesh Dibaba",
     "year": 2008,
     "seen_before": [
+     "2008-OG-W5000",
+     "2012-OG-W5000",
      "2016-OG-W5000",
      "2017-WC-W5000",
      "2019-WC-W5000"
@@ -782,9 +1059,13 @@
    {
     "mark": "29:31.78",
     "value": 1771.78,
-    "holder": "Wang Junxia",
+    "holder": "29:31.78",
     "year": 1993,
     "seen_before": [
+     "2000-OG-W10000",
+     "2004-OG-W10000",
+     "2008-OG-W10000",
+     "2012-OG-W10000",
      "2016-OG-W10000"
     ]
    },
@@ -827,11 +1108,23 @@
   "fmt": "hms",
   "records": [
    {
+    "mark": "2:20:43",
+    "value": 8443.0,
+    "holder": "Tegla Loroupe",
+    "year": 1999,
+    "seen_before": [
+     "2000-OG-Wmarathon"
+    ]
+   },
+   {
     "mark": "2:15:25",
     "value": 8125.0,
     "holder": "Paula Radcliffe",
     "year": 2003,
     "seen_before": [
+     "2004-OG-Wmarathon",
+     "2008-OG-Wmarathon",
+     "2012-OG-Wmarathon",
      "2016-OG-Wmarathon",
      "2017-WC-Wmarathon",
      "2019-WC-Wmarathon"
@@ -873,6 +1166,18 @@
   "fmt": "s",
   "records": [
    {
+    "mark": "12.21",
+    "value": 12.21,
+    "holder": "12.21",
+    "year": 1988,
+    "seen_before": [
+     "2000-OG-W100H",
+     "2004-OG-W100H",
+     "2008-OG-W100H",
+     "2012-OG-W100H"
+    ]
+   },
+   {
     "mark": "12.20",
     "value": 12.2,
     "holder": "Kendra Harrison",
@@ -903,11 +1208,23 @@
   "fmt": "s",
   "records": [
    {
+    "mark": "52.61",
+    "value": 52.61,
+    "holder": "52.61",
+    "year": 1995,
+    "seen_before": [
+     "2000-OG-W400H"
+    ]
+   },
+   {
     "mark": "52.34",
     "value": 52.34,
-    "holder": "Yuliya Pechonkina",
+    "holder": "Yuliya Pechenkina",
     "year": 2003,
     "seen_before": [
+     "2004-OG-W400H",
+     "2008-OG-W400H",
+     "2012-OG-W400H",
      "2016-OG-W400H",
      "2017-WC-W400H"
     ]
@@ -986,44 +1303,6 @@
    }
   ]
  },
- "W3000SC": {
-  "label": "Women's 3000 m steeplechase",
-  "fmt": "ms",
-  "records": [
-   {
-    "mark": "8:58.81",
-    "value": 538.81,
-    "holder": "Gulnara Galkina",
-    "year": 2008,
-    "seen_before": [
-     "2016-OG-W3000SC"
-    ]
-   },
-   {
-    "mark": "8:52.78",
-    "value": 532.78,
-    "holder": "Ruth Jebet",
-    "year": 2016,
-    "seen_before": [
-     "2017-WC-W3000SC"
-    ]
-   },
-   {
-    "mark": "8:44.32",
-    "value": 524.32,
-    "holder": "Beatrice Chepkoech",
-    "year": 2018,
-    "seen_before": [
-     "2019-WC-W3000SC",
-     "2020-OG-W3000SC",
-     "2022-WC-W3000SC",
-     "2023-WC-W3000SC",
-     "2024-OG-W3000SC",
-     "2025-WC-W3000SC"
-    ]
-   }
-  ]
- },
  "WHJ": {
   "label": "Women's high jump",
   "fmt": "m",
@@ -1034,6 +1313,10 @@
     "holder": "Stefka Kostadinova",
     "year": 1987,
     "seen_before": [
+     "2000-OG-WHJ",
+     "2004-OG-WHJ",
+     "2008-OG-WHJ",
+     "2012-OG-WHJ",
      "2016-OG-WHJ",
      "2017-WC-WHJ",
      "2019-WC-WHJ",
@@ -1059,11 +1342,55 @@
   "fmt": "m",
   "records": [
    {
+    "mark": "4.63",
+    "value": 4.63,
+    "holder": "Stacy Dragila",
+    "year": 2000,
+    "seen_before": [
+     "2000-OG-WPV"
+    ]
+   },
+   {
+    "mark": "4.90",
+    "value": 4.9,
+    "holder": "Yelena Isinbayeva",
+    "year": 2004,
+    "seen_before": [
+     "2004-OG-WPV"
+    ]
+   },
+   {
+    "mark": "4.91",
+    "value": 4.91,
+    "holder": "Yelena Isinbayeva",
+    "year": 2004,
+    "seen_before": [],
+    "set_in": "2004-OG-WPV"
+   },
+   {
+    "mark": "5.04",
+    "value": 5.04,
+    "holder": "Yelena Isinbayeva",
+    "year": 2008,
+    "seen_before": [
+     "2008-OG-WPV"
+    ]
+   },
+   {
+    "mark": "5.05",
+    "value": 5.05,
+    "holder": "Yelena Isinbayeva",
+    "year": 2008,
+    "seen_before": [],
+    "set_in": "2008-OG-WPV"
+   },
+   {
     "mark": "5.06",
     "value": 5.06,
     "holder": "Yelena Isinbayeva",
     "year": 2009,
     "seen_before": [
+     "2012-OG-WPV",
      "2016-OG-WPV",
      "2017-WC-WPV",
      "2019-WC-WPV",
@@ -1086,6 +1413,10 @@
     "holder": "Galina Chistyakova",
     "year": 1988,
     "seen_before": [
+     "2000-OG-WLJ",
+     "2004-OG-WLJ",
+     "2008-OG-WLJ",
+     "2012-OG-WLJ",
      "2016-OG-WLJ",
      "2017-WC-WLJ",
      "2019-WC-WLJ",
@@ -1108,6 +1439,10 @@
     "holder": "Inessa Kravets",
     "year": 1995,
     "seen_before": [
+     "2000-OG-WTJ",
+     "2004-OG-WTJ",
+     "2008-OG-WTJ",
+     "2012-OG-WTJ",
      "2016-OG-WTJ",
      "2017-WC-WTJ",
      "2019-WC-WTJ",
@@ -1146,6 +1481,10 @@
     "holder": "Natalya Lisovskaya",
     "year": 1987,
     "seen_before": [
+     "2000-OG-WSP",
+     "2004-OG-WSP",
+     "2008-OG-WSP",
+     "2012-OG-WSP",
      "2016-OG-WSP",
      "2017-WC-WSP",
      "2019-WC-WSP",
@@ -1168,6 +1507,10 @@
     "holder": "Gabriele Reinsch",
     "year": 1988,
     "seen_before": [
+     "2000-OG-WDT",
+     "2004-OG-WDT",
+     "2008-OG-WDT",
+     "2012-OG-WDT",
      "2016-OG-WDT",
      "2017-WC-WDT",
      "2019-WC-WDT",
@@ -1184,6 +1527,34 @@
   "label": "Women's hammer",
   "fmt": "m",
   "records": [
+   {
+    "mark": "76.06",
+    "value": 76.06,
+    "holder": "Mihaela Melinte",
+    "year": 1999,
+    "seen_before": [
+     "2000-OG-WHT",
+     "2004-OG-WHT"
+    ]
+   },
+   {
+    "mark": "77.80",
+    "value": 77.8,
+    "holder": "Tatyana Lysenko",
+    "year": 2006,
+    "seen_before": [
+     "2008-OG-WHT"
+    ]
+   },
+   {
+    "mark": "79.42",
+    "value": 79.42,
+    "holder": "Betty Heidler",
+    "year": 2011,
+    "seen_before": [
+     "2012-OG-WHT"
+    ]
+   },
    {
     "mark": "81.08",
     "value": 81.08,
@@ -1223,11 +1594,39 @@
   "fmt": "m",
   "records": [
    {
+    "mark": "69.41",
+    "value": 69.41,
+    "holder": "Trine Hattestad",
+    "year": 2000,
+    "seen_before": [
+     "2000-OG-WJT"
+    ]
+   },
+   {
+    "mark": "71.54",
+    "value": 71.54,
+    "holder": "Osleidys Menéndez",
+    "year": 2001,
+    "seen_before": [
+     "2004-OG-WJT"
+    ]
+   },
+   {
+    "mark": "71.70",
+    "value": 71.7,
+    "holder": "Osleidys Menéndez",
+    "year": 2005,
+    "seen_before": [
+     "2008-OG-WJT"
+    ]
+   },
+   {
     "mark": "72.28",
     "value": 72.28,
     "holder": "Barbora Špotáková",
     "year": 2008,
     "seen_before": [
+     "2012-OG-WJT",
      "2016-OG-WJT",
      "2017-WC-WJT",
      "2019-WC-WJT",
@@ -1236,6 +1635,643 @@
      "2023-WC-WJT",
      "2024-OG-WJT",
      "2025-WC-WJT"
+    ]
+   }
+  ]
+ },
+ "W3000SC": {
+  "label": "Women's 3000 m steeplechase",
+  "fmt": "ms",
+  "records": [
+   {
+    "mark": "9:01.59",
+    "value": 541.59,
+    "holder": "Gulnara Samitova-Galkina",
+    "year": 2004,
+    "seen_before": [
+     "2008-OG-W3000SC"
+    ]
+   },
+   {
+    "mark": "8:58.81",
+    "value": 538.81,
+    "holder": "Gulnara Samitova-Galkina",
+    "year": 2008,
+    "seen_before": [
+     "2012-OG-W3000SC",
+     "2016-OG-W3000SC"
+    ],
+    "set_in": "2008-OG-W3000SC"
+   },
+   {
+    "mark": "8:52.78",
+    "value": 532.78,
+    "holder": "Ruth Jebet",
+    "year": 2016,
+    "seen_before": [
+     "2017-WC-W3000SC"
+    ]
+   },
+   {
+    "mark": "8:44.32",
+    "value": 524.32,
+    "holder": "Beatrice Chepkoech",
+    "year": 2018,
+    "seen_before": [
+     "2019-WC-W3000SC",
+     "2020-OG-W3000SC",
+     "2022-WC-W3000SC",
+     "2023-WC-W3000SC",
+     "2024-OG-W3000SC",
+     "2025-WC-W3000SC"
+    ]
+   }
+  ]
+ },
+ "I-M60": {
+  "label": "Men's 60 m",
+  "fmt": "s",
+  "records": [
+   {
+    "mark": "6.39",
+    "value": 6.39,
+    "holder": "Maurice Greene",
+    "year": 1998,
+    "seen_before": [
+     "2016-WI-M60"
+    ]
+   },
+   {
+    "mark": "6.34",
+    "value": 6.34,
+    "holder": "Christian Coleman",
+    "year": 2018,
+    "seen_before": [
+     "2018-WI-M60",
+     "2022-WI-M60",
+     "2024-WI-M60",
+     "2025-WI-M60"
+    ]
+   }
+  ]
+ },
+ "I-M400": {
+  "label": "Men's 400 m",
+  "fmt": "s",
+  "records": [
+   {
+    "mark": "44.57",
+    "value": 44.57,
+    "holder": "Kerron Clement",
+    "year": 2005,
+    "seen_before": [
+     "2016-WI-M400"
+    ]
+   },
+   {
+    "mark": "44.52",
+    "value": 44.52,
+    "holder": "Michael Norman",
+    "year": 2018,
+    "seen_before": [
+     "2022-WI-M400"
+    ]
+   },
+   {
+    "mark": "44.49",
+    "value": 44.49,
+    "holder": "Christopher Morales Williams",
+    "year": 2024,
+    "seen_before": [
+     "2024-WI-M400",
+     "2025-WI-M400"
+    ]
+   }
+  ]
+ },
+ "I-M800": {
+  "label": "Men's 800 m",
+  "fmt": "ms",
+  "records": [
+   {
+    "mark": "1:42.67",
+    "value": 102.67,
+    "holder": "Wilson Kipketer",
+    "year": 1997,
+    "seen_before": [
+     "2016-WI-M800",
+     "2018-WI-M800",
+     "2022-WI-M800",
+     "2024-WI-M800",
+     "2025-WI-M800"
+    ]
+   }
+  ]
+ },
+ "I-M1500": {
+  "label": "Men's 1500 m",
+  "fmt": "ms",
+  "records": [
+   {
+    "mark": "3:31.18",
+    "value": 211.18,
+    "holder": "Hicham El Guerrouj",
+    "year": 1997,
+    "seen_before": [
+     "2016-WI-M1500",
+     "2018-WI-M1500"
+    ]
+   },
+   {
+    "mark": "3:30.60",
+    "value": 210.6,
+    "holder": "Jakob Ingebrigtsen",
+    "year": 2022,
+    "seen_before": [
+     "2022-WI-M1500",
+     "2024-WI-M1500",
+     "2025-WI-M1500"
+    ]
+   }
+  ]
+ },
+ "I-M3000": {
+  "label": "Men's 3000 m",
+  "fmt": "ms",
+  "records": [
+   {
+    "mark": "7:24.90",
+    "value": 444.9,
+    "holder": "Daniel Komen",
+    "year": 1998,
+    "seen_before": [
+     "2016-WI-M3000",
+     "2018-WI-M3000",
+     "2022-WI-M3000"
+    ]
+   },
+   {
+    "mark": "7:23.81",
+    "value": 443.81,
+    "holder": "Lamecha Girma",
+    "year": 2023,
+    "seen_before": [
+     "2024-WI-M3000"
+    ]
+   },
+   {
+    "mark": "7:22.91",
+    "value": 442.91,
+    "holder": "Grant Fisher",
+    "year": 2025,
+    "seen_before": [
+     "2025-WI-M3000"
+    ]
+   }
+  ]
+ },
+ "I-M60H": {
+  "label": "Men's 60 m hurdles",
+  "fmt": "s",
+  "records": [
+   {
+    "mark": "7.30",
+    "value": 7.3,
+    "holder": "Colin Jackson",
+    "year": 1994,
+    "seen_before": [
+     "2016-WI-M60H",
+     "2018-WI-M60H"
+    ]
+   },
+   {
+    "mark": "7.29",
+    "value": 7.29,
+    "holder": "Grant Holloway",
+    "year": 2021,
+    "seen_before": [
+     "2022-WI-M60H"
+    ]
+   },
+   {
+    "mark": "7.27",
+    "value": 7.27,
+    "holder": "Grant Holloway",
+    "year": 2024,
+    "seen_before": [
+     "2024-WI-M60H",
+     "2025-WI-M60H"
+    ]
+   }
+  ]
+ },
+ "I-MHJ": {
+  "label": "Men's high jump",
+  "fmt": "m",
+  "records": [
+   {
+    "mark": "2.43",
+    "value": 2.43,
+    "holder": "Javier Sotomayor",
+    "year": 1989,
+    "seen_before": [
+     "2016-WI-MHJ",
+     "2018-WI-MHJ",
+     "2022-WI-MHJ",
+     "2024-WI-MHJ",
+     "2025-WI-MHJ"
+    ]
+   }
+  ]
+ },
+ "I-MPV": {
+  "label": "Men's pole vault",
+  "fmt": "m",
+  "records": [
+   {
+    "mark": "6.16",
+    "value": 6.16,
+    "holder": "Renaud Lavillenie",
+    "year": 2014,
+    "seen_before": [
+     "2016-WI-MPV",
+     "2018-WI-MPV"
+    ]
+   },
+   {
+    "mark": "6.19",
+    "value": 6.19,
+    "holder": "Armand Duplantis",
+    "year": 2022,
+    "seen_before": [
+     "2022-WI-MPV"
+    ]
+   },
+   {
+    "mark": "6.20",
+    "value": 6.2,
+    "holder": "Armand Duplantis",
+    "year": 2022,
+    "seen_before": [],
+    "set_in": "2022-WI-MPV"
+   },
+   {
+    "mark": "6.22",
+    "value": 6.22,
+    "holder": "Armand Duplantis",
+    "year": 2023,
+    "seen_before": [
+     "2024-WI-MPV"
+    ]
+   },
+   {
+    "mark": "6.27",
+    "value": 6.27,
+    "holder": "Armand Duplantis",
+    "year": 2025,
+    "seen_before": [
+     "2025-WI-MPV"
+    ]
+   }
+  ]
+ },
+ "I-MLJ": {
+  "label": "Men's long jump",
+  "fmt": "m",
+  "records": [
+   {
+    "mark": "8.79",
+    "value": 8.79,
+    "holder": "Carl Lewis",
+    "year": 1984,
+    "seen_before": [
+     "2016-WI-MLJ",
+     "2018-WI-MLJ",
+     "2022-WI-MLJ",
+     "2024-WI-MLJ",
+     "2025-WI-MLJ"
+    ]
+   }
+  ]
+ },
+ "I-MTJ": {
+  "label": "Men's triple jump",
+  "fmt": "m",
+  "records": [
+   {
+    "mark": "17.92",
+    "value": 17.92,
+    "holder": "Teddy Tamgho",
+    "year": 2011,
+    "seen_before": [
+     "2016-WI-MTJ",
+     "2018-WI-MTJ"
+    ]
+   },
+   {
+    "mark": "18.07",
+    "value": 18.07,
+    "holder": "Hugues Fabrice Zango",
+    "year": 2021,
+    "seen_before": [
+     "2022-WI-MTJ",
+     "2024-WI-MTJ",
+     "2025-WI-MTJ"
+    ]
+   }
+  ]
+ },
+ "I-MSP": {
+  "label": "Men's shot put",
+  "fmt": "m",
+  "records": [
+   {
+    "mark": "22.66",
+    "value": 22.66,
+    "holder": "Randy Barnes",
+    "year": 1989,
+    "seen_before": [
+     "2016-WI-MSP",
+     "2018-WI-MSP"
+    ]
+   },
+   {
+    "mark": "22.82",
+    "value": 22.82,
+    "holder": "Ryan Crouser",
+    "year": 2021,
+    "seen_before": [
+     "2022-WI-MSP",
+     "2024-WI-MSP",
+     "2025-WI-MSP"
+    ]
+   }
+  ]
+ },
+ "I-W60": {
+  "label": "Women's 60 m",
+  "fmt": "s",
+  "records": [
+   {
+    "mark": "6.92",
+    "value": 6.92,
+    "holder": "Irina Privalova",
+    "year": 1993,
+    "seen_before": [
+     "2016-WI-W60",
+     "2018-WI-W60",
+     "2022-WI-W60",
+     "2024-WI-W60",
+     "2025-WI-W60"
+    ]
+   }
+  ]
+ },
+ "I-W400": {
+  "label": "Women's 400 m",
+  "fmt": "s",
+  "records": [
+   {
+    "mark": "49.59",
+    "value": 49.59,
+    "holder": "Jarmila Kratochvílová",
+    "year": 1982,
+    "seen_before": [
+     "2016-WI-W400",
+     "2018-WI-W400",
+     "2022-WI-W400"
+    ]
+   },
+   {
+    "mark": "49.24",
+    "value": 49.24,
+    "holder": "Femke Bol",
+    "year": 2024,
+    "seen_before": [
+     "2024-WI-W400"
+    ]
+   },
+   {
+    "mark": "49.17",
+    "value": 49.17,
+    "holder": "Femke Bol",
+    "year": 2024,
+    "seen_before": [
+     "2025-WI-W400"
+    ],
+    "set_in": "2024-WI-W400"
+   }
+  ]
+ },
+ "I-W800": {
+  "label": "Women's 800 m",
+  "fmt": "ms",
+  "records": [
+   {
+    "mark": "1:55.82",
+    "value": 115.82,
+    "holder": "Jolanda Čeplak",
+    "year": 2002,
+    "seen_before": [
+     "2016-WI-W800",
+     "2018-WI-W800",
+     "2022-WI-W800",
+     "2024-WI-W800",
+     "2025-WI-W800"
+    ]
+   }
+  ]
+ },
+ "I-W1500": {
+  "label": "Women's 1500 m",
+  "fmt": "ms",
+  "records": [
+   {
+    "mark": "3:55.17",
+    "value": 235.17000000000002,
+    "holder": "Genzebe Dibaba",
+    "year": 2014,
+    "seen_before": [
+     "2016-WI-W1500",
+     "2018-WI-W1500"
+    ]
+   },
+   {
+    "mark": "3:53.09",
+    "value": 233.09,
+    "holder": "Gudaf Tsegay",
+    "year": 2021,
+    "seen_before": [
+     "2022-WI-W1500",
+     "2024-WI-W1500",
+     "2025-WI-W1500"
+    ]
+   }
+  ]
+ },
+ "I-W3000": {
+  "label": "Women's 3000 m",
+  "fmt": "ms",
+  "records": [
+   {
+    "mark": "8:16.60",
+    "value": 496.6,
+    "holder": "Genzebe Dibaba",
+    "year": 2014,
+    "seen_before": [
+     "2016-WI-W3000",
+     "2018-WI-W3000",
+     "2022-WI-W3000",
+     "2024-WI-W3000",
+     "2025-WI-W3000"
+    ]
+   }
+  ]
+ },
+ "I-W60H": {
+  "label": "Women's 60 m hurdles",
+  "fmt": "s",
+  "records": [
+   {
+    "mark": "7.68",
+    "value": 7.68,
+    "holder": "Susanna Kallur",
+    "year": 2008,
+    "seen_before": [
+     "2016-WI-W60H",
+     "2018-WI-W60H",
+     "2022-WI-W60H"
+    ]
+   },
+   {
+    "mark": "7.67",
+    "value": 7.67,
+    "holder": "Devynne Charlton",
+    "year": 2024,
+    "seen_before": [
+     "2024-WI-W60H"
+    ]
+   },
+   {
+    "mark": "7.65",
+    "value": 7.65,
+    "holder": "Devynne Charlton",
+    "year": 2024,
+    "seen_before": [
+     "2025-WI-W60H"
+    ],
+    "set_in": "2024-WI-W60H"
+   }
+  ]
+ },
+ "I-WHJ": {
+  "label": "Women's high jump",
+  "fmt": "m",
+  "records": [
+   {
+    "mark": "2.08",
+    "value": 2.08,
+    "holder": "Kajsa Bergqvist",
+    "year": 2006,
+    "seen_before": [
+     "2016-WI-WHJ",
+     "2018-WI-WHJ",
+     "2022-WI-WHJ",
+     "2024-WI-WHJ",
+     "2025-WI-WHJ"
+    ]
+   }
+  ]
+ },
+ "I-WPV": {
+  "label": "Women's pole vault",
+  "fmt": "m",
+  "records": [
+   {
+    "mark": "5.03",
+    "value": 5.03,
+    "holder": "Jenn Suhr",
+    "year": 2016,
+    "seen_before": [
+     "2016-WI-WPV",
+     "2018-WI-WPV",
+     "2022-WI-WPV",
+     "2024-WI-WPV",
+     "2025-WI-WPV"
+    ]
+   }
+  ]
+ },
+ "I-WLJ": {
+  "label": "Women's long jump",
+  "fmt": "m",
+  "records": [
+   {
+    "mark": "7.37",
+    "value": 7.37,
+    "holder": "Heike Drechsler",
+    "year": 1988,
+    "seen_before": [
+     "2016-WI-WLJ",
+     "2018-WI-WLJ",
+     "2022-WI-WLJ",
+     "2024-WI-WLJ",
+     "2025-WI-WLJ"
+    ]
+   }
+  ]
+ },
+ "I-WTJ": {
+  "label": "Women's triple jump",
+  "fmt": "m",
+  "records": [
+   {
+    "mark": "15.36",
+    "value": 15.36,
+    "holder": "Tatyana Lebedeva",
+    "year": 2004,
+    "seen_before": [
+     "2016-WI-WTJ",
+     "2018-WI-WTJ"
+    ]
+   },
+   {
+    "mark": "15.43",
+    "value": 15.43,
+    "holder": "Yulimar Rojas",
+    "year": 2020,
+    "seen_before": [
+     "2022-WI-WTJ"
+    ]
+   },
+   {
+    "mark": "15.74",
+    "value": 15.74,
+    "holder": "Yulimar Rojas",
+    "year": 2022,
+    "seen_before": [
+     "2024-WI-WTJ",
+     "2025-WI-WTJ"
+    ],
+    "set_in": "2022-WI-WTJ"
+   }
+  ]
+ },
+ "I-WSP": {
+  "label": "Women's shot put",
+  "fmt": "m",
+  "records": [
+   {
+    "mark": "22.50",
+    "value": 22.5,
+    "holder": "Helena Fibingerová",
+    "year": 1977,
+    "seen_before": [
+     "2016-WI-WSP",
+     "2018-WI-WSP",
+     "2022-WI-WSP",
+     "2024-WI-WSP",
+     "2025-WI-WSP"
     ]
    }
   ]

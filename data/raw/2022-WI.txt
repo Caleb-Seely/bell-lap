@@ -1,0 +1,296 @@
+#CH 2022-WI|World Indoor Championships|Belgrade|2022
+@M60
+WR|6.34|Christian Coleman|2018
+1|Marcell Jacobs|ITA|6.41|
+2|Christian Coleman|USA|6.41|
+3|Marvin Bracy|USA|6.44|
+4|Karl Erik Nazarov|EST|6.58|
+5|Adam Thomas|GBR|6.60|
+6|Jerod Elcock|TTO|6.63|
+7|Bolade Ajomale|CAN|6.63|
+8|Arthur Cissé|CIV|6.69|
+@M400
+WR|44.52|Michael Norman|2018
+1|Jereem Richards|TTO|45.00|
+2|Trevor Bassitt|USA|45.05|
+3|Carl Bengtström|SWE|45.33|
+4|Benjamin Lobo Vedel|DEN|45.67|
+5|Patrik Šorm|CZE|46.81|
+6|Marqueze Washington|USA|46.85|
+@M800
+WR|1:42.67|Wilson Kipketer|1997
+1|Mariano García|ESP|1:46.20|
+2|Noah Kibet|KEN|1:46.35|
+3|Bryce Hoppel|USA|1:46.51|
+4|Álvaro de Arriba|ESP|1:46.58|
+5|Andreas Kramer|SWE|1:46.76|
+6|Eliott Crestan|BEL|1:46.78|
+7|Isaiah Harris|USA|1:47.00|
+8|Marco Arop|CAN|1:47.58|
+@M1500
+WR|3:30.60|Jakob Ingebrigtsen|2022
+1|Samuel Tefera|ETH|3:32.77|
+2|Jakob Ingebrigtsen|NOR|3:33.02|
+3|Abel Kipsang|KEN|3:33.36|
+4|Teddese Lemi|ETH|3:33.59|
+5|Oliver Hoare|AUS|3:34.36|
+6|Neil Gourley|GBR|3:35.87|
+7|Michał Rozmys|POL|3:36.71|
+8|Pietro Arese|ITA|3:37.60|
+9|Samuel Prakel|USA|3:38.40|
+10|Isaac Nader|POR|3:39.97|
+11|Robert Farken|GER|3:41.29|
+12|Joshua Thompson|USA|3:44.48|
+@M3000
+WR|7:24.90|Daniel Komen|1998
+1|Selemon Barega|ETH|7:41.38|
+2|Lamecha Girma|ETH|7:41.63|
+3|Marc Scott|GBR|7:42.02|
+4|Daniel Ebenyo|KEN|7:42.97|
+5|Jacob Krop|KEN|7:43.26|
+6|Zouhair Talbi|MAR|7:43.45|
+7|Adel Mechaal|ESP|7:43.60|
+8|Maximilian Thorwirth|GER|7:45.87|
+9|Dillon Maggard|USA|7:46.18|
+10|George Beamish|NZL|7:46.91|
+11|Jonas Raess|SUI|7:47.28|
+12|Matthew Ramsden|AUS|7:49.82|
+13|Michael Somers|BEL|7:51.65|
+14|Baldvin Magnússon|ISL|8:04.77|
+@M60H
+WR|7.29|Grant Holloway|2021
+1|Grant Holloway|USA|7.39|
+2|Pascal Martinot-Lagarde|FRA|7.50|
+3|Jarret Eaton|USA|7.53|
+4|Asier Martínez|ESP|7.57|
+5|Chris Douglas|AUS|7.60|
+6|David King|GBR|7.62|
+7|Milan Trajkovic|CYP|7.62|
+8|Wilhem Belocian|FRA|7.67|
+@MHJ
+WR|2.43|Javier Sotomayor|1989
+1|Woo Sang-hyeok|KOR|2.34|
+2|Loïc Gasch|SUI|2.31|
+3|Gianmarco Tamberi|ITA|2.31|
+3|Hamish Kerr|NZL|2.31|
+5|Thiago Moura|BRA|2.31|
+6|Thomas Carmoy|BEL|2.28|
+7|Fernando Ferreira|BRA|2.24|
+7|Edgar Rivera|MEX|2.24|
+9|Norbert Kobielski|POL|2.24|
+10|Darryl Sullivan Jr.|USA|2.24|
+11|Donald Thomas|BAH|2.20|
+12|Naoto Tobe|JPN|2.15|
+@MPV
+WR|6.19|Armand Duplantis|2022
+1|Armand Duplantis|SWE|6.20|WR
+2|Thiago Braz|BRA|5.95|
+3|Christopher Nilsen|USA|5.90|
+4|Valentin Lavillenie|FRA|5.85|
+5|Ben Broeders|BEL|5.75|
+5|Menno Vloon|NED|5.75|
+7|Kurtis Marschall|AUS|5.75|
+8|Sondre Guttormsen|NOR|5.75|
+9|Oleg Zernikel|GER|5.75|
+10|Pål Haugen Lillefosse|NOR|5.60|
+10|KC Lightfoot|USA|5.60|
+12|Thibaut Collet|FRA|5.60|
+13|Torben Blech|GER|5.60|
+@MLJ
+WR|8.79|Carl Lewis|1984
+1|Miltiadis Tentoglou|GRE|8.55|
+2|Thobias Montler|SWE|8.38|
+3|Marquis Dendy|USA|8.27|
+4|Jarrion Lawson|USA|8.19|
+5|Cheswill Johnson|RSA|8.14|
+6|Emiliano Lasa|URU|7.99|
+7|M. Sreeshankar|IND|7.92|
+8|Lazar Anić|SRB|7.92|
+9|Samory Fraga|BRA|7.87|
+10|José Luis Mandros|PER|7.81|
+11|Kristian Pulli|FIN|7.76|
+12|Filippo Randazzo|ITA|7.74|
+@MTJ
+WR|18.07|Hugues Fabrice Zango|2021
+1|Lázaro Martínez|CUB|17.64|
+2|Pedro Pichardo|POR|17.46|
+3|Donald Scott|USA|17.21|
+4|Will Claye|USA|17.19|
+5|Jah-Nhai Perinchief|BER|16.95|
+6|Melvin Raffin|FRA|16.68|
+7|Jean-Marc Pontvianne|FRA|16.62|
+8|Nazim Babayev|AZE|16.55|
+9|Tiago Pereira|POR|16.46|
+10|Yasser Triki|ALG|16.42|
+11|Alexsandro Melo|BRA|16.07|
+12|Nikolaos Andrikopoulos|GRE|16.05|
+@MSP
+WR|22.82|Ryan Crouser|2021
+1|Darlan Romani|BRA|22.53|
+2|Ryan Crouser|USA|22.44|
+3|Tomas Walsh|NZL|22.31|
+4|Filip Mihaljević|CRO|21.83|
+5|Josh Awotunde|USA|21.70|
+6|Zane Weir|ITA|21.67|
+7|Nick Ponzio|ITA|21.30|
+8|Mesud Pezer|BIH|20.94|
+9|Michał Haratyk|POL|20.88|
+10|Konrad Bukowiecki|POL|20.79|
+11|Asmir Kolašinac|SRB|20.64|
+12|Wictor Petersson|SWE|20.33|
+13|Bob Bertemes|LUX|20.10|
+14|Tomáš Staněk|CZE|19.93|
+15|Francisco Belo|POR|19.87|
+16|Scott Lincoln|GBR|19.65|
+17|Andrei Toader|ROU|19.60|
+@W60
+WR|6.92|Irina Privalova|1993
+1|Mujinga Kambundji|SUI|6.96|
+2|Mikiah Brisco|USA|6.99|
+3|Marybeth Sant-Price|USA|7.04|
+4|Ewa Swoboda|POL|7.04|
+5|Briana Williams|JAM|7.04|
+6|Shericka Jackson|JAM|7.04|
+7|Michelle-Lee Ahye|TTO|7.11|
+8|Vitória Cristina Rosa|BRA|7.21|
+@W400
+WR|49.59|Jarmila Kratochvílová|1982
+1|Shaunae Miller-Uibo|BAH|50.31|
+2|Femke Bol|NED|50.57|
+3|Stephenie Ann McPherson|JAM|50.79|
+4|Justyna Święty-Ersetic|POL|51.40|
+5|Aliyah Abrams|GUY|52.34|
+6|Lieke Klaver|NED|52.67|
+@W800
+WR|1:55.82|Jolanda Čeplak|2002
+1|Ajeé Wilson|USA|1:59.09|
+2|Freweyni Hailu|ETH|2:00.54|
+3|Halimah Nakaayi|UGA|2:00.66|
+4|Natoya Goule|JAM|2:01.18|
+5|Catriona Bisset|AUS|2:01.24|
+6|Lindsey Butterworth|CAN|2:03.21|
+7|Habitam Alemu|ETH|2:03.37|
+8|Lorena Martín|ESP|2:03.93|
+@W1500
+WR|3:53.09|Gudaf Tsegay|2021
+1|Gudaf Tsegay|ETH|3:57.19|
+2|Axumawit Embaye|ETH|4:02.29|
+3|Hirut Meshesha|ETH|4:03.39|
+4|Winnie Nanyondo|UGA|4:04.60|
+5|Josette Norris|USA|4:04.71|
+6|Linden Hall|AUS|4:06.34|
+7|Heather MacLean|USA|4:06.38|
+8|Lucia Stafford|CAN|4:06.41|
+9|Claudia Bobocea|ROU|4:09.64|
+10|Marta Pérez|ESP|4:10.23|
+11|Sara Kuivisto|FIN|4:12.79|
+12|Alma Delia Cortés|MEX|4:13.71|
+@W3000
+WR|8:16.60|Genzebe Dibaba|2014
+1|Lemlem Hailu|ETH|8:41.82|
+2|Elle Purrier St. Pierre|USA|8:42.04|
+3|Ejgayehu Taye|ETH|8:42.23|
+4|Gabriela DeBues-Stafford|CAN|8:42.89|
+5|Dawit Seyaum|ETH|8:44.55|
+6|Jessica Hull|AUS|8:44.97|
+7|Alicia Monson|USA|8:46.39|
+8|Rahel Daniel|ERI|8:46.53|
+9|Laura Galván|MEX|8:46.65|
+10|Beatrice Chebet|KEN|8:47.50|
+11|Hanna Klein|GER|8:48.73|
+12|Selamawit Teferi|ISR|8:50.91|
+13|Luiza Gega|ALB|8:53.14|
+14|Edinah Jebitok|KEN|8:53.25|
+15|Amy-Eloise Markovc|GBR|8:53.57|
+16|Marta Pérez|ESP|8:57.81|
+17|Meraf Bahta|SWE|8:58.68|
+18|Julie-Anne Staehli|CAN|8:58.73|
+19|Lauren Ryan|AUS|9:13.93|
+20|Jhoselyn Camargo|BOL|9:28.98|
+@W60H
+WR|7.68|Susanna Kallur|2008
+1|Cyréna Samba-Mayela|FRA|7.78|
+2|Devynne Charlton|BAH|7.81|
+3|Gabriele Cunningham|USA|7.87|
+4|Britany Anderson|JAM|7.96|
+5|Yoveinny Mota|VEN|8.05|
+6|Zoë Sedney|NED|8.07|
+7|Sarah Lavin|IRL|8.09|
+@WHJ
+WR|2.08|Kajsa Bergqvist|2006
+1|Yaroslava Mahuchikh|UKR|2.02|
+2|Eleanor Patterson|AUS|2.00|
+3|Nadezhda Dubovitskaya|KAZ|1.98|
+4|Marija Vuković|MNE|1.95|
+5|Iryna Herashchenko|UKR|1.92|
+6|Elena Vallortigara|ITA|1.92|
+6|Safina Sadullayeva|UZB|1.92|
+8|Mirela Demireva|BUL|1.88|
+9|Angelina Topić|SRB|1.88|
+10|Svetlana Radzivil|UZB|1.84|
+10|Emily Borthwick|GBR|1.84|
+12|Rachel McCoy|USA|1.84|
+@WPV
+WR|5.03|Jenn Suhr|2016
+1|Sandi Morris|USA|4.80|
+2|Katie Nageotte|USA|4.75|
+3|Tina Šutej|SLO|4.75|
+4|Yana Hladiychuk|UKR|4.60|
+4|Angelica Moser|SUI|4.60|
+6|Olivia McTaggart|NZL|4.60|
+7|Xu Huiqin|CHN|4.45|
+8|Elisa Molinarolo|ITA|4.45|
+9|Amálie Švábíková|CZE|4.45|
+10|Margot Chevrier|FRA|4.45|
+11|Roberta Bruni|ITA|4.30|
+@WLJ
+WR|7.37|Heike Drechsler|1988
+1|Ivana Vuleta|SRB|7.06|
+2|Ese Brume|NGR|6.85|
+3|Lorraine Ugen|GBR|6.82|
+4|Tiffany Flynn|USA|6.78|
+5|Quanesha Burks|USA|6.77|
+6|Maryna Bekh-Romanchuk|UKR|6.73|
+7|Fátima Diame|ESP|6.71|
+8|Ruth Usoro|NGR|6.69|
+9|Milica Gardašević|SRB|6.59|
+10|Larissa Iapichino|ITA|6.57|
+11|Akela Jones|BAR|6.55|
+12|Khaddi Sagnia|SWE|6.42|
+13|Anasztázia Nguyen|HUN|6.39|
+14|Florentina Iusco|ROU|6.24|
+@WTJ
+WR|15.43|Yulimar Rojas|2020
+1|Yulimar Rojas|VEN|15.74|WR
+2|Maryna Bekh-Romanchuk|UKR|14.74|
+3|Kimberly Williams|JAM|14.62|
+4|Thea LaFond|DMA|14.53|
+5|Liadagmis Povea|CUB|14.45|
+6|Patrícia Mamona|POR|14.42|
+7|Keturah Orji|USA|14.42|
+8|Ana Peleteiro|ESP|14.30|
+9|Kristiina Mäkelä|FIN|14.14|
+10|Neja Filipič|SLO|14.13|
+11|Leyanis Pérez|CUB|13.99|
+12|Neele Eckhardt-Noack|GER|13.96|
+13|Tori Franklin|USA|13.89|
+14|Hanna Minenko|ISR|13.83|
+15|Dariya Derkach|ITA|13.67|
+16|Jovana Ilić|SRB|13.36|
+@WSP
+WR|22.50|Helena Fibingerová|1977
+1|Auriol Dongmo|POR|20.43|
+2|Chase Ealey|USA|20.21|
+3|Jessica Schilder|NED|19.48|
+4|Fanny Roos|SWE|19.22|
+5|Maggie Ewen|USA|19.15|
+6|Danniel Thomas-Dodd|JAM|19.12|
+7|Sarah Mitton|CAN|19.02|
+8|Sophie McKinna|GBR|18.62|
+9|Sara Gambetta|GER|18.17|
+10|Dimitriana Bezede|MDA|18.07|
+11|Katharina Maisch|GER|17.83|
+12|Jessica Inchude|POR|17.56|
+13|Amelia Strickler|GBR|16.86|
+14|Lívia Avancini|BRA|16.85|
+15|Ivana Gallardo|CHI|16.08|
