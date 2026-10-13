@@ -3,5 +3,6 @@
   "framework": null,
   "installCommand": "",
   "buildCommand": "sh build.sh",
-  "outputDirectory": "site"
+  "outputDirectory": "site",
+  "cleanUrls": true
 }

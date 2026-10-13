@@ -2,7 +2,28 @@
 <html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Bell-Lap</title>
+<title>Bell-Lap · Daily track and field guessing game</title>
+<meta name="description" content="Guess the winning time or distance in five Olympic, World Championships and NCAA track and field finals a day. One guess per final, up to 5,000 points. Free, no sign-up.">
+<link rel="canonical" href="https://bell-lap.vercel.app/">
+<meta name="google-site-verification" content="t_-eJgUWm74ULiZNozbrs8HCqqv8zKZN-DAQPLDm498">
+<meta name="theme-color" content="#f7f7f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121317" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<!-- Link previews (iMessage, WhatsApp, X, Discord, Slack...). og.png comes from scripts/og.html. -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Bell-Lap">
+<meta property="og:title" content="Bell-Lap · Daily track and field guessing game">
+<meta property="og:description" content="Five championship finals a day. One guess at each winning mark.">
+<meta property="og:url" content="https://bell-lap.vercel.app/">
+<meta property="og:image" content="https://bell-lap.vercel.app/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Bell-Lap: guess the winning mark. Five track and field finals a day.">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebApplication","name":"Bell-Lap","url":"https://bell-lap.vercel.app/","description":"A daily track and field guessing game. Each day has five championship finals from the Olympics, World Athletics Championships and NCAA Division I (2016 to 2025). Guess the winning time or distance once per final; points depend on how close the guess is, up to 1,000 a round.","applicationCategory":"GameApplication","genre":["Trivia","Sports"],"operatingSystem":"Any","browserRequirements":"Requires JavaScript","isAccessibleForFree":true,"inLanguage":"en","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}</script>
 <!-- Vercel Web Analytics: page views; custom events via va("event",...) in game.js. Served by Vercel, 404s locally. -->
 <script>window.va=window.va||function(){(window.vaq=window.vaq||[]).push(arguments);};</script>
 <script defer src="/_vercel/insights/script.js"></script>
@@ -135,7 +156,7 @@ button,input{font:inherit;color:inherit}
   <nav class="modes" id="modes" aria-label="Mode"></nav>
   <div class="pop" id="hintpop" popover></div>
   <ol class="lanes" id="lanes" aria-label="Rounds"></ol>
-  <main class="stage" id="stage"></main>
-  <p class="foot">Olympic, World and NCAA championship finals, 2016–2025. Results from <a href="https://en.wikipedia.org/">Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
+  <main class="stage" id="stage"><noscript><p>Bell-Lap is a daily track and field guessing game: five Olympic, World Championships and NCAA finals, one guess at each winning mark. It needs JavaScript to play.</p></noscript></main>
+  <p class="foot"><a href="/how-to-play">How to play</a> · Olympic, World and NCAA championship finals, 2016–2025. Results from <a href="https://en.wikipedia.org/">Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
 </div>
 
