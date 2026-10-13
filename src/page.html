@@ -50,8 +50,9 @@ button,input{font:inherit;color:inherit}
 .badge{display:inline-block;margin-top:4px;font-family:var(--f-display);font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;background:var(--track);color:var(--on-track);padding:1px 8px;border-radius:3px}
 .board tr.wr td{color:var(--muted);font-style:italic}
 .board tr.wr td:first-child{font-style:normal}
-.hint{margin:0;font-weight:500}
-.hint b{color:var(--track)}
+.peek{all:unset;box-sizing:border-box;width:100%;cursor:pointer;display:flex;align-items:baseline;column-gap:12px;flex-wrap:wrap;padding:10px 0}
+.peek:focus-visible,.fix:focus-visible{outline:2px solid var(--track);outline-offset:2px}
+.peek .w{text-decoration:underline;text-underline-offset:2px}
 .guess{display:flex;gap:8px}
 .guess input{flex:1;min-width:0;font-family:var(--f-mono);font-weight:600;font-size:28px;padding:10px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);font-variant-numeric:tabular-nums}
 .guess input::placeholder{color:var(--line)}
@@ -63,9 +64,10 @@ button,input{font:inherit;color:inherit}
 .readas{margin:-12px 0 0;min-height:20px;font-size:13px;color:var(--muted)}
 .readas b{color:var(--ink);font-family:var(--f-mono)}
 .readas.err b{color:var(--track)}
+.fix{all:unset;cursor:pointer;font-family:var(--f-mono);font-weight:600;color:var(--ink);text-decoration:underline;text-underline-offset:2px}
 
 /* reveal */
-.answer{display:flex;justify-content:space-between;align-items:flex-end;gap:12px}
+.answer{display:flex;justify-content:space-between;align-items:flex-start;gap:12px}
 .l{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .big{font-family:var(--f-mono);font-weight:600;font-size:34px;line-height:1.1;font-variant-numeric:tabular-nums}
 .who{font-size:14px;color:var(--muted)}
@@ -93,7 +95,9 @@ button,input{font:inherit;color:inherit}
 .board tr.you td{background:color-mix(in srgb,var(--track) 13%,transparent);font-weight:600}
 .board tr.you td:first-child{color:var(--track)}
 .board tr.gap td{padding:2px 4px;color:var(--muted);font-size:12px;border-top-style:dashed}
-.note{margin:0;font-size:13px;color:var(--muted)}
+.note{margin:12px 0 0;font-size:13px;color:var(--muted)}
+.more summary{cursor:pointer;padding:10px 0;border-top:1px solid var(--line);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.more[open] summary{margin-bottom:4px}
 
 /* results */
 .total{font-family:var(--f-display);font-weight:700;font-size:80px;line-height:.9}

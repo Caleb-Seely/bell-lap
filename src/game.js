@@ -40,6 +40,19 @@ function parse(str,f,ref){
   if(f==="hms"&&p.length===2) p.push("0");
   return p.reduce((a,x)=>a*60+(+x),0);
 }
+// Typo guard: the winner is never more than ~26% from the clue mark, so a guess 1.5x away is
+// probably a slip. fixes() re-reads the digits with the separator moved and keeps the closest sane reading.
+const sane=(v,ref)=>Math.abs(Math.log(v/ref))<=0.4;
+function fixes(str,f,ref,v){
+  const d=str.replace(/\D/g,""), c=[];
+  if(f==="s"||f==="m") for(let i=1;i<d.length;i++) c.push(d.slice(0,i)+"."+d.slice(i));
+  if(f==="ms"&&d.length>=3) c.push(d.slice(0,-2)+":"+d.slice(-2));
+  if(f==="ms"&&d.length>=4) c.push(d.slice(0,-3)+":"+d.slice(-3,-1)+"."+d.slice(-1));
+  if(f==="ms"&&d.length>=5) c.push(d.slice(0,-4)+":"+d.slice(-4,-2)+"."+d.slice(-2));
+  if(f==="hms"&&d.length>=5) c.push(d.slice(0,-4)+":"+d.slice(-4,-2)+":"+d.slice(-2));
+  return c.map(x=>parse(x,f,ref)).filter(x=>x>0&&sane(x,ref)&&Math.abs(x-v)>1e-9)
+    .reduce((a,b)=>a==null||Math.abs(Math.log(b/ref))<Math.abs(Math.log(a/ref))?b:a,null);
+}
 // Generous by design: half points at the clue's distance from the winner (min 4%); flat near the answer.
 const clueRow=q=>q.results[q.clue];
 const tolerance=q=>q.mark*Math.max(0.04,Math.abs(clueRow(q)[3]-q.mark)/q.mark);
@@ -93,9 +106,11 @@ function render(){
   if(game.phase==="reveal") return renderReveal(head,r,q);
 
   const c=clueRow(q), isLast=q.clue===q.results.length-1;
+  const clue=()=>r.hint?`<div class="cr"><span class="l">${isLast?"Last place":ord(c[0])+" place"} · ${ord(c[0])} of ${q.n}</span>
+      <span class="v">${fmt(c[3],q.fmt)}</span><span class="w">${esc(c[1])}, ${c[2]}</span></div>`
+    :`<button class="cr peek" id="hint" type="button"><span class="l">Hint</span><span class="w">Tap to see a slower finisher's mark</span></button>`;
   $("#stage").innerHTML=`${head}
-    <div class="clue"><div class="cr"><span class="l">${isLast?"Last place":ord(c[0])+" place"} · ${ord(c[0])} of ${q.n}</span>
-      <span class="v">${fmt(c[3],q.fmt)}</span><span class="w">${esc(c[1])}, ${c[2]}</span></div></div>
+    <div class="clue" id="clue">${clue()}</div>
     <p class="ask">What was the winning ${q.field?"mark":"time"}? One guess.</p>
     <form class="guess" id="f" autocomplete="off">
       <input id="guess" type="text" inputmode="decimal" placeholder="${PLACEHOLDER[q.fmt]}" aria-label="Your guess" enterkeyhint="go">
@@ -103,13 +118,26 @@ function render(){
     </form>
     <p class="readas" id="readas" aria-live="polite">${q.fmt==="ms"?"Dots work too, e.g. 1.58.20":q.fmt==="hms"?"Dots work too, e.g. 2.08.30":""}</p>`;
   const inp=$("#guess"), go=$("#go"), ra=$("#readas"), tip=ra.innerHTML, ref=c[3];
+  let armed=false;
+  if(!r.hint) $("#hint").onclick=()=>{r.hint=true;save();$("#clue").innerHTML=clue();inp.focus({preventScroll:true});};
   inp.addEventListener("input",()=>{
     const v=parse(inp.value,q.fmt,ref);
+    armed=false;go.textContent="Go";
     if(v===null){ra.className="readas";ra.innerHTML=tip;go.disabled=true;return;}
     if(isNaN(v)||v<=0){ra.className="readas err";ra.innerHTML=`<b>Can't read that.</b> Try the format ${PLACEHOLDER[q.fmt]}.`;go.disabled=true;return;}
-    ra.className="readas";ra.innerHTML=`Read as <b>${fmt(v,q.fmt)}</b>`;go.disabled=false;
+    go.disabled=false;
+    if(sane(v,ref)){ra.className="readas";ra.innerHTML=`Read as <b>${fmt(v,q.fmt)}</b>`;return;}
+    const fx=fixes(inp.value,q.fmt,ref,v);
+    ra.className="readas err";
+    ra.innerHTML=`Read as <b>${fmt(v,q.fmt)}</b>. `+(fx?`Did you mean <button type="button" class="fix" id="fix">${fmt(fx,q.fmt)}</button>?`:`Typo?`);
+    if(fx) $("#fix").onclick=()=>{inp.value=fmt(fx,q.fmt).replace(/ m$/,"");inp.dispatchEvent(new Event("input"));inp.focus({preventScroll:true});};
   });
-  $("#f").addEventListener("submit",e=>{e.preventDefault();const v=parse(inp.value,q.fmt,ref);if(v&&!isNaN(v))submit(v);});
+  // A guess that looks like a typo needs a second press.
+  $("#f").addEventListener("submit",e=>{
+    e.preventDefault();const v=parse(inp.value,q.fmt,ref);if(!v||isNaN(v)) return;
+    if(!sane(v,ref)&&!armed){armed=true;go.textContent="Sure?";return;}
+    submit(v);
+  });
   if(interacted) inp.focus({preventScroll:true});
 }
 
@@ -122,10 +150,11 @@ function submit(v){
 
 function placedLine(q,g){
   const p=placing(q,g);
-  if(p.outside) return `You'd have finished outside the top 10.`;
+  if(p.outside) return `That mark would place outside the top 10.`;
   if(p.behind) return `Behind the whole field.`;
-  if(p.place===1&&!p.tied) return `${q.field==="high"?"Higher":q.field?"Further":"Faster"} than the winner. You'd have won gold.`;
-  return `You'd have finished ${p.tied?"tied ":""}${ord(p.place)} of ${q.n}.`;
+  if(p.place===1&&p.tied) return `Spot on.`;
+  if(p.place===1) return `${q.field==="high"?"Higher":q.field?"Further":"Faster"} than the winner. That mark would have won gold.`;
+  return `That mark would ${p.tied?"tie for":"place"} ${ord(p.place)} of ${q.n}.`;
 }
 
 function straight(q,g){
@@ -167,19 +196,17 @@ function board(q,g){
 
 function renderReveal(head,r,q){
   const g=r.g1, w=q.results[0];
-  const off=(()=>{const d=(g-q.mark)/q.mark*100;return (d>=0?"+":"−")+Math.abs(d).toFixed(1)+"%";})();
   const note=(q.wrBroken&&q.wr?`Broke the world record of ${fmt(q.wr[0],q.fmt)} set by ${esc(q.wr[1])} in ${q.wr[2]}. `:"")
     +`<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(q.src.replace(/ /g,"_"))}" target="_blank" rel="noopener">Full results</a>`;
   $("#stage").innerHTML=`${head}
     <div class="answer">
       <div><span class="l">Winner</span><div class="big">${fmt(q.mark,q.fmt)}</div><div class="who">${esc(w[1])}, ${w[2]}</div>${q.wrBroken?`<span class="badge">New world record</span>`:""}</div>
-      <div class="score"><span class="l">Points</span><div class="big">${r.score}</div><div class="who">${off} off</div></div>
+      <div class="score"><span class="l">Points</span><div class="big">${r.score}</div></div>
     </div>
     <p class="placed">${placedLine(q,g)}</p>
     ${straight(q,g)}
-    ${board(q,g)}
-    <p class="note">${note}</p>
-    <button class="btn wide" id="next">${game.cur===ROUNDS-1?"See results":"Next final"}</button>`;
+    <button class="btn wide" id="next">${game.cur===ROUNDS-1?"See results":"Next final"}</button>
+    <details class="more"><summary>Results</summary>${board(q,g)}<p class="note">${note}</p></details>`;
   $("#next").onclick=next;
   if(interacted) $("#next").focus({preventScroll:true});
 }
@@ -208,5 +235,5 @@ function renderResults(){
   $("#again").onclick=()=>{practice=true;interacted=true;game=fresh(pick(Math.floor(Math.random()*1e9)));render();window.scrollTo({top:0});};
 }
 
-document.addEventListener("keydown",e=>{if(e.key==="Enter"&&game.phase==="reveal"&&document.activeElement?.id!=="next"){e.preventDefault();next();}});
+document.addEventListener("keydown",e=>{if(e.key==="Enter"&&game.phase==="reveal"&&document.activeElement?.id!=="next"&&!e.target.closest?.("summary,a")){e.preventDefault();next();}});
 render();
