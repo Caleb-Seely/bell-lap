@@ -1,4 +1,4 @@
-// Questions come from the bank (BANK, built by build.py): every individual Olympic and
+// Questions come from the bank (BANK, built by export_game.py; scrambled in the page source): every individual Olympic and
 // World Championships final 2016–2025. results[0] is the answer; q.clue is the clue row.
 // SCHEDULE (from schedule.py) lists each day's sets as indexes into BANK: [Standard, Warm-up, Bell-Lap].
 const ROUNDS=5, START=new Date(2026,9,11), SITE="https://bell-lap.vercel.app";

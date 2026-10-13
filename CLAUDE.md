@@ -16,7 +16,7 @@ scripts/fetch_ncaa.py  Wikipedia -> data/raw/YYYY-NCAAI.txt / YYYY-NCAAO.txt (ne
 scripts/fetch_cr.py   Wayback snapshots of Track & Field News collegiate record lists -> data/cr_history.json (network)
 scripts/build.py      raw -> questions.json, wr_history.json, review.csv
 scripts/schedule.py   questions.json -> schedule.json (freezes days up to tomorrow UTC, regenerates the rest)
-scripts/export_game.py  questions.json + schedule.json + src/ -> site/index.html (`const BANK=...`, `const SCHEDULE=...`)
+scripts/export_game.py  questions.json + schedule.json + src/ -> site/index.html (`BANK` scrambled so answers aren't readable in View Source, `SCHEDULE` plain)
 scripts/make_xlsx.py  questions.json -> review workbook
 src/page.html         Page markup and CSS (tokens at the top, light + dark)
 src/game.js           Game logic
@@ -81,6 +81,6 @@ Current bank: 830 finals. 304 pro: every individual event at the 2016, 2020 and 
 ## Next up (ideas, not started)
 
 1. Verify the bank against World Athletics results and mark finals verified. NCAA finals cite official Flash Results PDFs on Wikipedia, which could verify them automatically.
-2. Load one day's questions at a time instead of embedding the whole bank, if answers in the page source become a problem.
+2. If scrambling the bank isn't enough (devtools can still decode it), check guesses in a Vercel function so answers never reach the page before the guess.
 3. Add more championships (earlier Olympics/Worlds, Diamond League finals, NCAA). Add a raw file and rebuild.
 4. Streaks and stats across days. Accounts or a database only if leaderboards are wanted.

@@ -1,5 +1,5 @@
 """Build the playable page: src/page.html + the bank (BANK) + daily sets (SCHEDULE) + src/game.js -> site/index.html"""
-import json, os
+import base64, json, os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 qs = json.load(open(os.path.join(ROOT, "data", "questions.json")))
 CTX = {"Olympic Games": "Olympic final", "World Championships": "World Championships final",
@@ -18,7 +18,16 @@ for q in qs:
     if w: item["wr"] = [round(w["value"], 2), w["holder"], w["year"]] + (["CR"] if w.get("kind") == "CR" else [])
     if q["wr_broken"]: item["wrBroken"] = 1
     out.append(item)
-bank = "const BANK=" + json.dumps(out, ensure_ascii=False, separators=(",", ":")) + ";\n"
+# The bank is scrambled (XOR with a fixed keystream, then base64) so answers and athlete names
+# can't be read with View Source or Ctrl-F. It's decoded on load, so devtools can still get it.
+raw = bytearray(json.dumps(out, ensure_ascii=False, separators=(",", ":")).encode("utf-8"))
+x = SEED = 0x6C61700A
+for k in range(len(raw)):
+    x = (x * 1103515245 + 12345) & 0xFFFFFFFF
+    raw[k] ^= x >> 24
+bank = ("const BANK=(s=>{const b=Uint8Array.from(atob(s),c=>c.charCodeAt(0));let x=%d;"
+        "for(let k=0;k<b.length;k++){x=(Math.imul(x,1103515245)+12345)>>>0;b[k]^=x>>>24;}"
+        "return JSON.parse(new TextDecoder().decode(b));})(\"%s\");\n") % (SEED, base64.b64encode(raw).decode("ascii"))
 index = {q["id"]: k for k, q in enumerate(qs)}
 days = json.load(open(os.path.join(ROOT, "data", "schedule.json"), encoding="utf-8"))
 bank += "const SCHEDULE=" + json.dumps([[[index[i] for i in d[m]] for m in ("ids", "warmup", "bell")] for d in days], separators=(",", ":")) + ";\n"
