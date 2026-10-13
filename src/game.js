@@ -127,6 +127,9 @@ function fresh(m,day){
   if(M.clock) g.clock={left:M.clock,t0:null};
   return g;
 }
+// Analytics events (Vercel Web Analytics; ignored when the script isn't there)
+function track(name,data){try{window.va&&window.va("event",{name,data:Object.assign({mode:game.mode,practice:practice},data)});}catch(e){}}
+function finished(){track("Finish",game.mode==="workout"?{score:total(),intervals:cleared()}:{score:total()});}
 function save(){if(!practice)store(keyFor(mode),game);}
 function setMode(m){
   if(m===mode&&!practice) return;
@@ -148,7 +151,7 @@ setInterval(tick,200);
 function timeout(){
   stopClock();game.clock.left=0;
   game.rounds.forEach(r=>{if(r.score==null){r.score=0;r.out=true;}});
-  game.phase="done";save();render();
+  game.phase="done";save();render();finished();
 }
 
 // ---- render ----
@@ -225,6 +228,7 @@ function submit(v){
   interacted=true;stopClock();
   const r=game.rounds[game.cur], q=BYID[r.id];
   r.g1=v; game.phase="reveal";
+  if(game.cur===0) track("Start");
   if(game.mode==="warmup"){const best=r.opts.indexOf(r.opts.reduce((a,b)=>Math.abs(b-q.mark)<Math.abs(a-q.mark)?b:a));r.score=MC_PTS[Math.abs(r.opts.indexOf(v)-best)];}
   else r.score=points(v,q);
   save();render();
@@ -298,6 +302,7 @@ function next(){
   }
   else if(game.cur>=ROUNDS-1) game.phase="done"; else {game.cur++;game.phase="g1";}
   save();render();window.scrollTo({top:0});
+  if(game.phase==="done") finished();
 }
 
 const total=()=>game.rounds.reduce((a,r)=>a+(r.score||0),0);
@@ -319,7 +324,7 @@ function renderResults(){
     <pre class="share" id="share">${esc(shareText())}</pre>
     <div class="row"><button class="btn" id="copy">Copy</button><button class="btn quiet" id="again">Practice</button></div>`;
   $("#copy").onclick=()=>{
-    const b=$("#copy");
+    const b=$("#copy");track("Share");
     navigator.clipboard.writeText(shareText()).then(()=>{b.textContent="Copied";},()=>{
       const s=window.getSelection(),rg=document.createRange();rg.selectNodeContents($("#share"));s.removeAllRanges();s.addRange(rg);b.textContent="Selected";});
   };
