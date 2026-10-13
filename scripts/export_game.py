@@ -1,5 +1,6 @@
-"""Build the playable page: src/page.html + the bank (BANK) + daily sets (SCHEDULE) + src/game.js -> site/index.html"""
-import base64, json, os
+"""Build the playable page: src/page.html + the bank (BANK) + daily sets (SCHEDULE) + src/game.js -> site/index.html,
+plus src/public/* (icons, share image, robots.txt, llms.txt) and a sitemap -> site/"""
+import base64, datetime, json, os, shutil
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 qs = json.load(open(os.path.join(ROOT, "data", "questions.json")))
 CTX = {"Olympic Games": "Olympic final", "World Championships": "World Championships final",
@@ -36,4 +37,10 @@ game = open(os.path.join(ROOT, "src", "game.js"), encoding="utf-8").read()
 os.makedirs(os.path.join(ROOT, "site"), exist_ok=True)
 with open(os.path.join(ROOT, "site", "index.html"), "w", encoding="utf-8") as fh:
     fh.write(page + "\n<script>\n" + bank + game + "</script>\n")
+pub = os.path.join(ROOT, "src", "public")
+for f in sorted(os.listdir(pub)):
+    shutil.copy(os.path.join(pub, f), os.path.join(ROOT, "site", f))
+with open(os.path.join(ROOT, "site", "sitemap.xml"), "w", encoding="utf-8") as fh:
+    fh.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+             f'  <url><loc>https://bell-lap.vercel.app/</loc><lastmod>{datetime.date.today().isoformat()}</lastmod><changefreq>daily</changefreq></url>\n</urlset>\n')
 print("site/index.html written")

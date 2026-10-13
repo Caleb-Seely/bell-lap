@@ -1,0 +1,34 @@
+<!doctype html>
+<!-- Share card and icons, rendered to PNG by scripts/make_images.js (1200x630 and square icons). -->
+<meta charset="utf-8">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&family=Barlow:wght@500&family=IBM+Plex+Mono:wght@600&display=block">
+<style>
+:root{--bg:#f7f7f8;--ink:#15171c;--muted:#6c707a;--line:#e2e3e7;--track:#c8442c}
+*{box-sizing:border-box}
+html,body{margin:0;background:var(--bg);color:var(--ink)}
+.card{width:1200px;height:630px;padding:72px 84px;display:flex;flex-direction:column;justify-content:space-between;position:relative;overflow:hidden}
+.mark{display:flex;align-items:center;gap:30px;font-family:"Barlow Condensed";font-weight:700;font-size:150px;line-height:.9;letter-spacing:.04em;text-transform:uppercase}
+.mark i{width:40px;height:120px;background:repeating-conic-gradient(var(--ink) 0 25%,transparent 0 50%) 0 0/40px 40px}
+.tag{font-family:Barlow;font-weight:500;font-size:40px;color:var(--muted);margin:26px 0 0 4px}
+.lanes{display:grid;grid-template-columns:repeat(5,1fr);border:2px solid var(--line);border-width:2px 0;font-family:"IBM Plex Mono";font-weight:600;font-size:28px;color:var(--muted)}
+.lanes div{border-left:2px solid var(--line);padding:16px 20px}
+.lanes div:last-child{border-right:2px solid var(--line)}
+.lanes .cur{background:var(--track);color:#fff;border-color:var(--track)}
+.straight{position:relative;height:44px}
+.surface{position:absolute;left:0;right:0;top:6px;height:32px;background:var(--track);border-radius:3px;box-shadow:inset 0 3px 0 rgba(255,255,255,.55),inset 0 -3px 0 rgba(255,255,255,.55)}
+.finish{position:absolute;right:60px;top:0;height:44px;width:22px;background:repeating-conic-gradient(var(--ink) 0 25%,var(--bg) 0 50%) 0 0/22px 22px}
+/* square icons */
+.icon{width:512px;height:512px;background:var(--track);}
+.icon svg{width:512px;height:512px;display:block}
+</style>
+<div class="card" id="og">
+  <div>
+    <div class="mark"><i></i>Bell-Lap</div>
+    <div class="tag">Guess the winning mark. Five track &amp; field finals a day.</div>
+  </div>
+  <div>
+    <div class="lanes"><div>1</div><div>2</div><div class="cur">3</div><div>4</div><div>5</div></div>
+  </div>
+  <div class="straight"><div class="surface"></div><div class="finish"></div></div>
+</div>
+<div class="icon" id="icon"><svg viewBox="0 0 32 32"><rect width="32" height="32" fill="#c8442c"/><path fill="#fff" d="M10 4h6v6h-6zM16 10h6v6h-6zM10 16h6v6h-6zM16 22h6v6h-6z"/></svg></div>

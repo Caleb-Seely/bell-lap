@@ -16,10 +16,12 @@ scripts/fetch_ncaa.py  Wikipedia -> data/raw/YYYY-NCAAI.txt / YYYY-NCAAO.txt (ne
 scripts/fetch_cr.py   Wayback snapshots of Track & Field News collegiate record lists -> data/cr_history.json (network)
 scripts/build.py      raw -> questions.json, wr_history.json, review.csv
 scripts/schedule.py   questions.json -> schedule.json (freezes days up to tomorrow UTC, regenerates the rest)
-scripts/export_game.py  questions.json + schedule.json + src/ -> site/index.html (`BANK` scrambled so answers aren't readable in View Source, `SCHEDULE` plain)
+scripts/export_game.py  questions.json + schedule.json + src/ -> site/index.html + src/public/* + sitemap.xml (`BANK` scrambled so answers aren't readable in View Source, `SCHEDULE` plain)
 scripts/make_xlsx.py  questions.json -> review workbook
 src/page.html         Page markup and CSS (tokens at the top, light + dark)
 src/game.js           Game logic
+src/public/            Copied into site/ as is: favicon, icons, og.png share image, robots.txt, llms.txt, site.webmanifest
+scripts/og.html       Source of og.png and the icons (rendered by scripts/make_images.js with Playwright; not part of build.sh)
 site/index.html       Built, self-contained game. Not committed
 vercel.json           Vercel build settings (`sh build.sh`, serves `site/`)
 ```
