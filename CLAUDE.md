@@ -21,7 +21,7 @@ site/index.html       Built, self-contained game. Not committed
 vercel.json           Vercel build settings (`sh build.sh`, serves `site/`)
 ```
 
-Live at https://bell-lap.vercel.app (Vercel's GitHub integration deploys every push to `main`). The share text links there (`SITE` in `src/game.js`). GitHub Pages also deploys via `.github/workflows/pages.yml` to https://caleb-seely.github.io/bell-lap/.
+Live at https://bell-lap.vercel.app (Vercel's GitHub integration deploys every push to `main`). The share text links there (`SITE` in `src/game.js`). GitHub Pages was used at first and is turned off.
 
 Build everything with `sh build.sh`. Only Python 3's standard library is needed (openpyxl only for `--xlsx`).
 
