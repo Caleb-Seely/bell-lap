@@ -1,6 +1,6 @@
 # Bell-Lap
 
-> Bell-Lap (https://bell-lap.vercel.app) is a free daily guessing game for track and field fans. Each day has five championship finals from the Olympic Games, the World Athletics Championships and the NCAA Division I Indoor and Outdoor Championships, 2016 to 2025. For each final the player sees the event and makes one guess at the winning time or distance. Points depend on how close the guess is: up to 1,000 a round and 5,000 a day. No account or download needed; it runs in the browser.
+> Bell-Lap (https://bell-lap.vercel.app) is a free daily guessing game for track and field fans. Each day has five championship finals from the Olympic Games (2000 to 2024), the World Athletics Championships and World Indoor Championships (2016 to 2025) and the NCAA Division I Indoor and Outdoor Championships (2016 to 2025). For each final the player sees the event and makes one guess at the winning time or distance. Points depend on how close the guess is: up to 1,000 a round and 5,000 a day. No account or download needed; it runs in the browser.
 
 ## How to play
 
@@ -21,6 +21,6 @@ Full guide: https://bell-lap.vercel.app/how-to-play
 
 ## Data
 
-- About 830 finals: every individual event at the 2016, 2020 (held 2021) and 2024 Olympics and the 2017, 2019, 2022, 2023 and 2025 World Championships, plus NCAA Division I indoor and outdoor finals 2016 to 2025.
+- About 1,100 finals: every individual event at the 2000, 2004, 2008, 2012, 2016, 2020 (held 2021) and 2024 Olympics, the 2017, 2019, 2022, 2023 and 2025 World Championships and the 2016, 2018, 2022, 2024 and 2025 World Indoor Championships, plus NCAA Division I indoor and outdoor finals 2016 to 2025.
 - Relays, race walks and combined events are not included.
 - Results come from Wikipedia (CC BY-SA 4.0).
