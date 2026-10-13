@@ -235,6 +235,7 @@ function submit(v){
   if(game.cur===0) track("Start");
   if(game.mode==="warmup"){const best=r.opts.indexOf(r.opts.reduce((a,b)=>Math.abs(b-q.mark)<Math.abs(a-q.mark)?b:a));r.score=MC_PTS[Math.abs(r.opts.indexOf(v)-best)];}
   else r.score=points(v,q);
+  if(game.mode==="workout"&&r.score>=SPLIT) return next();   // a cleared interval goes straight on
   save();render();
 }
 

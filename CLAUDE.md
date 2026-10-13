@@ -53,7 +53,7 @@ Current bank: 1,089 finals. 563 pro: every individual event at the 2000–2024 O
   - **Warm-up:** multiple choice. The answer plus three decoys ~1.5% apart (jittered), answer in a random slot. 1000 for the right pick, 300/100/0 by how many slots off.
   - **Standard** (default): the original game, untimed free-text guess.
   - **Bell-Lap:** Standard rules with 60 seconds for all five. The clock runs only while a guess is open (paused on reveals) and is stored as a wall-clock start, so reloading or switching modes doesn't stop it. Unanswered finals score 0 when it hits zero.
-  - **Workout:** endless finals in a daily order (every final not in today's other sets). Each final adds 15 s; unused time carries over (no cap). The run ends on an empty clock or a guess under 500 ("Missed split"). Score = intervals cleared (finals scoring 500+).
+  - **Workout:** endless finals in a daily order (every final not in today's other sets). Each final adds 15 s; unused time carries over (no cap). A cleared final goes straight to the next one with no reveal; the lane box shows its points. The run ends on an empty clock or a guess under 500 ("Missed split"). Score = intervals cleared (finals scoring 500+).
   - Timed modes open on a Start screen. Share text names the mode ("· Warm-up", "· 60 s", "· Workout").
 - **One guess per final.** A second guess with a higher/lower hint was tried and removed.
 - **Clue = last finisher**, shown only as a popup ("8th place" over "Name | mark") from a "Hint" button in the header during a guess. Free: no points cost or share marker. Exceptions:
