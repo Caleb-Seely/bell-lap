@@ -230,7 +230,7 @@ CUT
 8|Bailee McCorkle|Arkansas|4.36|
 @WLJ
 CUT
-1|Tara Davis CR|Texas|6.93|
+1|Tara Davis|Texas|6.93|CR
 2|Claire Bryant|Florida|6.70|
 3|Tyra Gittens|Texas A&M|6.68|
 4|Aliyah Whisby|LSU|6.66|

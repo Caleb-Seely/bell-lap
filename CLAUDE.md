@@ -8,10 +8,12 @@ A daily guessing game for track and field fans. Each day has five championship f
 data/raw/*.txt        Source of truth: one file per championship (see format below)
 data/questions.json   Built bank: one object per final (generated, committed)
 data/wr_history.json  World record per event, going into each championship and set in its finals (generated)
+data/cr_history.json  Collegiate record progression per event (from scripts/fetch_cr.py; committed)
 data/review.csv       Items to check by hand (generated)
 data/schedule.json    Each day's five questions (generated; days already played are frozen, so commit it)
 data/bell-lap-bank.xlsx  Review workbook (generated with `sh build.sh --xlsx`)
 scripts/fetch_ncaa.py  Wikipedia -> data/raw/YYYY-NCAAI.txt / YYYY-NCAAO.txt (network; not part of build.sh)
+scripts/fetch_cr.py   Wayback snapshots of Track & Field News collegiate record lists -> data/cr_history.json (network)
 scripts/build.py      raw -> questions.json, wr_history.json, review.csv
 scripts/schedule.py   questions.json -> schedule.json (freezes days up to tomorrow UTC, regenerates the rest)
 scripts/export_game.py  questions.json + schedule.json + src/ -> site/index.html (`const BANK=...`, `const SCHEDULE=...`)
@@ -71,7 +73,7 @@ Current bank: 830 finals. 304 pro: every individual event at the 2016, 2020 and 
 - Chepngetich's 2:09:56 is listed as the record going into 2025, despite her 2025 doping suspension. Decided to keep it.
 - Results stand as Wikipedia showed them, including later reallocations. Some athletes have since been sanctioned.
 - NCAA: Wikipedia errors found by the order checks were verified against official Flash Results / TFRRS and fixed in `CORRECTIONS` in `scripts/fetch_ncaa.py` (7 so far, each with its source). Still flagged: 2023 Indoor women's high jump 15th/16th (no source found).
-- NCAA finals have no record row yet (the pro ones show the world record going in). Wikipedia only lists current collegiate records, which gives a certain "record going in" for 36% of NCAA finals.
+- NCAA finals show the **collegiate record going in** (row "CR", badge "New collegiate record"). Built from every monthly Wayback snapshot of T&FN's in-season record lists since 2015 (`cr_history.json`, each record with when it was first/last listed, so marks T&FN later dropped don't count). Record going in = best mark set before the meet that was still listed in the last snapshot before it. A final sets a record when the winner beats it and (the history has that mark at the meet, or the results note CR/CL, or the event isn't wind-affected outdoors), unless it already fell earlier at the same meet. Gap: no snapshots March 2017–July 2019, so a record set and broken inside that window is missing. `review.csv` `cr-mismatch` lists winners that beat the record without counting (wind-aided sprints/hurdles, a semifinal record).
 - Tokyo is labelled "Tokyo 2021" (the year it was held), not the official "Tokyo 2020". Decided to keep it.
 
 ## Next up (ideas, not started)

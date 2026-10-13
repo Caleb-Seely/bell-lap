@@ -194,12 +194,15 @@ def parse_page(html, countries):
             name = re.sub(r"\s*\{[^}]*\}\s*", " ", r[ni]).strip()
             name = re.sub(r"\s*\([A-Z]{3}\)$", "", name)                    # "Isaiah Jewett (USA)"
             name = re.sub(r"\s*\((athlete|sprinter|runner|hurdler|jumper|thrower)\)", "", name)
+            tag = re.search(r"\s+(=?(?:CR|CL|NR|AR|WL|MR|FR|PB|SB))$", name)   # notes printed after the name
+            if tag:
+                name = name[:tag.start()]
             name = re.sub(r"\s+(" + "|".join(map(re.escape, countries)) + r")$", "", name) if countries else name
             if not name or "[[" in name:   # empty placeholder rows on some pages
                 continue
             team = re.sub(r"\s*\{[^}]*\}\s*", " ", r[ti]).strip() if ti is not None and ti < len(r) else ""
             note = r[notes] if notes is not None and notes < len(r) else ""
-            flag = "CR" if re.search(r"(?<![=\w])(CR|CL)\b", note) else ""
+            flag = "CR" if re.search(r"(?<![=\w])(CR|CL)\b", note) or (tag and tag.group(1) in ("CR", "CL")) else ""
             rows.append((place, name, team, mark, flag))
         if rows:
             tables.setdefault(key, []).append((medals, rows))

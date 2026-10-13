@@ -15,7 +15,7 @@ for q in qs:
     if q["partial"]: item["partial"] = 1
     if q["cut"]: item["cut"] = 1
     if q["ncaa"]: item["ncaa"] = 1
-    if w: item["wr"] = [round(w["value"], 2), w["holder"], w["year"]]
+    if w: item["wr"] = [round(w["value"], 2), w["holder"], w["year"]] + (["CR"] if w.get("kind") == "CR" else [])
     if q["wr_broken"]: item["wrBroken"] = 1
     out.append(item)
 bank = "const BANK=" + json.dumps(out, ensure_ascii=False, separators=(",", ":")) + ";\n"

@@ -87,6 +87,7 @@ id,issue,note
 2020-OG-WTJ,outlier-last,Thea LaFond 12.57 far behind; clue uses Kristiina Mäkelä 14.17
 2021-NCAAI-W200,outlier-last,Amira Young 23.47 far behind; clue uses Delecia McDuffie 23.01
 2021-NCAAO-M200,outlier-last,Javonte Harding 25.79 far behind; clue uses Robert Gregory 21.74
+2021-NCAAO-W100,cr-mismatch,winner 10.74 beats CR going in 10.75 but is not marked CR (wind? annulled?)
 2021-NCAAO-W1500,outlier-last,Maudie Skyring 4:21.04 far behind; clue uses Lauren Berman 4:16.37
 2021-NCAAO-W100H,outlier-last,TeJyrica Robinson 29.11 far behind; clue uses Cha'Mia Rothwell 13.14
 2021-NCAAO-W3000SC,outlier-last,Alissa Niggemann 10:12.13 far behind; clue uses Abby Kohut-Jackson 9:50.89
@@ -115,9 +116,13 @@ id,issue,note
 2023-NCAAI-M60H,outlier-last,Jerome Campbell 7.99 far behind; clue uses Antoine Andrews 7.73
 2023-NCAAI-W800,outlier-last,Aurora Rynda 2:06.83 far behind; clue uses Wilma Nielsen 2:03.34
 2023-NCAAI-W60H,short-field,only 7 finishers with a time
+2023-NCAAI-W60H,cr-mismatch,winner 7.73 beats CR going in 7.78 but is not marked CR (wind? annulled?)
 2023-NCAAI-WHJ,order,Bara Sajdokova 1.77 placed below Lucy Corbett 1.72
 2023-NCAAO-M200,outlier-last,Javonte Harding 20.90 far behind; clue uses Cameron Miller 20.30
+2023-NCAAO-W100,cr-mismatch,winner 10.72 beats CR going in 10.75 but is not marked CR (wind? annulled?)
+2023-NCAAO-W200,cr-mismatch,winner 21.73 beats CR going in 21.80 but is not marked CR (wind? annulled?)
 2023-NCAAO-W1500,outlier-last,Sophie O'Sullivan 4:22.81 far behind; clue uses Melissa Riggins 4:16.57
+2023-NCAAO-W100H,cr-mismatch,winner 12.25 beats CR going in 12.36 but is not marked CR (wind? annulled?)
 2023-WC-M400,short-field,only 7 finishers with a time
 2023-WC-M1500,outlier-last,Isaac Nader 3:35.41 far behind; clue uses Azeddine Habz 3:33.14
 2023-WC-MJT,outlier-last,Timothy Herman 74.56 far behind; clue uses Andrian Mardare 79.66

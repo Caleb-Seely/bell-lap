@@ -267,7 +267,7 @@ function board(q,g){
     }
     flush();
     if(rw.t==="you") html+=`<tr class="you"><td>You</td><td>Your guess</td><td class="m">${fmt(g,q.fmt)}</td></tr>`;
-    else if(rw.t==="wr") html+=`<tr class="wr"><td>WR</td><td>World record going in <small>${q.wr[2]}</small></td><td class="m">${fmt(q.wr[0],q.fmt)}</td></tr>`;
+    else if(rw.t==="wr") html+=`<tr class="wr"><td>${q.wr[3]==="CR"?"CR":"WR"}</td><td>${q.wr[3]==="CR"?"Collegiate":"World"} record going in <small>${q.wr[2]}</small></td><td class="m">${fmt(q.wr[0],q.fmt)}</td></tr>`;
     else html+=`<tr><td>${rw.x[0]}</td><td>${who(rw.x)}</td><td class="m">${fmt(rw.v,q.fmt)}</td></tr>`;
   });
   flush();
@@ -276,11 +276,11 @@ function board(q,g){
 
 function renderReveal(head,r,q){
   const g=r.g1, w=q.results[0], wo=game.mode==="workout", last=wo?r.score<SPLIT:game.cur===ROUNDS-1;
-  const note=(q.wrBroken&&q.wr?`Broke the world record of ${fmt(q.wr[0],q.fmt)} set by ${esc(q.wr[1])} in ${q.wr[2]}. `:"")
+  const note=(q.wrBroken&&q.wr?`Broke the ${q.wr[3]==="CR"?"collegiate":"world"} record of ${fmt(q.wr[0],q.fmt)} set by ${esc(q.wr[1])} in ${q.wr[2]}. `:"")
     +`<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(q.src.replace(/ /g,"_"))}" target="_blank" rel="noopener">Full results</a>`;
   $("#stage").innerHTML=`${head}
     <div class="answer">
-      <div><span class="l">Winner</span><div class="big">${fmt(q.mark,q.fmt)}</div><div class="who">${esc(w[1])}, ${w[2]}</div>${q.wrBroken?`<span class="badge">New world record</span>`:""}</div>
+      <div><span class="l">Winner</span><div class="big">${fmt(q.mark,q.fmt)}</div><div class="who">${esc(w[1])}, ${w[2]}</div>${q.wrBroken?`<span class="badge">New ${q.wr&&q.wr[3]==="CR"?"collegiate":"world"} record</span>`:""}</div>
       <div class="score"><span class="l">Points</span><div class="big">${r.score}</div></div>
     </div>
     <p class="placed">${wo&&r.score<SPLIT?"Missed split. ":""}${placedLine(q,g)}</p>
