@@ -26,6 +26,8 @@ vercel.json           Vercel build settings (`sh build.sh`, serves `site/`)
 
 Live at https://bell-lap.vercel.app (Vercel's GitHub integration deploys every push to `main`). The share text links there (`SITE` in `src/game.js`). GitHub Pages was used at first and is turned off.
 
+Analytics: Vercel Web Analytics (script tag in `src/page.html`, enabled in the Vercel dashboard under Analytics). `track()` in `src/game.js` sends three custom events with `mode` and `practice`: `Start` (first guess of a game), `Finish` (with `score`, plus `intervals` in Workout) and `Share` (Copy pressed). Custom events need a Vercel Pro plan; on Hobby only page views are recorded. No cookies.
+
 Build everything with `sh build.sh`. Only Python 3's standard library is needed (openpyxl only for `--xlsx`).
 
 ## Raw data format
