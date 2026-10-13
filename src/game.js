@@ -1,6 +1,7 @@
 // Questions come from the bank (BANK, built by build.py): every individual Olympic and
 // World Championships final 2016–2025. results[0] is the answer; q.clue is the clue row.
-const ROUNDS=5, START=new Date(2026,9,11);
+// SCHEDULE (from schedule.py) lists each day's five questions as indexes into BANK.
+const ROUNDS=5, START=new Date(2026,9,11), SITE="https://bell-lap.vercel.app";
 const PLACEHOLDER={s:"0.00", ms:"0:00.00", hms:"0:00:00", m:"0.00"};
 const BYID={};
 BANK.forEach(q=>{q.mark=q.results[0][3]; q.n=q.results[q.results.length-1][0]; BYID[q.id]=q;});
@@ -55,17 +56,11 @@ function placing(q,g){
 const chip=p=>p>=900?"🟩":p>=600?"🟨":p>=300?"🟧":"🟥";
 const who=r=>`${esc(r[1])} <small>${r[2]}</small>`;
 
-// Daily set: one sprint/hurdles, one middle/distance/road, one jump, one throw, one wildcard,
+// Daily sets are fixed in SCHEDULE (built by schedule.py with the same picker, so days already
+// played never change). If the schedule ever runs out it wraps around.
+const daily=day=>SCHEDULE[(day-1)%SCHEDULE.length].map(i=>BANK[i].id);
+// Practice sets: one sprint/hurdles, one middle/distance/road, one jump, one throw, one wildcard,
 // balanced between men's and women's events.
-// Days walk through the bank without repeats (about 60 days per cycle), then start a new cycle.
-function daily(day){
-  let used=new Set(), set=[];
-  for(let d=1;d<=day;d++){
-    if(BANK.length-used.size<5) used=new Set();
-    set=pick(d*7919+13,used); set.forEach(id=>used.add(id));
-  }
-  return set;
-}
 function pick(seed,used=new Set()){
   const r=rng(seed), order=BANK.map(q=>q.id).filter(id=>!used.has(id));
   for(let i=order.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[order[i],order[j]]=[order[j],order[i]];}
@@ -173,7 +168,8 @@ function board(q,g){
 function renderReveal(head,r,q){
   const g=r.g1, w=q.results[0];
   const off=(()=>{const d=(g-q.mark)/q.mark*100;return (d>=0?"+":"−")+Math.abs(d).toFixed(1)+"%";})();
-  const note=q.wrBroken&&q.wr?`Broke the world record of ${fmt(q.wr[0],q.fmt)} set by ${esc(q.wr[1])} in ${q.wr[2]}.`:"";
+  const note=(q.wrBroken&&q.wr?`Broke the world record of ${fmt(q.wr[0],q.fmt)} set by ${esc(q.wr[1])} in ${q.wr[2]}. `:"")
+    +`<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(q.src.replace(/ /g,"_"))}" target="_blank" rel="noopener">Full results</a>`;
   $("#stage").innerHTML=`${head}
     <div class="answer">
       <div><span class="l">Winner</span><div class="big">${fmt(q.mark,q.fmt)}</div><div class="who">${esc(w[1])}, ${w[2]}</div>${q.wrBroken?`<span class="badge">New world record</span>`:""}</div>
@@ -182,7 +178,7 @@ function renderReveal(head,r,q){
     <p class="placed">${placedLine(q,g)}</p>
     ${straight(q,g)}
     ${board(q,g)}
-    ${note?`<p class="note">${note}</p>`:""}
+    <p class="note">${note}</p>
     <button class="btn wide" id="next">${game.cur===ROUNDS-1?"See results":"Next final"}</button>`;
   $("#next").onclick=next;
   if(interacted) $("#next").focus({preventScroll:true});
@@ -194,7 +190,7 @@ function next(){
 
 function shareText(){
   const t=game.rounds.reduce((a,r)=>a+r.score,0);
-  return `Bell-Lap ${practice?"practice":"No. "+dayNo}\n${t.toLocaleString()} / 5,000\n${game.rounds.map(r=>chip(r.score)).join("")}`;
+  return `Bell-Lap ${practice?"practice":"No. "+dayNo}\n${t.toLocaleString()} / 5,000\n${game.rounds.map(r=>chip(r.score)).join("")}\n${SITE}`;
 }
 function renderResults(){
   const t=game.rounds.reduce((a,r)=>a+r.score,0);

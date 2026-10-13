@@ -24,6 +24,18 @@ GROUP = {"100": "sprint", "200": "sprint", "400": "sprint", "100H": "hurdles", "
          "800": "middle", "1500": "middle", "5000": "distance", "10000": "distance", "3000SC": "distance",
          "marathon": "road", "HJ": "jumps", "PV": "jumps", "LJ": "jumps", "TJ": "jumps",
          "SP": "throws", "DT": "throws", "HT": "throws", "JT": "throws"}
+WIKI_EVENT = {"10000": "10,000 metres", "marathon": "marathon", "100H": "100 metres hurdles", "110H": "110 metres hurdles",
+              "400H": "400 metres hurdles", "3000SC": "3000 metres steeplechase", "HJ": "high jump", "PV": "pole vault",
+              "LJ": "long jump", "TJ": "triple jump", "SP": "shot put", "DT": "discus throw", "HT": "hammer throw",
+              "JT": "javelin throw"}
+
+
+def wiki_page(champ, gender, ev):
+    """Title of the event's Wikipedia page (the results source). Uses the edition's name year: Tokyo 2020 was held in 2021."""
+    y = champ["id"][:4]
+    games = f"Athletics at the {y} Summer Olympics" if champ["name"] == "Olympic Games" else \
+        f"{y} World Athletics Championships" if int(y) >= 2019 else f"{y} World Championships in Athletics"
+    return f"{games} – {gender}'s {WIKI_EVENT.get(ev, ev + ' metres')}"
 
 
 def to_value(mark, fmt):
@@ -141,6 +153,7 @@ def build():
                 "flags": flags,
                 "verified": False,
                 "source": "Wikipedia event page (final results table)",
+                "source_page": wiki_page(champ, gender, ev),
             })
 
     # World record history per event: the record going into each championship, plus records set in these finals.

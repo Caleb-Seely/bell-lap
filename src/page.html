@@ -1,3 +1,7 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Bell-Lap</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap">
@@ -99,6 +103,7 @@ button,input{font:inherit;color:inherit}
 .share{margin:0;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:10px;font-family:var(--f-mono);font-size:14px;white-space:pre-wrap}
 .row{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .foot{font-size:13px;color:var(--muted);margin:0}
+.foot a,.note a{color:inherit;text-underline-offset:2px}
 
 .stage{display:flex;flex-direction:column;gap:20px}
 @media (prefers-reduced-motion:no-preference){.stage>*{animation:in .3s ease-out both}@keyframes in{from{transform:translateY(4px)}to{transform:none}}}
@@ -111,6 +116,6 @@ button,input{font:inherit;color:inherit}
   </header>
   <ol class="lanes" id="lanes" aria-label="Rounds"></ol>
   <main class="stage" id="stage"></main>
-  <p class="foot">Five Olympic and World Championships finals a day, 2016 to 2025. One guess at each winning mark.</p>
+  <p class="foot">Five Olympic and World Championships finals a day, 2016 to 2025. One guess at each winning mark. Results from <a href="https://en.wikipedia.org/">Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
 </div>
 

@@ -74,7 +74,8 @@
   "note": "World record. The old mark was 43.18 by Michael Johnson (1999).",
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's 400 metres"
  },
  {
   "id": "2016-OG-M100",
@@ -151,7 +152,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's 100 metres"
  },
  {
   "id": "2016-OG-M200",
@@ -228,7 +230,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's 200 metres"
  },
  {
   "id": "2016-OG-M800",
@@ -305,7 +308,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's 800 metres"
  },
  {
   "id": "2016-OG-M1500",
@@ -414,7 +418,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's 1500 metres"
  },
  {
   "id": "2016-OG-M5000",
@@ -533,7 +538,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's 5000 metres"
  },
  {
   "id": "2016-OG-M10000",
@@ -754,7 +760,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's 10,000 metres"
  },
  {
   "id": "2016-OG-Mmarathon",
@@ -851,7 +858,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's marathon"
  },
  {
   "id": "2016-OG-M110H",
@@ -924,7 +932,8 @@
    "short-field"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's 110 metres hurdles"
  },
  {
   "id": "2016-OG-M400H",
@@ -998,7 +1007,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's 400 metres hurdles"
  },
  {
   "id": "2016-OG-M3000SC",
@@ -1093,7 +1103,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's 3000 metres steeplechase"
  },
  {
   "id": "2016-OG-MHJ",
@@ -1212,7 +1223,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's high jump"
  },
  {
   "id": "2016-OG-MPV",
@@ -1307,7 +1319,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's pole vault"
  },
  {
   "id": "2016-OG-MLJ",
@@ -1408,7 +1421,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's long jump"
  },
  {
   "id": "2016-OG-MTJ",
@@ -1509,7 +1523,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's triple jump"
  },
  {
   "id": "2016-OG-MSP",
@@ -1604,7 +1619,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's shot put"
  },
  {
   "id": "2016-OG-MDT",
@@ -1705,7 +1721,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's discus throw"
  },
  {
   "id": "2016-OG-MHT",
@@ -1806,7 +1823,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's hammer throw"
  },
  {
   "id": "2016-OG-MJT",
@@ -1907,7 +1925,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Men's javelin throw"
  },
  {
   "id": "2016-OG-W100",
@@ -1986,7 +2005,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's 100 metres"
  },
  {
   "id": "2016-OG-W200",
@@ -2063,7 +2083,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's 200 metres"
  },
  {
   "id": "2016-OG-W400",
@@ -2136,7 +2157,8 @@
    "short-field"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's 400 metres"
  },
  {
   "id": "2016-OG-W800",
@@ -2213,7 +2235,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's 800 metres"
  },
  {
   "id": "2016-OG-W1500",
@@ -2314,7 +2337,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's 1500 metres"
  },
  {
   "id": "2016-OG-W5000",
@@ -2445,7 +2469,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's 5000 metres"
  },
  {
   "id": "2016-OG-W10000",
@@ -2542,7 +2567,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's 10,000 metres"
  },
  {
   "id": "2016-OG-Wmarathon",
@@ -2639,7 +2665,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's marathon"
  },
  {
   "id": "2016-OG-W100H",
@@ -2718,7 +2745,8 @@
    "check-mark"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's 100 metres hurdles"
  },
  {
   "id": "2016-OG-W400H",
@@ -2795,7 +2823,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's 400 metres hurdles"
  },
  {
   "id": "2016-OG-W3000SC",
@@ -2932,7 +2961,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's 3000 metres steeplechase"
  },
  {
   "id": "2016-OG-WHJ",
@@ -3063,7 +3093,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's high jump"
  },
  {
   "id": "2016-OG-WPV",
@@ -3164,7 +3195,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's pole vault"
  },
  {
   "id": "2016-OG-WLJ",
@@ -3259,7 +3291,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's long jump"
  },
  {
   "id": "2016-OG-WTJ",
@@ -3360,7 +3393,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's triple jump"
  },
  {
   "id": "2016-OG-WSP",
@@ -3461,7 +3495,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's shot put"
  },
  {
   "id": "2016-OG-WDT",
@@ -3556,7 +3591,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's discus throw"
  },
  {
   "id": "2016-OG-WHT",
@@ -3651,7 +3687,8 @@
   "note": "World record. The old mark was 81.08 by Anita Włodarczyk (2015).",
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's hammer throw"
  },
  {
   "id": "2016-OG-WJT",
@@ -3752,7 +3789,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2016 Summer Olympics – Women's javelin throw"
  },
  {
   "id": "2017-WC-M100",
@@ -3829,7 +3867,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's 100 metres"
  },
  {
   "id": "2017-WC-M200",
@@ -3906,7 +3945,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's 200 metres"
  },
  {
   "id": "2017-WC-M800",
@@ -3983,7 +4023,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's 800 metres"
  },
  {
   "id": "2017-WC-M5000",
@@ -4098,7 +4139,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's 5000 metres"
  },
  {
   "id": "2017-WC-M400",
@@ -4171,7 +4213,8 @@
    "short-field"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's 400 metres"
  },
  {
   "id": "2017-WC-M1500",
@@ -4272,7 +4315,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's 1500 metres"
  },
  {
   "id": "2017-WC-M10000",
@@ -4369,7 +4413,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's 10,000 metres"
  },
  {
   "id": "2017-WC-Mmarathon",
@@ -4466,7 +4511,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's marathon"
  },
  {
   "id": "2017-WC-M110H",
@@ -4543,7 +4589,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's 110 metres hurdles"
  },
  {
   "id": "2017-WC-M400H",
@@ -4620,7 +4667,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's 400 metres hurdles"
  },
  {
   "id": "2017-WC-M3000SC",
@@ -4735,7 +4783,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's 3000 metres steeplechase"
  },
  {
   "id": "2017-WC-MHJ",
@@ -4824,7 +4873,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's high jump"
  },
  {
   "id": "2017-WC-MPV",
@@ -4907,7 +4957,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's pole vault"
  },
  {
   "id": "2017-WC-MLJ",
@@ -5008,7 +5059,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's long jump"
  },
  {
   "id": "2017-WC-MTJ",
@@ -5109,7 +5161,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's triple jump"
  },
  {
   "id": "2017-WC-MSP",
@@ -5212,7 +5265,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's shot put"
  },
  {
   "id": "2017-WC-MDT",
@@ -5313,7 +5367,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's discus throw"
  },
  {
   "id": "2017-WC-MHT",
@@ -5414,7 +5469,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's hammer throw"
  },
  {
   "id": "2017-WC-MJT",
@@ -5521,7 +5577,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Men's javelin throw"
  },
  {
   "id": "2017-WC-W100",
@@ -5598,7 +5655,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's 100 metres"
  },
  {
   "id": "2017-WC-W200",
@@ -5677,7 +5735,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's 200 metres"
  },
  {
   "id": "2017-WC-W400",
@@ -5754,7 +5813,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's 400 metres"
  },
  {
   "id": "2017-WC-W800",
@@ -5831,7 +5891,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's 800 metres"
  },
  {
   "id": "2017-WC-W1500",
@@ -5932,7 +5993,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's 1500 metres"
  },
  {
   "id": "2017-WC-W5000",
@@ -6047,7 +6109,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's 5000 metres"
  },
  {
   "id": "2017-WC-W10000",
@@ -6144,7 +6207,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's 10,000 metres"
  },
  {
   "id": "2017-WC-Wmarathon",
@@ -6241,7 +6305,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's marathon"
  },
  {
   "id": "2017-WC-W100H",
@@ -6320,7 +6385,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's 100 metres hurdles"
  },
  {
   "id": "2017-WC-W400H",
@@ -6397,7 +6463,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's 400 metres hurdles"
  },
  {
   "id": "2017-WC-W3000SC",
@@ -6504,7 +6571,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's 3000 metres steeplechase"
  },
  {
   "id": "2017-WC-WHJ",
@@ -6605,7 +6673,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's high jump"
  },
  {
   "id": "2017-WC-WPV",
@@ -6706,7 +6775,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's pole vault"
  },
  {
   "id": "2017-WC-WLJ",
@@ -6807,7 +6877,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's long jump"
  },
  {
   "id": "2017-WC-WTJ",
@@ -6908,7 +6979,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's triple jump"
  },
  {
   "id": "2017-WC-WSP",
@@ -7009,7 +7081,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's shot put"
  },
  {
   "id": "2017-WC-WDT",
@@ -7104,7 +7177,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's discus throw"
  },
  {
   "id": "2017-WC-WHT",
@@ -7205,7 +7279,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's hammer throw"
  },
  {
   "id": "2017-WC-WJT",
@@ -7306,7 +7381,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2017 World Championships in Athletics – Women's javelin throw"
  },
  {
   "id": "2019-WC-M100",
@@ -7383,7 +7459,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's 100 metres"
  },
  {
   "id": "2019-WC-M200",
@@ -7462,7 +7539,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's 200 metres"
  },
  {
   "id": "2019-WC-M400",
@@ -7539,7 +7617,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's 400 metres"
  },
  {
   "id": "2019-WC-M800",
@@ -7618,7 +7697,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's 800 metres"
  },
  {
   "id": "2019-WC-M1500",
@@ -7719,7 +7799,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's 1500 metres"
  },
  {
   "id": "2019-WC-M5000",
@@ -7832,7 +7913,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's 5000 metres"
  },
  {
   "id": "2019-WC-M10000",
@@ -7951,7 +8033,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's 10,000 metres"
  },
  {
   "id": "2019-WC-Mmarathon",
@@ -8048,7 +8131,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's marathon"
  },
  {
   "id": "2019-WC-M110H",
@@ -8127,7 +8211,8 @@
    "order"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's 110 metres hurdles"
  },
  {
   "id": "2019-WC-M400H",
@@ -8206,7 +8291,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's 400 metres hurdles"
  },
  {
   "id": "2019-WC-M3000SC",
@@ -8327,7 +8413,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's 3000 metres steeplechase"
  },
  {
   "id": "2019-WC-MHJ",
@@ -8428,7 +8515,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's high jump"
  },
  {
   "id": "2019-WC-MPV",
@@ -8531,7 +8619,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's pole vault"
  },
  {
   "id": "2019-WC-MLJ",
@@ -8626,7 +8715,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's long jump"
  },
  {
   "id": "2019-WC-MTJ",
@@ -8729,7 +8819,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's triple jump"
  },
  {
   "id": "2019-WC-MSP",
@@ -8824,7 +8915,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's shot put"
  },
  {
   "id": "2019-WC-MDT",
@@ -8925,7 +9017,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's discus throw"
  },
  {
   "id": "2019-WC-MHT",
@@ -9026,7 +9119,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's hammer throw"
  },
  {
   "id": "2019-WC-MJT",
@@ -9121,7 +9215,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Men's javelin throw"
  },
  {
   "id": "2019-WC-W100",
@@ -9194,7 +9289,8 @@
    "short-field"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's 100 metres"
  },
  {
   "id": "2019-WC-W200",
@@ -9271,7 +9367,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's 200 metres"
  },
  {
   "id": "2019-WC-W400",
@@ -9348,7 +9445,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's 400 metres"
  },
  {
   "id": "2019-WC-W800",
@@ -9427,7 +9525,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's 800 metres"
  },
  {
   "id": "2019-WC-W1500",
@@ -9530,7 +9629,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's 1500 metres"
  },
  {
   "id": "2019-WC-W5000",
@@ -9651,7 +9751,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's 5000 metres"
  },
  {
   "id": "2019-WC-W10000",
@@ -9800,7 +9901,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's 10,000 metres"
  },
  {
   "id": "2019-WC-Wmarathon",
@@ -9897,7 +9999,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's marathon"
  },
  {
   "id": "2019-WC-W100H",
@@ -9971,7 +10074,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's 100 metres hurdles"
  },
  {
   "id": "2019-WC-W400H",
@@ -10048,7 +10152,8 @@
   "note": "World record. The old mark was 52.20 by Dalilah Muhammad (2019).",
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's 400 metres hurdles"
  },
  {
   "id": "2019-WC-W3000SC",
@@ -10161,7 +10266,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's 3000 metres steeplechase"
  },
  {
   "id": "2019-WC-WHJ",
@@ -10262,7 +10368,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's high jump"
  },
  {
   "id": "2019-WC-WPV",
@@ -10395,7 +10502,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's pole vault"
  },
  {
   "id": "2019-WC-WLJ",
@@ -10496,7 +10604,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's long jump"
  },
  {
   "id": "2019-WC-WTJ",
@@ -10597,7 +10706,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's triple jump"
  },
  {
   "id": "2019-WC-WSP",
@@ -10698,7 +10808,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's shot put"
  },
  {
   "id": "2019-WC-WDT",
@@ -10793,7 +10904,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's discus throw"
  },
  {
   "id": "2019-WC-WHT",
@@ -10888,7 +11000,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's hammer throw"
  },
  {
   "id": "2019-WC-WJT",
@@ -10989,7 +11102,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2019 World Athletics Championships – Women's javelin throw"
  },
  {
   "id": "2020-OG-M100",
@@ -11056,7 +11170,8 @@
    "short-field"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's 100 metres"
  },
  {
   "id": "2020-OG-M200",
@@ -11133,7 +11248,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's 200 metres"
  },
  {
   "id": "2020-OG-M400",
@@ -11210,7 +11326,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's 400 metres"
  },
  {
   "id": "2020-OG-M800",
@@ -11293,7 +11410,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's 800 metres"
  },
  {
   "id": "2020-OG-M1500",
@@ -11400,7 +11518,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's 1500 metres"
  },
  {
   "id": "2020-OG-M5000",
@@ -11527,7 +11646,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's 5000 metres"
  },
  {
   "id": "2020-OG-M10000",
@@ -11624,7 +11744,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's 10,000 metres"
  },
  {
   "id": "2020-OG-Mmarathon",
@@ -11721,7 +11842,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's marathon"
  },
  {
   "id": "2020-OG-M110H",
@@ -11798,7 +11920,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's 110 metres hurdles"
  },
  {
   "id": "2020-OG-M400H",
@@ -11875,7 +11998,8 @@
   "note": "World record. The old mark was 46.70 by Karsten Warholm (2021).",
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's 400 metres hurdles"
  },
  {
   "id": "2020-OG-M3000SC",
@@ -11996,7 +12120,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's 3000 metres steeplechase"
  },
  {
   "id": "2020-OG-MHJ",
@@ -12103,7 +12228,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's high jump"
  },
  {
   "id": "2020-OG-MPV",
@@ -12212,7 +12338,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's pole vault"
  },
  {
   "id": "2020-OG-MLJ",
@@ -12313,7 +12440,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's long jump"
  },
  {
   "id": "2020-OG-MTJ",
@@ -12408,7 +12536,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's triple jump"
  },
  {
   "id": "2020-OG-MSP",
@@ -12509,7 +12638,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's shot put"
  },
  {
   "id": "2020-OG-MDT",
@@ -12610,7 +12740,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's discus throw"
  },
  {
   "id": "2020-OG-MHT",
@@ -12711,7 +12842,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's hammer throw"
  },
  {
   "id": "2020-OG-MJT",
@@ -12812,7 +12944,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Men's javelin throw"
  },
  {
   "id": "2020-OG-W100",
@@ -12889,7 +13022,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's 100 metres"
  },
  {
   "id": "2020-OG-W200",
@@ -12968,7 +13102,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's 200 metres"
  },
  {
   "id": "2020-OG-W400",
@@ -13042,7 +13177,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's 400 metres"
  },
  {
   "id": "2020-OG-W800",
@@ -13119,7 +13255,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's 800 metres"
  },
  {
   "id": "2020-OG-W1500",
@@ -13228,7 +13365,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's 1500 metres"
  },
  {
   "id": "2020-OG-W5000",
@@ -13347,7 +13485,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's 5000 metres"
  },
  {
   "id": "2020-OG-W10000",
@@ -13444,7 +13583,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's 10,000 metres"
  },
  {
   "id": "2020-OG-Wmarathon",
@@ -13541,7 +13681,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's marathon"
  },
  {
   "id": "2020-OG-W100H",
@@ -13618,7 +13759,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's 100 metres hurdles"
  },
  {
   "id": "2020-OG-W400H",
@@ -13692,7 +13834,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's 400 metres hurdles"
  },
  {
   "id": "2020-OG-W3000SC",
@@ -13807,7 +13950,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's 3000 metres steeplechase"
  },
  {
   "id": "2020-OG-WHJ",
@@ -13916,7 +14060,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's high jump"
  },
  {
   "id": "2020-OG-WPV",
@@ -14025,7 +14170,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's pole vault"
  },
  {
   "id": "2020-OG-WLJ",
@@ -14126,7 +14272,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's long jump"
  },
  {
   "id": "2020-OG-WTJ",
@@ -14229,7 +14376,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's triple jump"
  },
  {
   "id": "2020-OG-WSP",
@@ -14324,7 +14472,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's shot put"
  },
  {
   "id": "2020-OG-WDT",
@@ -14425,7 +14574,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's discus throw"
  },
  {
   "id": "2020-OG-WHT",
@@ -14526,7 +14676,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's hammer throw"
  },
  {
   "id": "2020-OG-WJT",
@@ -14627,7 +14778,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2020 Summer Olympics – Women's javelin throw"
  },
  {
   "id": "2022-WC-M100",
@@ -14704,7 +14856,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's 100 metres"
  },
  {
   "id": "2022-WC-M200",
@@ -14781,7 +14934,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's 200 metres"
  },
  {
   "id": "2022-WC-M400",
@@ -14860,7 +15014,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's 400 metres"
  },
  {
   "id": "2022-WC-M800",
@@ -14939,7 +15094,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's 800 metres"
  },
  {
   "id": "2022-WC-M1500",
@@ -15040,7 +15196,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's 1500 metres"
  },
  {
   "id": "2022-WC-M5000",
@@ -15159,7 +15316,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's 5000 metres"
  },
  {
   "id": "2022-WC-M10000",
@@ -15256,7 +15414,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's 10,000 metres"
  },
  {
   "id": "2022-WC-Mmarathon",
@@ -15353,7 +15512,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's marathon"
  },
  {
   "id": "2022-WC-M110H",
@@ -15414,7 +15574,8 @@
    "short-field"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's 110 metres hurdles"
  },
  {
   "id": "2022-WC-M400H",
@@ -15491,7 +15652,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's 400 metres hurdles"
  },
  {
   "id": "2022-WC-M3000SC",
@@ -15610,7 +15772,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's 3000 metres steeplechase"
  },
  {
   "id": "2022-WC-MHJ",
@@ -15717,7 +15880,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's high jump"
  },
  {
   "id": "2022-WC-MPV",
@@ -15812,7 +15976,8 @@
   "note": "World record. The old mark was 6.20 by Armand Duplantis (2022).",
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's pole vault"
  },
  {
   "id": "2022-WC-MLJ",
@@ -15913,7 +16078,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's long jump"
  },
  {
   "id": "2022-WC-MTJ",
@@ -16008,7 +16174,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's triple jump"
  },
  {
   "id": "2022-WC-MSP",
@@ -16109,7 +16276,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's shot put"
  },
  {
   "id": "2022-WC-MDT",
@@ -16210,7 +16378,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's discus throw"
  },
  {
   "id": "2022-WC-MHT",
@@ -16311,7 +16480,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's hammer throw"
  },
  {
   "id": "2022-WC-MJT",
@@ -16412,7 +16582,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Men's javelin throw"
  },
  {
   "id": "2022-WC-W100",
@@ -16489,7 +16660,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's 100 metres"
  },
  {
   "id": "2022-WC-W200",
@@ -16566,7 +16738,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's 200 metres"
  },
  {
   "id": "2022-WC-W400",
@@ -16643,7 +16816,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's 400 metres"
  },
  {
   "id": "2022-WC-W800",
@@ -16720,7 +16894,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's 800 metres"
  },
  {
   "id": "2022-WC-W1500",
@@ -16829,7 +17004,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's 1500 metres"
  },
  {
   "id": "2022-WC-W5000",
@@ -16942,7 +17118,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's 5000 metres"
  },
  {
   "id": "2022-WC-W10000",
@@ -17085,7 +17262,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's 10,000 metres"
  },
  {
   "id": "2022-WC-Wmarathon",
@@ -17182,7 +17360,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's marathon"
  },
  {
   "id": "2022-WC-W100H",
@@ -17256,7 +17435,8 @@
    "wr-mismatch"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's 100 metres hurdles"
  },
  {
   "id": "2022-WC-W400H",
@@ -17333,7 +17513,8 @@
   "note": "World record. The old mark was 51.41 by Sydney McLaughlin (2022).",
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's 400 metres hurdles"
  },
  {
   "id": "2022-WC-W3000SC",
@@ -17452,7 +17633,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's 3000 metres steeplechase"
  },
  {
   "id": "2022-WC-WHJ",
@@ -17553,7 +17735,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's high jump"
  },
  {
   "id": "2022-WC-WPV",
@@ -17660,7 +17843,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's pole vault"
  },
  {
   "id": "2022-WC-WLJ",
@@ -17761,7 +17945,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's long jump"
  },
  {
   "id": "2022-WC-WTJ",
@@ -17862,7 +18047,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's triple jump"
  },
  {
   "id": "2022-WC-WSP",
@@ -17963,7 +18149,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's shot put"
  },
  {
   "id": "2022-WC-WDT",
@@ -18064,7 +18251,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's discus throw"
  },
  {
   "id": "2022-WC-WHT",
@@ -18165,7 +18353,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's hammer throw"
  },
  {
   "id": "2022-WC-WJT",
@@ -18266,7 +18455,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2022 World Athletics Championships – Women's javelin throw"
  },
  {
   "id": "2023-WC-M100",
@@ -18343,7 +18533,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's 100 metres"
  },
  {
   "id": "2023-WC-M200",
@@ -18426,7 +18617,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's 200 metres"
  },
  {
   "id": "2023-WC-M400",
@@ -18499,7 +18691,8 @@
    "short-field"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's 400 metres"
  },
  {
   "id": "2023-WC-M800",
@@ -18570,7 +18763,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's 800 metres"
  },
  {
   "id": "2023-WC-M1500",
@@ -18673,7 +18867,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's 1500 metres"
  },
  {
   "id": "2023-WC-M5000",
@@ -18798,7 +18993,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's 5000 metres"
  },
  {
   "id": "2023-WC-M10000",
@@ -18895,7 +19091,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's 10,000 metres"
  },
  {
   "id": "2023-WC-Mmarathon",
@@ -18992,7 +19189,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's marathon"
  },
  {
   "id": "2023-WC-M110H",
@@ -19069,7 +19267,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's 110 metres hurdles"
  },
  {
   "id": "2023-WC-M400H",
@@ -19146,7 +19345,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's 400 metres hurdles"
  },
  {
   "id": "2023-WC-MHJ",
@@ -19253,7 +19453,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's high jump"
  },
  {
   "id": "2023-WC-M3000SC",
@@ -19378,7 +19579,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's 3000 metres steeplechase"
  },
  {
   "id": "2023-WC-MPV",
@@ -19485,7 +19687,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's pole vault"
  },
  {
   "id": "2023-WC-MLJ",
@@ -19586,7 +19789,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's long jump"
  },
  {
   "id": "2023-WC-MTJ",
@@ -19681,7 +19885,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's triple jump"
  },
  {
   "id": "2023-WC-MSP",
@@ -19776,7 +19981,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's shot put"
  },
  {
   "id": "2023-WC-MDT",
@@ -19877,7 +20083,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's discus throw"
  },
  {
   "id": "2023-WC-MHT",
@@ -19978,7 +20185,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's hammer throw"
  },
  {
   "id": "2023-WC-MJT",
@@ -20081,7 +20289,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Men's javelin throw"
  },
  {
   "id": "2023-WC-W100",
@@ -20164,7 +20373,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's 100 metres"
  },
  {
   "id": "2023-WC-W200",
@@ -20241,7 +20451,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's 200 metres"
  },
  {
   "id": "2023-WC-W400",
@@ -20318,7 +20529,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's 400 metres"
  },
  {
   "id": "2023-WC-W800",
@@ -20395,7 +20607,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's 800 metres"
  },
  {
   "id": "2023-WC-W1500",
@@ -20496,7 +20709,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's 1500 metres"
  },
  {
   "id": "2023-WC-W5000",
@@ -20623,7 +20837,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's 5000 metres"
  },
  {
   "id": "2023-WC-W10000",
@@ -20720,7 +20935,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's 10,000 metres"
  },
  {
   "id": "2023-WC-Wmarathon",
@@ -20817,7 +21033,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's marathon"
  },
  {
   "id": "2023-WC-W100H",
@@ -20894,7 +21111,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's 100 metres hurdles"
  },
  {
   "id": "2023-WC-W400H",
@@ -20971,7 +21189,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's 400 metres hurdles"
  },
  {
   "id": "2023-WC-W3000SC",
@@ -21084,7 +21303,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's 3000 metres steeplechase"
  },
  {
   "id": "2023-WC-WHJ",
@@ -21205,7 +21425,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's high jump"
  },
  {
   "id": "2023-WC-WPV",
@@ -21306,7 +21527,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's pole vault"
  },
  {
   "id": "2023-WC-WLJ",
@@ -21409,7 +21631,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's long jump"
  },
  {
   "id": "2023-WC-WTJ",
@@ -21504,7 +21727,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's triple jump"
  },
  {
   "id": "2023-WC-WSP",
@@ -21605,7 +21829,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's shot put"
  },
  {
   "id": "2023-WC-WDT",
@@ -21706,7 +21931,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's discus throw"
  },
  {
   "id": "2023-WC-WHT",
@@ -21801,7 +22027,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's hammer throw"
  },
  {
   "id": "2023-WC-WJT",
@@ -21896,7 +22123,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2023 World Athletics Championships – Women's javelin throw"
  },
  {
   "id": "2024-OG-M100",
@@ -21973,7 +22201,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's 100 metres"
  },
  {
   "id": "2024-OG-M200",
@@ -22052,7 +22281,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's 200 metres"
  },
  {
   "id": "2024-OG-M400",
@@ -22131,7 +22361,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's 400 metres"
  },
  {
   "id": "2024-OG-M800",
@@ -22210,7 +22441,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's 800 metres"
  },
  {
   "id": "2024-OG-M1500",
@@ -22313,7 +22545,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's 1500 metres"
  },
  {
   "id": "2024-OG-M5000",
@@ -22410,7 +22643,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's 5000 metres"
  },
  {
   "id": "2024-OG-M10000",
@@ -22507,7 +22741,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's 10,000 metres"
  },
  {
   "id": "2024-OG-Mmarathon",
@@ -22604,7 +22839,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's marathon"
  },
  {
   "id": "2024-OG-M110H",
@@ -22681,7 +22917,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's 110 metres hurdles"
  },
  {
   "id": "2024-OG-M400H",
@@ -22755,7 +22992,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's 400 metres hurdles"
  },
  {
   "id": "2024-OG-M3000SC",
@@ -22874,7 +23112,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's 3000 metres steeplechase"
  },
  {
   "id": "2024-OG-MHJ",
@@ -22975,7 +23214,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's high jump"
  },
  {
   "id": "2024-OG-MPV",
@@ -23076,7 +23316,8 @@
   "note": "World record. The old mark was 6.24 by Armand Duplantis (2024).",
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's pole vault"
  },
  {
   "id": "2024-OG-MLJ",
@@ -23177,7 +23418,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's long jump"
  },
  {
   "id": "2024-OG-MTJ",
@@ -23278,7 +23520,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's triple jump"
  },
  {
   "id": "2024-OG-MSP",
@@ -23373,7 +23616,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's shot put"
  },
  {
   "id": "2024-OG-MDT",
@@ -23474,7 +23718,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's discus throw"
  },
  {
   "id": "2024-OG-MHT",
@@ -23575,7 +23820,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's hammer throw"
  },
  {
   "id": "2024-OG-MJT",
@@ -23676,7 +23922,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Men's javelin throw"
  },
  {
   "id": "2024-OG-W100",
@@ -23755,7 +24002,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's 100 metres"
  },
  {
   "id": "2024-OG-W200",
@@ -23832,7 +24080,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's 200 metres"
  },
  {
   "id": "2024-OG-W400",
@@ -23909,7 +24158,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's 400 metres"
  },
  {
   "id": "2024-OG-W800",
@@ -23986,7 +24236,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's 800 metres"
  },
  {
   "id": "2024-OG-W1500",
@@ -24087,7 +24338,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's 1500 metres"
  },
  {
   "id": "2024-OG-W5000",
@@ -24212,7 +24464,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's 5000 metres"
  },
  {
   "id": "2024-OG-W10000",
@@ -24309,7 +24562,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's 10,000 metres"
  },
  {
   "id": "2024-OG-Wmarathon",
@@ -24406,7 +24660,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's marathon"
  },
  {
   "id": "2024-OG-W100H",
@@ -24480,7 +24735,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's 100 metres hurdles"
  },
  {
   "id": "2024-OG-W400H",
@@ -24557,7 +24813,8 @@
   "note": "World record. The old mark was 50.65 by Sydney McLaughlin-Levrone (2024).",
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's 400 metres hurdles"
  },
  {
   "id": "2024-OG-W3000SC",
@@ -24676,7 +24933,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's 3000 metres steeplechase"
  },
  {
   "id": "2024-OG-WHJ",
@@ -24771,7 +25029,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's high jump"
  },
  {
   "id": "2024-OG-WPV",
@@ -24914,7 +25173,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's pole vault"
  },
  {
   "id": "2024-OG-WLJ",
@@ -25017,7 +25277,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's long jump"
  },
  {
   "id": "2024-OG-WTJ",
@@ -25118,7 +25379,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's triple jump"
  },
  {
   "id": "2024-OG-WSP",
@@ -25219,7 +25481,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's shot put"
  },
  {
   "id": "2024-OG-WDT",
@@ -25320,7 +25583,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's discus throw"
  },
  {
   "id": "2024-OG-WHT",
@@ -25421,7 +25685,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's hammer throw"
  },
  {
   "id": "2024-OG-WJT",
@@ -25522,7 +25787,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "Athletics at the 2024 Summer Olympics – Women's javelin throw"
  },
  {
   "id": "2025-WC-M100",
@@ -25595,7 +25861,8 @@
    "short-field"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's 100 metres"
  },
  {
   "id": "2025-WC-M200",
@@ -25672,7 +25939,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's 200 metres"
  },
  {
   "id": "2025-WC-M400",
@@ -25749,7 +26017,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's 400 metres"
  },
  {
   "id": "2025-WC-M800",
@@ -25826,7 +26095,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's 800 metres"
  },
  {
   "id": "2025-WC-M1500",
@@ -25941,7 +26211,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's 1500 metres"
  },
  {
   "id": "2025-WC-M5000",
@@ -26066,7 +26337,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's 5000 metres"
  },
  {
   "id": "2025-WC-M10000",
@@ -26163,7 +26435,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's 10,000 metres"
  },
  {
   "id": "2025-WC-Mmarathon",
@@ -26260,7 +26533,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's marathon"
  },
  {
   "id": "2025-WC-M110H",
@@ -26333,7 +26607,8 @@
    "short-field"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's 110 metres hurdles"
  },
  {
   "id": "2025-WC-M400H",
@@ -26412,7 +26687,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's 400 metres hurdles"
  },
  {
   "id": "2025-WC-M3000SC",
@@ -26531,7 +26807,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's 3000 metres steeplechase"
  },
  {
   "id": "2025-WC-MHJ",
@@ -26632,7 +26909,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's high jump"
  },
  {
   "id": "2025-WC-MPV",
@@ -26727,7 +27005,8 @@
   "note": "World record. The old mark was 6.29 by Armand Duplantis (2025).",
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's pole vault"
  },
  {
   "id": "2025-WC-MLJ",
@@ -26828,7 +27107,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's long jump"
  },
  {
   "id": "2025-WC-MTJ",
@@ -26929,7 +27209,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's triple jump"
  },
  {
   "id": "2025-WC-MSP",
@@ -27030,7 +27311,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's shot put"
  },
  {
   "id": "2025-WC-MDT",
@@ -27125,7 +27407,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's discus throw"
  },
  {
   "id": "2025-WC-MHT",
@@ -27226,7 +27509,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's hammer throw"
  },
  {
   "id": "2025-WC-MJT",
@@ -27327,7 +27611,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Men's javelin throw"
  },
  {
   "id": "2025-WC-W100",
@@ -27404,7 +27689,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's 100 metres"
  },
  {
   "id": "2025-WC-W200",
@@ -27481,7 +27767,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's 200 metres"
  },
  {
   "id": "2025-WC-W400",
@@ -27558,7 +27845,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's 400 metres"
  },
  {
   "id": "2025-WC-W800",
@@ -27635,7 +27923,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's 800 metres"
  },
  {
   "id": "2025-WC-W1500",
@@ -27750,7 +28039,8 @@
    "outlier-last"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's 1500 metres"
  },
  {
   "id": "2025-WC-W5000",
@@ -27875,7 +28165,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's 5000 metres"
  },
  {
   "id": "2025-WC-W10000",
@@ -27972,7 +28263,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's 10,000 metres"
  },
  {
   "id": "2025-WC-Wmarathon",
@@ -28069,7 +28361,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's marathon"
  },
  {
   "id": "2025-WC-W100H",
@@ -28146,7 +28439,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's 100 metres hurdles"
  },
  {
   "id": "2025-WC-W400H",
@@ -28223,7 +28517,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's 400 metres hurdles"
  },
  {
   "id": "2025-WC-W3000SC",
@@ -28336,7 +28631,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's 3000 metres steeplechase"
  },
  {
   "id": "2025-WC-WHJ",
@@ -28457,7 +28753,8 @@
    "partial"
   ],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's high jump"
  },
  {
   "id": "2025-WC-WPV",
@@ -28558,7 +28855,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's pole vault"
  },
  {
   "id": "2025-WC-WLJ",
@@ -28659,7 +28957,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's long jump"
  },
  {
   "id": "2025-WC-WTJ",
@@ -28760,7 +29059,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's triple jump"
  },
  {
   "id": "2025-WC-WSP",
@@ -28861,7 +29161,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's shot put"
  },
  {
   "id": "2025-WC-WDT",
@@ -28962,7 +29263,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's discus throw"
  },
  {
   "id": "2025-WC-WHT",
@@ -29057,7 +29359,8 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's hammer throw"
  },
  {
   "id": "2025-WC-WJT",
@@ -29158,6 +29461,7 @@
   "note": null,
   "flags": [],
   "verified": false,
-  "source": "Wikipedia event page (final results table)"
+  "source": "Wikipedia event page (final results table)",
+  "source_page": "2025 World Athletics Championships – Women's javelin throw"
  }
 ]
