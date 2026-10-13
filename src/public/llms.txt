@@ -4,6 +4,9 @@
 
 ## How to play
 
+Full guide: https://bell-lap.vercel.app/how-to-play
+
+
 - Read the event (for example "Men's 100 m, Olympic final, Paris 2024") and type your guess at the winning mark: a time such as 9.79 or 3:28.32, or a distance in metres such as 8.34.
 - A free Hint shows a slower finisher's mark from the same final.
 - The reveal shows the real winner, where your guess would have placed in the field, the full results and the world record (or collegiate record for NCAA finals) going in.

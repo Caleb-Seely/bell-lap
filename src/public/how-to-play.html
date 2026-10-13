@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>How to play Bell-Lap · Daily track and field guessing game</title>
+<meta name="description" content="How Bell-Lap works: five Olympic, World Championships and NCAA track and field finals a day, one guess at each winning time or distance, up to 5,000 points. Modes, hints, scoring and the results it covers.">
+<link rel="canonical" href="https://bell-lap.vercel.app/how-to-play">
+<meta name="theme-color" content="#f7f7f8" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#121317" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.ico" sizes="48x48">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="Bell-Lap">
+<meta property="og:title" content="How to play Bell-Lap">
+<meta property="og:description" content="Five championship finals a day. One guess at each winning mark.">
+<meta property="og:url" content="https://bell-lap.vercel.app/how-to-play">
+<meta property="og:image" content="https://bell-lap.vercel.app/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"What is Bell-Lap?","acceptedAnswer":{"@type":"Answer","text":"Bell-Lap is a free daily guessing game for track and field fans. Each day has five championship finals from the Olympic Games, the World Athletics Championships and the NCAA Division I Championships. For each final you make one guess at the winning time or distance."}},
+{"@type":"Question","name":"How is Bell-Lap scored?","acceptedAnswer":{"@type":"Answer","text":"Each final is worth up to 1,000 points, so a day is worth up to 5,000. The closer your guess is to the real winning mark, the more points you get."}},
+{"@type":"Question","name":"Which championships are in Bell-Lap?","acceptedAnswer":{"@type":"Answer","text":"Every individual event at the 2016 Rio, 2020 Tokyo (held in 2021) and 2024 Paris Olympics, the 2017, 2019, 2022, 2023 and 2025 World Athletics Championships, and NCAA Division I indoor and outdoor finals from 2016 to 2025. Relays, race walks and combined events are not included."}},
+{"@type":"Question","name":"Is Bell-Lap free?","acceptedAnswer":{"@type":"Answer","text":"Yes. It runs in the browser with no account, download or ads."}}
+]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&display=swap">
+<style>
+:root{--bg:#f7f7f8;--ink:#15171c;--muted:#6c707a;--line:#e2e3e7;--track:#c8442c;--on-track:#fff;
+  --f-display:"Barlow Condensed","Arial Narrow",sans-serif;--f-body:"Barlow",system-ui,-apple-system,"Segoe UI",sans-serif}
+@media (prefers-color-scheme:dark){:root{--bg:#121317;--ink:#f0f1f3;--muted:#9a9ea8;--line:#2b2d33;--track:#d9573d;color-scheme:dark}}
+html,body{background:var(--bg);color:var(--ink)}
+body{margin:0;font-family:var(--f-body);font-size:17px;line-height:1.55}
+main{max-width:620px;margin:0 auto;padding:18px 16px 48px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:28px}
+.mark{display:flex;align-items:center;gap:8px;font-family:var(--f-display);font-weight:700;font-size:22px;letter-spacing:.06em;text-transform:uppercase;color:inherit;text-decoration:none}
+.mark i{width:10px;height:20px;background:repeating-conic-gradient(var(--ink) 0 25%,transparent 0 50%) 0 0/10px 10px}
+h1,h2{font-family:var(--f-display);font-weight:700;text-transform:uppercase;line-height:1.05;margin:0}
+h1{font-size:44px;margin-bottom:12px}
+h2{font-size:26px;margin:34px 0 8px;padding-top:14px;border-top:1px solid var(--line)}
+p,ul{margin:0 0 12px}
+ul{padding-left:20px}
+li{margin-bottom:6px}
+a{color:inherit;text-underline-offset:2px}
+.play{display:inline-block;margin-top:8px;background:var(--track);color:var(--on-track);font-family:var(--f-display);font-weight:700;font-size:20px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;padding:12px 26px;border-radius:10px}
+.foot{margin-top:40px;font-size:13px;color:var(--muted)}
+</style>
+<main>
+  <div class="top"><a class="mark" href="/"><i aria-hidden="true"></i>Bell-Lap</a></div>
+
+  <h1>How to play</h1>
+  <p>Bell-Lap is a daily guessing game for track and field fans. Every day there are five championship finals from the Olympic Games, the World Athletics Championships and the NCAA Division I Championships. For each one you see the event, such as the men's 100 m final in Paris 2024, and make one guess at the winning time or distance.</p>
+  <a class="play" href="/">Play today's finals</a>
+
+  <h2>Guessing</h2>
+  <ul>
+    <li>Type a time the way it's shown on a results board: 9.79, 1:41.19 or 2:06:26. Dots work in place of colons.</li>
+    <li>Field events are in metres: 8.34, 6.10, 92.97.</li>
+    <li>You get one guess per final. The Hint button shows a slower finisher's mark from the same race, and costs nothing.</li>
+  </ul>
+
+  <h2>Scoring</h2>
+  <p>Each final is worth up to 1,000 points, so a perfect day is 5,000. The closer you are to the winning mark, the more you score. After each guess you see the real winner, where your mark would have placed in that final, and the full results with the world record (or collegiate record for NCAA finals) going in.</p>
+  <p>When you finish, you can copy a share line with one coloured square per final.</p>
+
+  <h2>Modes</h2>
+  <ul>
+    <li><strong>Standard</strong>: the daily five, no clock.</li>
+    <li><strong>Warm-up</strong>: multiple choice, four marks to pick from.</li>
+    <li><strong>Bell-Lap</strong>: the daily five with 60 seconds on the clock for all of them.</li>
+    <li><strong>Workout</strong>: endless finals. Each one adds 15 seconds to the clock, and the run ends when time runs out or a guess misses the split.</li>
+  </ul>
+  <p>Standard, Warm-up and Bell-Lap each have their own five finals every day, and a new set starts at midnight. Once you finish a day you can keep playing practice sets.</p>
+
+  <h2>The finals</h2>
+  <p>The bank holds about 830 finals:</p>
+  <ul>
+    <li>Olympic Games: Rio 2016, Tokyo 2021 and Paris 2024.</li>
+    <li>World Athletics Championships: London 2017, Doha 2019, Eugene 2022, Budapest 2023 and Tokyo 2025.</li>
+    <li>NCAA Division I Indoor and Outdoor Championships, 2016 to 2025.</li>
+  </ul>
+  <p>Every individual event is included, from the 60 m to the marathon, hurdles and steeplechase, and every jump and throw. Relays, race walks and combined events are left out.</p>
+
+  <h2>Where the results come from</h2>
+  <p>Results come from each event's page on <a href="https://en.wikipedia.org/">Wikipedia</a> (<a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>), and each reveal links to its source. They haven't all been checked against official World Athletics results yet.</p>
+
+  <p class="foot"><a href="/">Bell-Lap</a> · free, no account needed.</p>
+</main>
