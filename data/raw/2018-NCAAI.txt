@@ -1,0 +1,379 @@
+#CH 2018-NCAAI|NCAA Indoor Championships|College Station|2018
+#DATES March 9-10, 2018
+@M60
+1|Elijah Hall|Houston|6.52|
+2|Raheem Chambers|Auburn|6.53|
+3|Demek Kemp|South Carolina St.|6.55|
+4|Cejhae Greene|Georgia|6.61|
+5|Jaylen Bacon|Arkansas State|6.62|
+6|Divine Oduduru|Texas Tech|6.62|
+7|Kendal Williams|Georgia|6.65|
+8|Jaylan Mitchell|N. Carolina A&T|6.69|
+@M200
+1|Elijah Hall|Houston|20.02|CR
+2|Divine Oduduru|Texas Tech|20.21|
+3|Rai Benjamin|USC|20.34|
+4|Jaron Flournoy|LSU|20.55|
+5|Ncincilili Titi|South Carolina|20.65|
+6|Andrew Hudson|Texas Tech|20.73|
+7|Kenzo Cotton|Arkansas|20.85|
+8|Andre Ewers|Florida State|20.88|
+@M400
+1|Michael Norman|USC|44.52|CR
+2|Akeem Bloomfield|Auburn|44.86|
+3|Mylik Kerley|Texas A&M|45.16|
+4|Kahmari Montgomery|Houston|45.24|
+5|Nathon Allen|Auburn|45.27|
+6|Nathan Strother|Tennessee|45.67|
+7|Derrick Mokaleng|TCU|45.68|
+8|Zach Shinnick|USC|45.81|
+@M800
+1|Michael Saruni|UTEP|1:45.15|CR
+2|Isaiah Harris|Penn State|1:46.08|
+3|Robert Heppenstall|Wake Forest|1:46.88|
+4|Daniel Kuhn|Indiana|1:47.37|
+5|Abraham Alvarado|BYU|1:47.55|
+6|Dejon Devroe|Miss State|1:47.69|
+7|John Lewis|Clemson|1:47.71|
+8|Bryce Hoppel|Kansas|1:50.06|
+@Mmile
+1|Josh Kerr|New Mexico|3:57.02|
+2|Vincent Ciattei|Virginia Tech|3:58.36|
+3|Sam Prakel|Oregon|3:58.59|
+4|Patrick Joseph|Virginia Tech|4:00.39|
+5|Kasey Knevelbaard|Southern Utah|4:00.57|
+6|Cole Rockhold|Colorado St.|4:00.61|
+7|Neil Gourley|Virginia Tech|4:00.64|
+8|Reed Brown|Oregon|4:01.94|
+9|Jonah Koech|UTEP|4:02.26|
+10|Sean Tobin|Ole Miss|4:06.90|
+@M3000
+1|Andy Trouard|Northern Arizona|8:04.94|
+2|Justyn Knight|Syracuse|8:05.76|
+3|Cameron Griffith|Arkansas|8:05.91|
+4|Grant Fisher|Stanford|8:06.52|
+5|Dillon Maggard|Utah State|8:06.69|
+6|James West|Oregon|8:06.94|
+7|Colby Gilbert|Washington|8:07.26|
+8|Ollie Hoare|Wisconsin|8:08.30|
+9|Cole Rockhold|Colorado St.|8:09.85|
+10|Ben Saarel|Colorado|8:10.05|
+11|Matthew Baxter|Northern Arizona|8:10.28|
+12|Lawrence Kipkoech|Campbell|8:11.28|
+13|Kigen Chemadi|Mid. Tenn. State|8:12.40|
+14|Kyle Mau|Indiana|8:12.60|
+15|Jonathan Davis|Illinois|8:21.69|
+16|Mike Tate|Southern Utah|8:26.19|
+@M5000
+1|Justyn Knight|Syracuse|14:14.47|
+2|Vincent Kiprop|Alabama|14:15.01|
+3|Hassan Abdi|Oklahoma State|14:15.38|
+4|Mike Tate|Southern Utah|14:15.67|
+5|Andy Trouard|Northern Arizona|14:16.39|
+6|Rory Linkletter|BYU|14:16.88|
+7|Jacob Thomson|Kentucky|14:17.19|
+8|Amon Kemboi|Campbell|14:17.42|
+9|Steven Fahy|Stanford|14:17.51|
+10|Gilbert Kigen|Alabama|14:17.73|
+11|Lawrence Kipkoech|Campbell|14:18.00|
+12|Jack Bruce|Arkansas|14:18.64|
+13|Connor McMillan|BYU|14:18.87|
+14|Grant Fischer|Colorado St.|14:21.82|
+15|Daniel Carney|BYU|14:22.90|
+16|Tanner Anderson|Oregon|14:22.93|
+@M60H
+1|Grant Holloway|Florida|7.47|
+2|Antoine Lloyd|Nebraska|7.60|
+3|Ashtyn Davis|California|7.63|
+4|Jovaine Atkinson|Liberty|7.72|
+5|Chad Zallow|Youngstown St.|7.72|
+6|Trey Cunningham|Florida State|7.74|
+7|Michael Nicholls|Georgia|7.77|
+8|Damion Thomas|LSU|8.25|
+@MHJ
+1|Randall Cunningham II|USC|2.29|
+2|Trey Culver|Texas Tech|2.29|
+3|Shelby McEwen|Alabama|2.29|
+4|Vernon Turner|Oklahoma|2.23|
+5|Tequan Claitt|Eastern Kentucky|2.20|
+6|Keenon Laine|Georgia|2.20|
+7|Darius Carbin|Georgia|2.20|
+8|Javen Reeves|Louisville|2.20|
+9|Landon Bartel|Nebraska|2.15|
+10|Brenton Foster|Manhattan|2.15|
+10|Tyler Adams|Sam Houston St.|2.15|
+12|Ryan Lockard|Minnesota|2.15|
+13|Jerin Allen|Louisville|2.15|
+14|JuVaughn Blake|LSU|2.10|
+15|Grant Anderson|Nebraska|2.10|
+15|Daniel Armstrong|Marquette|2.10|
+@MPV
+1|Hussain Alhizam|Kansas|5.70|
+2|Chris Nilsen|South Dakota|5.60|
+3|Deakin Volz|Virginia Tech|5.60|
+4|Matthew Ludwig|Akron|5.55|
+5|Audie Wyatt|Texas A&M|5.55|
+5|Adrián Vallés|Cincinnati|5.55|
+7|Jacob Wooten|Texas A&M|5.50|
+8|Tray Oates|Samford|5.50|
+9|Brandon Bray|Texas Tech|5.50|
+10|Chase Smith|Washington|5.40|
+11|Tim Ehrhardt|Michigan State|5.40|
+12|Antonio Ruiz|Stephen F. Austin|5.40|
+13|Torben Laidig|Virginia Tech|5.30|
+13|Scott Marshall|Grand Canyon|5.30|
+15|Drew McMichael|Texas Tech|5.30|
+@MLJ
+1|Will Williams|Texas A&M|8.19|
+2|Grant Holloway|Florida|8.13|
+3|Charles Brown|Texas Tech|8.12|
+4|Zack Bazile|Ohio State|7.96|
+5|Steffin McCarter|Texas|7.94|
+6|KeAndre Bates|Florida|7.90|
+7|Ja'Mari Ward|Missouri|7.82|
+8|Kenneth Fisher|Florida State|7.62|
+9|Jordan Latimer|Akron|7.58|
+10|O'Brien Wasome|Texas|7.53|
+11|Laquan Nairn|Arkansas|7.52|
+12|Scotty Newton|TCU|7.47|
+13|Corion Knight|Florida State|7.43|
+14|Yann Randrianasolo|South Carolina|7.21|
+15|JuVaughn Blake|LSU|7.06|
+16|Treyton Harris|Indiana|7.06|
+@MTJ
+1|O'Brien Wasome|Texas|16.82|
+2|KeAndre Bates|Florida|16.67|
+3|Chengetayi Mapaya|TCU|16.38|
+4|Clayton Brown|Florida|16.34|
+5|Tuomas Kaukolahti|California|16.33|
+6|John Warren|Southern Miss.|16.31|
+7|Scotty Newton|TCU|16.24|
+8|Barden Adams|Kansas|16.19|
+9|Charles Brown|Texas Tech|16.17|
+10|Kaiwan Culmer|Nebraska|15.97|
+11|Jeremiah Green|Clemson|15.86|
+12|Jordan Scott|Virginia|15.84|
+13|Armani Wallace|Florida State|15.84|
+14|Craig Stevens Jr|Kent State|15.70|
+15|Bryce Williams|Penn State|15.43|
+16|Papay Glaywulu|Oklahoma|15.04|
+@MSP
+1|Mostafa Hassan|Colorado St.|20.86|
+2|Denzel Comenentia|Georgia|20.29|
+3|Josh Awotunde|South Carolina|20.15|
+4|Austin Droogsma|Florida State|19.87|
+5|Jordan Geist|Arizona|19.62|
+6|Kord Ferguson|Alabama|19.58|
+7|Adrian Piperi|Texas|19.46|
+8|McKay Johnson|California|19.34|
+9|Nick Demaline|Ohio State|19.24|
+10|Nicolai Ceban|Kansas|18.99|
+11|Jared Kern|Southern Illinois|18.90|
+12|Nate Esparza|UCLA|18.79|
+13|Dotun Ogundeji|UCLA|18.54|
+14|Andrew Liskowitz|Michigan|18.38|
+15|Itamar Levi|Arkansas State|17.98|
+@MWT
+1|David Lucas|Penn State|24.02|
+2|Alton Clay|UL-Monroe|22.96|
+3|Josh Davis|North Carolina St.|22.94|
+4|Daniel Haugh|Alabama|22.83|
+5|Joseph Ellis|Michigan|22.56|
+6|Denzel Comenentia|Georgia|22.45|
+7|Michael Shanahan|New Hampshire|22.16|
+8|Alan Zapalac|Texas|22.15|
+9|AJ McFarland|Florida|21.80|
+10|Morgan Shigo|Penn State|20.87|
+11|Thomas Mardal|Florida|20.85|
+12|Grant Cartwright|Michigan|20.82|
+13|Benjamin Johnson|East Tenn. St.|20.70|
+14|Andrew Miller|Indiana|20.51|
+@W60
+1|Aleia Hobbs|LSU|7.07|CR
+2|Mikiah Brisco|LSU|7.11|
+3|Natalliah Whyte|Auburn|7.12|
+4|Jonielle Smith|Auburn|7.19|
+5|Ashley Henderson|San Diego St.|7.20|
+6|Kate Hall|Georgia|7.24|
+7|Kortnei Johnson|LSU|7.26|
+8|Cassondra Hall|LSU|7.32|
+@W200
+1|Gabrielle Thomas|Harvard|22.38|CR
+2|Ashley Henderson|San Diego St.|22.41|
+3|Lynna Irby|Georgia|22.55|
+4|Sydney McLaughlin|Kentucky|22.80|
+5|Kortnei Johnson|LSU|22.90|
+6|Ka'Tia Seymour|Florida State|23.01|
+7|Jasmine Camacho-Quinn|Kentucky|23.05|
+8|Danyel White|Texas A&M|23.09|
+@W400
+1|Kendall Ellis|USC|50.34|CR
+2|Sydney McLaughlin|Kentucky|50.36|
+3|Lynna Irby|Georgia|50.87|
+4|Sharrika Barnett|Florida|51.07|
+5|Brionna Thomas|Purdue|51.56|
+6|Briana Guillory|Iowa|51.68|
+7|Ama Pipi|Oklahoma|52.47|
+8|Kiana Horton|Baylor|52.82|
+@W800
+1|Sabrina Southerland|Oregon|2:01.55|
+2|Síofra Cléirigh Büttner|Villanova|2:02.46|
+3|Sammy Watson|Texas A&M|2:02.65|
+4|Ashley Taylor|Northern Arizona|2:03.66|
+5|Jazmine Fray|Texas A&M|2:03.88|
+6|Rachel Pocratsky|Virginia Tech|2:03.93|
+7|Danae Rivers|Penn State|2:04.20|
+8|Olivia Baker|Stanford|2:04.54|
+@Wmile
+1|Elinor Purrier|New Hampshire|4:31.76|
+2|Dani Jones|Colorado|4:31.82|
+3|Nikki Hiltz|Arkansas|4:32.59|
+4|Rhianwedd Price-Weimer|Miss State|4:33.00|
+5|Elise Cranny|Stanford|4:34.48|
+6|Millie Paladino|Providence|4:34.93|
+7|Whittni Orton|BYU|4:35.44|
+8|Jessica Harris|Notre Dame|4:37.22|
+9|Amy Cashin|West Virginia|4:43.67|
+10|Sarah Hardie|Columbia|4:51.07|
+@W3000
+1|Karissa Schweizer|Missouri|8:53.36|
+2|Allie Ostrander|Boise State|8:54.35|
+3|Jessica Hull|Oregon|9:01.96|
+4|Vanessa Fraser|Stanford|9:02.31|
+5|Weini Kelati|New Mexico|9:03.51|
+6|Sharon Lokedi|Kansas|9:03.68|
+7|Christina Aragon|Stanford|9:03.71|
+8|Ednah Kurgat|New Mexico|9:03.81|
+9|Lilli Burdon|Oregon|9:04.62|
+10|Fiona O'Keeffe|Stanford|9:10.54|
+11|Alsu Bogdanova|Eastern Michigan|9:12.81|
+12|Amy-Eloise Neale|Washington|9:20.24|
+13|Erin Clark|Colorado|9:21.07|
+14|Elinor Purrier|New Hampshire|9:25.93|
+15|Gina Sereno|Michigan|9:39.81|
+@W5000
+1|Karissa Schweizer|Missouri|15:43.23|
+2|Ednah Kurgat|New Mexico|15:47.46|
+3|Sharon Lokedi|Kansas|15:52.95|
+4|Jessica Drop|Georgia|15:53.16|
+5|Weini Kelati|New Mexico|15:56.73|
+6|Erin Clark|Colorado|15:56.97|
+7|Elly Henes|North Carolina St.|16:00.80|
+8|Paige Stoner|Syracuse|16:05.88|
+9|Alice Wright|New Mexico|16:07.66|
+10|Grayson Murphy|Utah|16:10.26|
+11|Amy Davis|Wisconsin|16:11.50|
+12|Bethan Knights|California|16:18.51|
+13|Alicia Monson|Wisconsin|16:19.45|
+14|Clare O'Brien|Boise State|16:23.66|
+15|Paige Gilchrist|Northern Arizona|16:38.42|
+16|Makena Morley|Colorado|16:44.35|
+@W60H
+1|Payton Chadwick|Arkansas|7.93|
+2|Anna Cockrell|USC|7.93|
+3|Jasmine Camacho-Quinn|Kentucky|7.96|
+4|Cortney Jones|Florida State|8.02|
+5|Kayla White|N. Carolina A&T|8.06|
+6|Tara Davis|Georgia|8.14|
+7|Tonea Marshall|LSU|8.17|
+8|Janeek Brown|Arkansas|8.51|
+@WHJ
+1|Nicole Greene|North Carolina|1.87|
+2|Loretta Blaut|Cincinnati|1.87|
+3|Logan Boss|Miss State|1.87|
+4|Zarriea Willis|Texas Tech|1.84|
+5|Clarissa Cutliff|FIU|1.84|
+6|Stacey Destin|Alabama|1.84|
+7|Shelley Spires|Air Force|1.84|
+8|Chelsie Decoud|Texas State|1.84|
+9|Jordan Fields|South Carolina|1.81|
+10|Alexus Henry|UT-Arlington|1.81|
+10|Quamecha Morrison|Bethune-Cookman|1.81|
+12|Madeline Fagan|Georgia|1.76|
+12|Haleigh Knapp|Eastern Illinois|1.76|
+14|Lissa Labiche|South Carolina|1.76|
+15|Claire Kieffer-Wright|Michigan|1.76|
+15|Andrea Stapleton|BYU|1.76|
+@WPV
+1|Alexis Jacobus|Arkansas|4.66|CR
+2|Victoria Hoggard|Arkansas|4.61|
+3|Olivia Gruver|Kentucky|4.51|
+4|Lisa Gunnarsson|Virginia Tech|4.41|
+5|Desiree Freier|Arkansas|4.41|
+6|Laura Taylor|Kansas|4.36|
+7|Lucy Bryan|Akron|4.36|
+8|Madison Heath|Duke|4.31|
+9|Maddie Gardner|West Virginia|4.31|
+10|Lauren Martinez|California|4.21|
+11|Rachel Baxter|Virginia Tech|4.21|
+12|Karlie Place|Minnesota|4.21|
+13|Kally Long|Texas|4.21|
+14|Helen Falda|South Dakota|4.11|
+15|Lindsey Murray|Ole Miss|4.11|
+16|Bonnie Draxler|San Diego St.|4.11|
+@WLJ
+1|Kate Hall|Georgia|6.73|
+2|Keturah Orji|Georgia|6.52|
+3|Tara Davis|Georgia|6.50|
+4|Yanis David|Florida|6.42|
+5|Jahisha Thomas|Iowa|6.40|
+6|Darrielle McQueen|Florida|6.40|
+7|Jhoanmy Luque|Iowa State|6.26|
+8|Rougui Sow|South Carolina|6.25|
+9|Payton Chadwick|Arkansas|6.14|
+10|Marie-Josee Ebwea-Bile|Kentucky|6.10|
+11|Nina Schultz|Kansas State|6.03|
+12|Margaux Jones|USC|6.01|
+13|Keishorea Armstrong|Binghamton|5.98|
+14|Taliyah Brooks|Arkansas|5.95|
+15|Alexis Gibbons|Louisville|5.85|
+@WTJ
+1|Keturah Orji|Georgia|14.27|CR
+2|Yanis David|Florida|13.97|
+3|Jessie Maduka|UCLA|13.81|
+4|Jhoanmy Luque|Iowa State|13.68|
+5|Sabina Allen|Campbell|13.61|
+6|Marie-Josee Ebwea-Bile|Kentucky|13.51|
+7|Lajarvia Brown|Texas A&M|13.39|
+8|Jehvania Whyte|Northern Illinois|13.24|
+9|Tiffany Flynn|Miss State|13.23|
+10|Chaquinn Cook|Oregon|13.02|
+11|Hanifah Abdulqadir|South Carolina|12.99|
+12|Ciynamon Stevenson|Texas A&M|12.99|
+13|Latavia Coombs|Kentucky|12.79|
+14|Jakayla Hand|Auburn|12.57|
+15|Angela Mercurio|Nebraska|12.38|
+@WSP
+1|Maggie Ewen|Arizona State|18.49|
+2|Emmonnie Henderson|Louisville|17.77|
+3|Jessica Woodard|Oklahoma|17.37|
+4|Lloydricia Cameron|Florida|17.33|
+5|Kiley Sabin|Minnesota|17.16|
+6|Lena Giger|Stanford|17.14|
+7|Ashlie Blake|UCLA|17.07|
+8|Gleneve Grange|Florida State|17.00|
+9|Breana Jemison|USC|16.57|
+10|Aliyah Gustafson|Bowling Green|16.42|
+11|Portious Warren|Alabama|16.14|
+12|Sade Olatoye|Ohio State|16.12|
+13|Stamatia Scarvelis|Tennessee|15.55|
+14|Alyssa Wilson|UCLA|15.51|
+15|Janeah Stewart|Ole Miss|15.40|
+16|Banke Oginni|Wisconsin|14.50|
+@WWT
+1|Kaitlyn Long|Minnesota|23.30|
+2|Annette Echikunwoke|Cincinnati|23.29|
+3|Janeah Stewart|Ole Miss|23.26|
+4|Maggie Ewen|Arizona State|22.26|
+5|Stamatia Scarvelis|Tennessee|22.17|
+6|Sade Olatoye|Ohio State|22.14|
+7|Sarah Loesch|Purdue|21.50|
+8|Valarie Allman|Stanford|21.17|
+9|Alison Ondrusek|Texas A&M|21.16|
+10|Brooke Andersen|Northern Arizona|21.10|
+11|Agnes Esser|Minnesota|20.89|
+12|Banke Oginni|Wisconsin|20.69|
+13|Ashley Bryant|Oklahoma|20.51|
+14|Gabrielle Figueroa|Kent State|20.30|
+15|Makenli Forrest|Louisville|19.96|
+16|Nayoka Clunis|Minnesota|19.71|

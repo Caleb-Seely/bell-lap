@@ -11,6 +11,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 
 EVENTS = {
+    "60": ("60 m", "s"), "60H": ("60 m hurdles", "s"), "mile": ("mile", "ms"), "3000": ("3000 m", "ms"),
+    "WT": ("weight throw", "m"),
     "100": ("100 m", "s"), "200": ("200 m", "s"), "400": ("400 m", "s"),
     "800": ("800 m", "ms"), "1500": ("1500 m", "ms"), "5000": ("5000 m", "ms"),
     "10000": ("10,000 m", "ms"), "marathon": ("marathon", "hms"),
@@ -19,8 +21,9 @@ EVENTS = {
     "HJ": ("high jump", "m"), "PV": ("pole vault", "m"), "LJ": ("long jump", "m"), "TJ": ("triple jump", "m"),
     "SP": ("shot put", "m"), "DT": ("discus", "m"), "HT": ("hammer", "m"), "JT": ("javelin", "m"),
 }
-FIELD = {"HJ": "high", "PV": "high", "LJ": "far", "TJ": "far", "SP": "far", "DT": "far", "HT": "far", "JT": "far"}
-GROUP = {"100": "sprint", "200": "sprint", "400": "sprint", "100H": "hurdles", "110H": "hurdles", "400H": "hurdles",
+FIELD = {"HJ": "high", "PV": "high", "LJ": "far", "TJ": "far", "SP": "far", "DT": "far", "HT": "far", "JT": "far", "WT": "far"}
+GROUP = {"60": "sprint", "60H": "hurdles", "mile": "middle", "3000": "distance", "WT": "throws",
+         "100": "sprint", "200": "sprint", "400": "sprint", "100H": "hurdles", "110H": "hurdles", "400H": "hurdles",
          "800": "middle", "1500": "middle", "5000": "distance", "10000": "distance", "3000SC": "distance",
          "marathon": "road", "HJ": "jumps", "PV": "jumps", "LJ": "jumps", "TJ": "jumps",
          "SP": "throws", "DT": "throws", "HT": "throws", "JT": "throws"}
@@ -33,6 +36,8 @@ WIKI_EVENT = {"10000": "10,000 metres", "marathon": "marathon", "100H": "100 met
 def wiki_page(champ, gender, ev):
     """Title of the event's Wikipedia page (the results source). Uses the edition's name year: Tokyo 2020 was held in 2021."""
     y = champ["id"][:4]
+    if champ["name"].startswith("NCAA"):   # one page per meet
+        return f'{y} NCAA Division I {champ["name"].split()[1]} Track and Field Championships'
     games = f"Athletics at the {y} Summer Olympics" if champ["name"] == "Olympic Games" else \
         f"{y} World Athletics Championships" if int(y) >= 2019 else f"{y} World Championships in Athletics"
     return f"{games} – {gender}'s {WIKI_EVENT.get(ev, ev + ' metres')}"
@@ -41,7 +46,7 @@ def wiki_page(champ, gender, ev):
 def to_value(mark, fmt):
     """Mark string -> seconds (track) or metres (field)."""
     m = mark.strip().rstrip("m").strip()
-    if fmt == "m" or fmt == "s":
+    if fmt == "m" or (fmt == "s" and ":" not in m):   # a sprinter who fell can take minutes
         return float(m)
     parts = [float(p) for p in m.split(":")]
     v = 0.0
@@ -61,9 +66,14 @@ def parse_file(path):
             cid, name, city, year = line[4:].split("|")
             champ = {"id": cid, "name": name, "city": city, "year": int(year)}
             continue
+        if line.startswith("#"):
+            continue
+        if line == "CUT":   # list stops at the scoring places; the field was bigger
+            cur["cut"] = True
+            continue
         if line.startswith("@"):
             code = line[1:]
-            cur = {"code": code, "wr": None, "rows": []}
+            cur = {"code": code, "wr": None, "rows": [], "cut": False}
             finals.append(cur)
             continue
         f = line.split("|")
@@ -97,7 +107,8 @@ def build():
 
             # Partial fields: road / long races trimmed to top 10 + last finisher
             places = [r["place"] for r in rows]
-            partial = len(rows) >= 2 and places[-1] - places[-2] > 1
+            # (ties and a single missing place don't count: 12, 12, 14 or 6, 8)
+            partial = len(rows) >= 2 and places[-1] > places[-2] + places.count(places[-2]) + 1
             if partial:
                 flags.append("partial")
 
@@ -117,6 +128,10 @@ def build():
             clue_idx = len(rows) - 1
             if partial:
                 clue_idx = len(rows) - 2
+            elif champ["name"].startswith("NCAA") and len(rows) > 12:
+                # NCAA field events and distance races list everyone (up to 24); the clue is 12th place,
+                # like the last of a 12-athlete final, so it stays within reach of the winner
+                clue_idx = max(k for k, r in enumerate(rows) if r["place"] <= 12)
             elif len(rows) >= 4:
                 vals = [r["value"] for r in rows]
                 gaps = [abs(b - a) for a, b in zip(vals, vals[1:])]
@@ -147,6 +162,8 @@ def build():
                 "clue_index": clue_idx,
                 "results": [[r["place"], r["name"], r["nat"], r["value"]] for r in rows],
                 "partial": partial,
+                "cut": fin["cut"],
+                "ncaa": champ["name"].startswith("NCAA"),
                 "wr_before": {"mark": wr["mark"], "value": wr_value, "holder": wr["holder"], "year": wr["year"]} if wr else None,
                 "wr_broken": wr_broken,
                 "note": note,

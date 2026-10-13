@@ -1,4 +1,21 @@
 id,issue,note
+2016-NCAAI-M60,outlier-last,Bryce Robinson 7.33 far behind; clue uses Kenzo Cotton 6.70
+2016-NCAAI-M200,short-field,only 7 finishers with a time
+2016-NCAAI-M200,outlier-last,Sam Watts 22.06 far behind; clue uses Nick Gray 21.11
+2016-NCAAI-W60,outlier-last,Kennadi Bouyer 7.46 far behind; clue uses Shayla Sanders 7.22
+2016-NCAAI-W800,outlier-last,Anima Banks 2:15.09 far behind; clue uses Ce'aira Brown 2:06.87
+2016-NCAAI-Wmile,outlier-last,Grace Barnett 4:48.55 far behind; clue uses Heather MacLean 4:43.29
+2016-NCAAO-M100,outlier-last,Nethaneel Mitchell-Blake 12.05 far behind; clue uses Kenzo Cotton 10.35
+2016-NCAAO-M200,short-field,only 7 finishers with a time
+2016-NCAAO-M800,outlier-last,Robert Heppenstall 1:51.14 far behind; clue uses Eliud Rutto 1:48.54
+2016-NCAAO-M10000,outlier-last,Erik Peterson 29:23.48 far behind; clue uses Luis Vargas 29:18.40
+2016-NCAAO-M400H,outlier-last,Jussi Kanervo 52.11 far behind; clue uses Mica-Jonathan Petit-Homme Haiti 50.71
+2016-NCAAO-MDT,outlier-last,Kevin Farley 57.90 far behind; clue uses Reginald Jagers 59.56
+2016-NCAAO-W200,outlier-last,Jasmine Camacho-Quinn 23.07 far behind; clue uses Deanna Hill 22.75
+2016-NCAAO-W400,outlier-last,Felecia Majors 59.68 far behind; clue uses Jasmine Blocker 53.14
+2016-NCAAO-W100H,short-field,only 7 finishers with a time
+2016-NCAAO-W100H,outlier-last,Danielle Demas 17.10 far behind; clue uses Chanice Chase 12.90
+2016-NCAAO-WDT,outlier-last,Maggie Ewen 54.66 far behind; clue uses Tera Novy 57.70
 2016-OG-M1500,outlier-last,Ronald Kwemoi 3:56.76 far behind; clue uses Charlie Grice 3:51.73
 2016-OG-M110H,short-field,only 7 finishers with a time
 2016-OG-M400H,short-field,only 7 finishers with a time
@@ -6,6 +23,19 @@ id,issue,note
 2016-OG-W100,outlier-last,Christania Williams 11.80 far behind; clue uses English Gardner 10.94
 2016-OG-W400,short-field,only 7 finishers with a time
 2016-OG-W100H,check-mark,a mark was unclear on the source page
+2017-NCAAI-M400,short-field,only 7 finishers with a time
+2017-NCAAI-M400,outlier-last,Jermaine Griffith 47.10 far behind; clue uses Eric Janise 46.33
+2017-NCAAI-M800,outlier-last,Blair Henderson 1:49.69 far behind; clue uses Daniel Kuhn 1:48.72
+2017-NCAAI-Mmile,outlier-last,Thomas Joyce 4:16.77 far behind; clue uses Matthew Maton 4:08.88
+2017-NCAAI-M60H,outlier-last,Aaron Mallett 9.49 far behind; clue uses Nick Anderson 7.85
+2017-NCAAI-Wmile,outlier-last,Grace Barnett 4:38.27 far behind; clue uses Amy-Eloise Neale 4:35.12
+2017-NCAAO-M100,outlier-last,Odean Skeen 10.97 far behind; clue uses Senoj-Jay Givans 10.29
+2017-NCAAO-M800,outlier-last,Michael Saruni 2:15.56 far behind; clue uses Devin Dixon 1:49.32
+2017-NCAAO-M400H,outlier-last,Robert Grant 1:20.79 far behind; clue uses David Kendziera 50.78
+2017-NCAAO-M3000SC,outlier-last,Noah Schutte 9:04.87 far behind; clue uses Bailey Roth 8:48.70
+2017-NCAAO-W200,short-field,only 7 finishers with a time
+2017-NCAAO-W400H,outlier-last,Katrina Seymour 59.68 far behind; clue uses Symone Black 57.15
+2017-NCAAO-WPV,outlier-last,Helen Falda 4.15 far behind; clue uses Alyssa Applebee 4.30
 2017-WC-M5000,outlier-last,Awet Habte 13:58.68 far behind; clue uses Cyrus Rutto 13:48.64
 2017-WC-M400,short-field,only 7 finishers with a time
 2017-WC-M3000SC,outlier-last,Jacob Araptany 8:49.18 far behind; clue uses Yoann Kowal 8:34.53
@@ -13,6 +43,24 @@ id,issue,note
 2017-WC-W200,outlier-last,Tynia Gaither 23.07 far behind; clue uses Crystal Emmanuel 22.60
 2017-WC-W5000,outlier-last,Kalkidan Gezahegne 15:28.21 far behind; clue uses Shelby Houlihan 15:06.40
 2017-WC-W100H,outlier-last,Nia Ali 13.04 far behind; clue uses Nadine Visser 12.83
+2018-NCAAI-M800,outlier-last,Bryce Hoppel 1:50.06 far behind; clue uses John Lewis 1:47.71
+2018-NCAAI-Mmile,outlier-last,Sean Tobin 4:06.90 far behind; clue uses Jonah Koech 4:02.26
+2018-NCAAI-M60H,outlier-last,Damion Thomas 8.25 far behind; clue uses Michael Nicholls 7.77
+2018-NCAAI-Wmile,outlier-last,Sarah Hardie 4:51.07 far behind; clue uses Amy Cashin 4:43.67
+2018-NCAAI-W60H,outlier-last,Janeek Brown 8.51 far behind; clue uses Tonea Marshall 8.17
+2018-NCAAO-W200,outlier-last,Shania Collins 24.01 far behind; clue uses Deanna Hill 23.53
+2018-NCAAO-W400,outlier-last,Makenzie Dunmore 1:49.13 far behind; clue uses Rachel Misher 52.23
+2018-NCAAO-W100H,outlier-last,Rushelle Burton 13.51 far behind; clue uses Alaysha Johnson 13.22
+2019-NCAAI-W200,short-field,only 7 finishers with a time
+2019-NCAAI-W60H,short-field,only 7 finishers with a time
+2019-NCAAI-W60H,outlier-last,Mecca McGlaston 8.48 far behind; clue uses Dior Hall 8.11
+2019-NCAAI-WSP,outlier-last,Bailey Rentzlaff 16.77 far behind; clue uses Aliyah Gustafson 17.17
+2019-NCAAO-M200,outlier-last,Mustaqeem Williams 20.56 far behind; clue uses Andrew Hudson 20.25
+2019-NCAAO-M400,short-field,only 7 finishers with a time
+2019-NCAAO-M110H,short-field,only 7 finishers with a time
+2019-NCAAO-M400H,short-field,only 7 finishers with a time
+2019-NCAAO-W100,outlier-last,Ka'Tia Seymour 11.65 far behind; clue uses Anglerne Annelus 11.12
+2019-NCAAO-W200,short-field,only 7 finishers with a time
 2019-WC-M200,outlier-last,Kyle Greaux 20.39 far behind; clue uses Xie Zhenye 20.14
 2019-WC-M800,outlier-last,Clayton Murphy 1:47.84 far behind; clue uses Marco Arop 1:45.78
 2019-WC-M110H,order,Xie Wenjun 13.29 placed below Orlando Ortega 13.30
@@ -37,17 +85,55 @@ id,issue,note
 2020-OG-W3000SC,outlier-last,Carolina Robles 9:50.96 far behind; clue uses Luiza Gega 9:34.10
 2020-OG-WHJ,outlier-last,Maja Nilsson 1.84 far behind; clue uses Mirela Demireva 1.93
 2020-OG-WTJ,outlier-last,Thea LaFond 12.57 far behind; clue uses Kristiina Mäkelä 14.17
+2021-NCAAI-W200,outlier-last,Amira Young 23.47 far behind; clue uses Delecia McDuffie 23.01
+2021-NCAAO-M200,outlier-last,Javonte Harding 25.79 far behind; clue uses Robert Gregory 21.74
+2021-NCAAO-W1500,outlier-last,Maudie Skyring 4:21.04 far behind; clue uses Lauren Berman 4:16.37
+2021-NCAAO-W100H,outlier-last,TeJyrica Robinson 29.11 far behind; clue uses Cha'Mia Rothwell 13.14
+2021-NCAAO-W3000SC,outlier-last,Alissa Niggemann 10:12.13 far behind; clue uses Abby Kohut-Jackson 9:50.89
+2022-NCAAI-M60,short-field,only 7 finishers with a time
+2022-NCAAI-M200,short-field,only 7 finishers with a time
+2022-NCAAI-M400,short-field,only 7 finishers with a time
+2022-NCAAI-M800,outlier-last,Luis Peralta 1:53.32 far behind; clue uses Cole Johnson 1:48.88
+2022-NCAAI-M60H,outlier-last,Eric Edwards Jr. 8.24 far behind; clue uses Darius Luff 7.82
+2022-NCAAI-W60H,short-field,only 5 finishers with a time
+2022-NCAAO-M400,short-field,only 7 finishers with a time
+2022-NCAAO-M3000SC,outlier-last,Bennett Pascoe 9:02.51 far behind; clue uses Colton Johnsen 8:37.38
+2022-NCAAO-W400,outlier-last,Makenzie Dunmore 54.73 far behind; clue uses Kavia Francis 52.16
+2022-NCAAO-W800,outlier-last,Gabrielle Wilkinson 2:06.40 far behind; clue uses Katy-Ann McDonald 2:03.57
+2022-NCAAO-W1500,outlier-last,Melissa Tenaka 4:21.28 far behind; clue uses Ellie Leather 4:13.37
 2022-WC-M400,outlier-last,Jonathan Jones 46.13 far behind; clue uses Christopher Taylor 45.30
 2022-WC-M800,outlier-last,Wycliffe Kinyamal 1:47.07 far behind; clue uses Peter Bol 1:45.51
 2022-WC-M110H,short-field,only 5 finishers with a time
 2022-WC-W1500,outlier-last,Winny Chebet 4:15.13 far behind; clue uses Hirut Meshesha 4:05.86
 2022-WC-W100H,short-field,only 7 finishers with a time
 2022-WC-W100H,wr-mismatch,winner 12.06 beats WR going in 12.20 but is not marked WR (wind? annulled?)
+2023-NCAAI-M60,short-field,only 7 finishers with a time
+2023-NCAAI-M400,short-field,only 7 finishers with a time
+2023-NCAAI-M400,outlier-last,Michael Joseph 47.18 far behind; clue uses Nathaniel Ezekiel 45.73
+2023-NCAAI-M800,outlier-last,Will Sumner 1:51.46 far behind; clue uses Baylor Franklin 1:48.21
+2023-NCAAI-M60H,short-field,only 7 finishers with a time
+2023-NCAAI-M60H,outlier-last,Jerome Campbell 7.99 far behind; clue uses Antoine Andrews 7.73
+2023-NCAAI-W800,outlier-last,Aurora Rynda 2:06.83 far behind; clue uses Wilma Nielsen 2:03.34
+2023-NCAAI-W60H,short-field,only 7 finishers with a time
+2023-NCAAI-WHJ,order,Bara Sajdokova 1.77 placed below Lucy Corbett 1.72
+2023-NCAAO-M200,outlier-last,Javonte Harding 20.90 far behind; clue uses Cameron Miller 20.30
+2023-NCAAO-W1500,outlier-last,Sophie O'Sullivan 4:22.81 far behind; clue uses Melissa Riggins 4:16.57
 2023-WC-M400,short-field,only 7 finishers with a time
 2023-WC-M1500,outlier-last,Isaac Nader 3:35.41 far behind; clue uses Azeddine Habz 3:33.14
 2023-WC-MJT,outlier-last,Timothy Herman 74.56 far behind; clue uses Andrian Mardare 79.66
 2023-WC-W5000,outlier-last,Nadia Battocletti 15:27.86 far behind; clue uses Francine Niyomukunzi 15:15.01
 2023-WC-WLJ,outlier-last,Leticia Oro Melo 6.12 far behind; clue uses Ackelia Smith 6.49
+2024-NCAAI-M200,short-field,only 7 finishers with a time
+2024-NCAAI-M200,outlier-last,Wanya McCoy 25.60 far behind; clue uses Lance Lang 20.95
+2024-NCAAI-M800,outlier-last,Abdullahi Hassan 1:50.78 far behind; clue uses Handal Roban 1:48.16
+2024-NCAAI-Mmile,outlier-last,Gary Martin 4:12.44 far behind; clue uses Nick Foster 4:05.32
+2024-NCAAI-W200,outlier-last,Amber Anning 23.62 far behind; clue uses Nickisha Pryce 23.18
+2024-NCAAI-W400,outlier-last,Kenisha Phillips 53.92 far behind; clue uses Savannah Sutherland 52.33
+2024-NCAAI-W800,outlier-last,Maggi Congdon 2:06.41 far behind; clue uses Lindsey Butler 2:02.39
+2024-NCAAO-M800,outlier-last,Camden Marshall 2:04.27 far behind; clue uses Nicholas Plant 1:47.00
+2024-NCAAO-M1500,outlier-last,Luke Houser 3:48.86 far behind; clue uses Liam Murphy 3:42.90
+2024-NCAAO-M400H,outlier-last,Sean Burrell 51.17 far behind; clue uses Jakwan Hale 49.49
+2024-NCAAO-M3000SC,outlier-last,Levi Taylor 8:43.47 far behind; clue uses Tom Seitzer 8:35.70
 2024-OG-M200,outlier-last,Makanakaishe Charamba 20.53 far behind; clue uses Joseph Fahnbulleh 20.15
 2024-OG-M400,outlier-last,Michael Norman 45.62 far behind; clue uses Samuel Ogazi 44.73
 2024-OG-M800,outlier-last,Max Burgin 1:43.84 far behind; clue uses Tshepiso Masalela 1:42.82
@@ -58,6 +144,16 @@ id,issue,note
 2024-OG-W100H,short-field,only 7 finishers with a time
 2024-OG-W100H,outlier-last,Alaysha Johnson 12.93 far behind; clue uses Devynne Charlton 12.56
 2024-OG-WLJ,outlier-last,Prestina Ochonogor 6.24 far behind; clue uses Hilary Kpatcha 6.56
+2025-NCAAI-M200,short-field,only 7 finishers with a time
+2025-NCAAI-Mmile,outlier-last,Harrison Witt 3:59.71 far behind; clue uses Benne Anderson 3:57.63
+2025-NCAAI-M60H,outlier-last,Vashaun Vascinna 7.64 far behind; clue uses Ja'qualon Scott 7.57
+2025-NCAAI-W60,short-field,only 7 finishers with a time
+2025-NCAAO-M800,outlier-last,Koitatoi Kidali 1:52.10 far behind; clue uses Tyrice Taylor 1:47.44
+2025-NCAAO-M1500,outlier-last,Martin Segurola 3:48.71 far behind; clue uses Trent McFarland 3:47.94
+2025-NCAAO-M3000SC,outlier-last,Kristian Imroth 8:49.06 far behind; clue uses Victor Kibiego 8:32.33
+2025-NCAAO-W800,outlier-last,Victoria Bossong 2:03.86 far behind; clue uses Veronica Hargrave 2:01.00
+2025-NCAAO-W100H,short-field,only 6 finishers with a time
+2025-NCAAO-W100H,outlier-last,Janela Spencer 13.25 far behind; clue uses Oneka Wilson 13.02
 2025-WC-M100,short-field,only 7 finishers with a time
 2025-WC-M1500,outlier-last,Josh Kerr 4:11.23 far behind; clue uses Jonah Koech 3:37.00
 2025-WC-M110H,short-field,only 7 finishers with a time

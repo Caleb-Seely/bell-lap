@@ -1,0 +1,221 @@
+#CH 2016-NCAAI|NCAA Indoor Championships|Birmingham|2016
+#DATES March 11–12, 2016
+@M60
+1|Ronnie Baker|TCU|6.47|
+2|Cameron Burrell|Houston|6.48|
+3|Christian Coleman|Tennessee|6.52|
+4|John Teeters|Oklahoma State|6.53|
+5|Jarrion Lawson|Arkansas|6.60|
+6|Tevin Hester|Clemson|6.64|
+7|Kenzo Cotton|Arkansas|6.70|
+8|Bryce Robinson|Tulsa|7.33|
+@M200
+1|Christian Coleman|Tennessee|20.55|
+2|Nethaneel Mitchell-Blake|LSU|20.63|
+3|Kenzo Cotton|Arkansas|20.74|
+4|Brendon Rodney|LIU Brooklyn|20.77|
+5|Tevin Hester|Clemson|21.02|
+6|Nick Gray|Ohio State University|21.11|
+7|Sam Watts|TCU|22.06|
+@M400
+1|Zack Bilderback|Texas|46.03|
+2|Nathan Strother|Tennessee|46.28|
+3|Michael Cherry|LSU|46.34|
+4|Arman Hall|Florida|46.44|
+5|Fitzroy Dunkley|LSU|46.46|
+6|Najee Glass|Florida|46.60|
+7|Emmanuel Dasor|WKU|46.61|
+8|Wil London|Baylor University|46.88|
+@M800
+1|Clayton Murphy|Akron|1:46.68|
+2|Eliud Rutto|Middle Tennessee|1:46.81|
+3|Shaquille Walker|BYU|1:47.50|
+4|Hector Hernandez|Texas A&M|1:47.55|
+5|Robert Heppenstall|Wake Forest|1:49.06|
+6|Carlton Orange|Arkansas|1:49.69|
+7|Brannon Kidder|Penn State|1:50.29|
+8|Dylan Capwell|Monmouth University|1:51.21|
+@W60
+1|Teahna Daniels|Texas|7.11|
+2|Hannah Cunliffe|Oregon|7.12|
+3|Mikiah Brisco|LSU|7.17|
+4|Jasmine Todd|Oregon|7.19|
+5|Morolake Akinosun|Texas|7.21|
+6|Javianne Oliver|Kentucky|7.22|
+7|Shayla Sanders|Florida|7.22|
+8|Kennadi Bouyer|Washington|7.46|
+@W200
+1|Felicia Brown|Tennessee|22.47|
+2|Kyra Jefferson|Florida|22.83|
+3|Hannah Cunliffe|Oregon|22.85|
+4|Deajah Stevens|Oregon|23.02|
+5|Daye Shon Roberson|Oklahoma|23.05|
+6|Deanna Hill|USC|23.05|
+7|Kali Davis-White|Tennessee|23.08|
+8|A'Keyla Mitchell|Kansas State|23.31|
+@W400
+1|Courtney Okolo|Texas|50.69|
+2|Taylor Ellis-Watson|Arkansas|51.51|
+3|Chrisann Gordon|Texas|51.69|
+4|Shamier Little|Texas A&M|51.74|
+5|Margaret Bamgbose|Notre Dame|52.12|
+6|Jaide Stepter|USC|52.22|
+7|Kyra Jefferson|Florida|52.28|
+8|Claudia Francis|Florida|52.84|
+@W800
+1|Raevyn Rogers|Oregon|2:04.68|
+2|Hanna Green|Virginia Tech|2:05.90|
+3|Olivia Baker|Stanford|2:06.08|
+4|Savannah Camacho|Oklahoma State|2:06.47|
+5|Shea Collinsworth|BYU|2:06.57|
+6|Cecilia Barowski|Princeton|2:06.81|
+7|Ce'aira Brown|Hampton|2:06.87|
+8|Anima Banks|Duke|2:15.09|
+@Wmile
+1|Kaela Edwards|Oklahoma State|4:35.62|
+2|Angel Piccirillo|Villanova|4:36.26|
+3|Elinor Purrier|New Hampshire|4:38.42|
+4|Andrea Keklak|Georgetown|4:38.44|
+5|Sophie Connor|New Mexico|4:38.83|
+6|Erin Teschuk|North Dakota State|4:38.94|
+7|Megan Moye|North Carolina St.|4:38.99|
+8|Eleanor Fulton|Washington|4:40.15|
+9|Heather MacLean|UMass Amherst|4:43.29|
+10|Grace Barnett|Clemson|4:48.55|
+@W3000
+1|Molly Seidel|Notre Dame|8:57.86|
+2|Erin Finn|Michigan|9:04.40|
+3|Katrina Coogan|Georgetown|9:07.74|
+4|Erin Teschuk|North Dakota State|9:08.45|
+5|Erin Clark|Colorado|9:08.63|
+6|Calli Thackery|New Mexico|9:09.35|
+7|Alli Cash|Oregon|9:09.46|
+8|Kaitlyn Benner|Colorado|9:09.66|
+9|Bethan Knights|California|9:09.79|
+10|Vanessa Fraser|Stanford|9:15.09|
+11|Erika Kemp|North Carolina St.|9:19.88|
+12|Regan Rome|William and Mary|9:22.60|
+13|Angel Piccirillo|Villanova|9:25.12|
+@W5000
+1|Molly Seidel|Notre Dame|15:15.21|
+2|Erin Finn|Michigan|15:23.16|
+3|Chelsea Blaase|Tennessee|15:42.47|
+4|Anna Rohrer|Notre Dame|15:54.53|
+5|Erika Kemp|North Carolina St.|15:58.00|
+6|Sharon Lokedi|Kansas|15:58.61|
+7|Hannah Everson|Air Force|16:04.37|
+8|Courtney Smith|Harvard|16:04.86|
+9|Ednah Kurgat|Liberty|16:07.18|
+10|Liv Westphal|Boston College|16:11.92|
+11|Tessa Barrett|Penn State|16:25.94|
+12|Sarah Collins|Providence|16:33.96|
+13|Tori Gerlach|Penn State|16:45.56|
+14|Molly Grabill|Oregon|16:51.25|
+@W60H
+1|Cindy Ofili|Michigan|7.89|
+2|Sasha Wallace|Oregon|7.91|
+3|Devynne Charlton|Purdue|7.99|
+4|Daeshon Gordon|LSU|8.04|
+5|Mikiah Brisco|LSU|8.04|
+6|Kaila Barber|Notre Dame|8.07|
+7|Payton Stumbaugh|Arkansas|8.09|
+8|Alaysha Johnson|Oregon|8.16|
+@WHJ
+1|Akela Jones|Kansas State|1.87|
+2|Tatiana Gusin|Georgia|1.84|
+3|Claudia Garcia Jou|Akron|1.84|
+3|Kimberly Williamson|Kansas State|1.84|
+3|Dakota Dailey-Harris|Miami|1.84|
+6|Erika Hurd|Cincinnati|1.84|
+7|Jailah Mason|Morgan State|1.81|
+7|Kaitlin Whitehorn|Dartmouth|1.81|
+9|Loretta Blaut|Cincinnati|1.81|
+10|Madeline Fagan|Georgia|1.81|
+10|Reka Czuth|Nebraska|1.81|
+12|Kandie Bloch-Jones|Illinois|1.76|
+12|Nicole Greene|North Carolina|1.76|
+14|Chanice Porter|Georgia|1.76|
+@WPV
+1|Alexis Weeks|Arkansas|4.63|
+2|Megan Clark|Duke|4.50|
+3|Diamara Planell Cruz|Washington|4.45|
+4|Alysha Newman|Miami|4.40|
+5|Kaitlin Petrillose|Texas|4.40|
+6|Victoria Weeks|Arkansas|4.30|
+7|Emily Grove|South Dakota|4.30|
+7|Mackenzie Shell|Oklahoma|4.30|
+9|Elizabeth Quick|Washington|4.30|
+10|Sydney Clute|Indiana|4.20|
+10|Annie Rhodes|Baylor|4.20|
+12|Chanel Krause|Louisville|4.20|
+12|Kally Long|Texas|4.20|
+14|Jessie Johnson|Auburn|4.20|
+15|Carolina Carmichael|Memphis|4.10|
+@WLJ
+1|Quanesha Burks|Alabama|6.80|
+2|Sha'Keela Saunders|Kentucky|6.56|
+3|Chanice Porter|Georgia|6.52|
+4|Keturah Orji|Georgia|6.48|
+5|Kendell Williams|Georgia|6.45|
+6|Clairwin Dameus|Tennessee St.|6.40|
+7|Bria Matthews|Georgia Tech|6.39|
+8|Margaux Jones|USC|6.26|
+9|Nataliyah Friar|LSU|6.23|
+10|Der'Renae Freeman|Florida State|6.23|
+11|Jogaile Petrokaite|Florida State|6.19|
+12|Kate Hall|Iowa State|6.12|
+13|Darrielle McQueen|Florida|6.11|
+14|Taliyah Brooks|Arkansas|6.10|
+15|Jhoanmy Luque|Iowa State|6.07|
+16|Savannah Carson|Purdue|6.00|
+@WTJ
+1|Keturah Orji|Georgia|14.12|
+2|Simone Charley|Vanderbilt|13.41|
+3|Natasha Dicks|South Carolina|13.35|
+4|Amber Hughes|Tennessee St.|13.25|
+5|Tierra Williams|Nebraska|13.22|
+6|Bria Matthews|Georgia Tech|13.16|
+7|Isabella Marten|California|13.10|
+8|Sha'Keela Saunders|Kentucky|13.01|
+9|Marshay Ryan|Auburn|12.91|
+10|Dannielle Gibson|Penn State|12.88|
+11|Jannell Hadnot|New Mexico|12.83|
+12|Nickevea Wilson|UTEP|12.82|
+13|Darrielle McQueen|Florida|12.80|
+14|Yanis David|Florida|12.60|
+15|Viershanie Latham|Texas Tech|12.57|
+16|Anasterasia Terrell|Clemson|12.57|
+@WSP
+1|Dani Winters|Kansas State|17.97|
+2|Cassie Wertman|Tennessee|17.68|
+3|Nikki Okwelogu|Harvard|17.66|
+4|Christina Hillman|Iowa State|17.63|
+5|Kelsey Card|Wisconsin|17.60|
+6|Chase Ealey|Oklahoma State|17.35|
+7|Rachel Fatherly|Penn State|17.22|
+8|Jessica Woodard|Oklahoma|17.04|
+9|Alexis Cooks|Akron|17.02|
+10|Brittany Mann|Oregon|16.84|
+11|Cion Hicks|Baylor|16.80|
+12|Raven Saunders|Mississippi|16.59|
+13|Emmonnie Henderson|Louisville|15.88|
+14|Breana Jemison|UC Riverside|15.84|
+15|Maggie Ewen|Arizona State|15.68|
+16|Itohan Aikhionbare|Oregon|15.55|
+@WWT
+1|Vesta Bell|UC Riverside|22.42|
+2|Dolly Nyemah|Louisville|22.21|
+3|Daina Levy|Kansas|21.57|
+4|Ashley Jenkins|Sam Houston St.|21.54|
+5|Nicole Chavis|North Carolina St.|21.25|
+6|Marthaline Cooper|Winthrop|21.24|
+7|Beckie Famurewa|Kentucky|20.87|
+8|Annette Echikunwoke|Cincinnati|20.81|
+9|Alexis Cooks|Akron|20.00|
+10|Tiffany Okieme|Miami|19.97|
+11|Raqurra Ishmar|East Carolina|19.96|
+12|Precious Ogunleye|Miami|19.95|
+13|Kelsey Card|Wisconsin|19.77|
+14|Chioma Onyekwere|Maryland|19.49|
+15|Nakel McClinton|Indiana|18.46|
+16|Sasha Lebert|Florida State|17.86|

@@ -62,11 +62,13 @@ const clueRow=q=>q.results[q.clue];
 const tolerance=q=>q.mark*Math.max(0.04,Math.abs(clueRow(q)[3]-q.mark)/q.mark);
 const points=(g,q)=>{const e=Math.abs(g-q.mark)/tolerance(q);return Math.round(1000/(1+e*e));};
 const better=(q,a,b)=>q.field?a>b:a<b;
-// Where a guess would have finished. Big road fields only list the top 10 and the last finisher.
+// Where a guess would have finished. Big road fields only list the top 10 and the last finisher;
+// "cut" lists (some NCAA pages) stop at the scoring places, so the field size is unknown.
 function placing(q,g){
   const rows=q.results, ahead=rows.filter(r=>better(q,r[3],g)).length;
   const tied=rows.some(r=>Math.abs(r[3]-g)<1e-9);
-  if(q.partial&&ahead===rows.length-1) return {outside:true, ahead};
+  if(q.partial&&ahead===rows.length-1) return {outside:true, top:rows[rows.length-2][0], ahead};
+  if(q.cut&&ahead===rows.length) return {outside:true, top:rows[rows.length-1][0], ahead};
   if(ahead===rows.length) return {behind:true, place:q.n+1, ahead};
   return {place:tied?rows[ahead][0]:ahead===0?1:rows[ahead-1][0]+1, tied, ahead};
 }
@@ -88,9 +90,12 @@ function pick(seed,used=new Set()){
   const r=rng(seed), order=BANK.map(q=>q.id).filter(id=>!used.has(id));
   for(let i=order.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[order[i],order[j]]=[order[j],order[i]];}
   const buckets=[["sprint","hurdles"],["middle","distance","road"],["jumps"],["throws"]], chosen=[];
-  buckets.forEach(b=>{const id=order.find(id=>!chosen.includes(id)&&b.includes(BYID[id].group))||order.find(id=>!chosen.includes(id));chosen.push(id);});
+  // at most two NCAA finals a set, as in schedule.py
+  const ok=id=>!chosen.includes(id)&&(!BYID[id].ncaa||chosen.filter(c=>BYID[c].ncaa).length<2);
+  const first=test=>order.find(id=>ok(id)&&test(id))||order.find(ok)||order.find(id=>!chosen.includes(id));
+  buckets.forEach(b=>chosen.push(first(id=>b.includes(BYID[id].group))));
   const men=chosen.filter(id=>BYID[id].g==="M").length, want=men>2?"W":men<2?"M":null;
-  chosen.push(order.find(id=>!chosen.includes(id)&&(!want||BYID[id].g===want))||order.find(id=>!chosen.includes(id)));
+  chosen.push(first(id=>!want||BYID[id].g===want));
   // shuffle the order of the five rounds
   for(let i=chosen.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[chosen[i],chosen[j]]=[chosen[j],chosen[i]];}
   return chosen;
@@ -227,11 +232,11 @@ function submit(v){
 
 function placedLine(q,g){
   const p=placing(q,g);
-  if(p.outside) return `That mark would place outside the top 10.`;
+  if(p.outside) return `That mark would place outside the top ${p.top}.`;
   if(p.behind) return `Behind the whole field.`;
   if(p.place===1&&p.tied) return `Spot on.`;
   if(p.place===1) return `${q.field==="high"?"Higher":q.field?"Further":"Faster"} than the winner. That mark would have won gold.`;
-  return `That mark would ${p.tied?"tie for":"place"} ${ord(p.place)} of ${q.n}.`;
+  return `That mark would ${p.tied?"tie for":"place"} ${ord(p.place)}${q.cut?"":` of ${q.n}`}.`;
 }
 
 function straight(q,g){

@@ -1,0 +1,376 @@
+#CH 2024-NCAAI|NCAA Indoor Championships|Boston|2024
+#DATES March 8–9, 2024
+@M60
+1|Terrence Jones|Texas Tech|6.54|
+2|Kalen Walker|Iowa|6.59|
+3|Don'dre Swint|Texas Tech|6.60|
+4|Wanya McCoy|Florida|6.60|
+5|Travis Williams|USC|6.64|
+6|Caleb Dean|Texas Tech|6.67|
+7|Cheickna Traore|Penn State|6.68|
+8|Saminu Abdul-Rasheed|South Florida|6.69|
+@M200
+1|Terrence Jones|Texas Tech|20.23|
+2|Cheickna Traore|Penn State|20.30|
+3|Robert Gregory|Florida|20.37|
+4|Tarsis Orogot|Alabama|20.46|
+5|Anthony Greenhow|South Carolina|20.84|
+6|Lance Lang|Arkansas|20.95|
+7|Wanya McCoy|Florida|25.60|
+@M400
+1|Christopher Morales Williams|Georgia|44.67|
+2|Auhmad Robinson|Texas A&M|44.91|
+3|Judson Lincoln IV|Virginia Tech|45.57|
+4|JeVaughn Powell|Florida|45.59|
+5|William Jones|USC|45.78|
+6|Shaemar Uter|Texas Tech|45.94|
+7|Brian Herron|Texas|46.01|
+8|Nathaniel Ezekiel|Baylor|46.32|
+@M800
+1|Rivaldo Marshall|Iowa|1:46.92|
+2|Sean Dolan|Villanova|1:47.61|
+3|Finley McLear|Iowa State|1:47.68|
+4|Nicholas Plant|Virginia Tech|1:47.75|
+5|Tarees Rhoden|Clemson|1:47.79|
+6|Darius Kipyego|Iowa State|1:47.99|
+7|Handal Roban|Penn State|1:48.16|
+8|Abdullahi Hassan|Wisconsin|1:50.78|
+@Mmile
+1|Luke Houser|Washington|4:01.72|
+2|Adam Spencer|Wisconsin|4:01.92|
+3|Lucas Bons|BYU|4:02.12|
+4|Ethan Strand|North Carolina|4:02.44|
+5|Abel Teffra|Georgetown|4:02.57|
+6|Colin Sahlman|Northern Arizona|4:02.57|
+7|Parvej Khan|Florida|4:03.05|
+8|Joe Waskom|Washington|4:03.26|
+9|Nick Foster|Michigan|4:05.32|
+10|Gary Martin|Virginia|4:12.44|
+@M3000
+1|Nico Young|Northern Arizona|7:41.01|
+2|Parker Wolfe|North Carolina|7:42.38|
+3|Alex Maier|Oklahoma State|7:44.68|
+4|Liam Murphy|Villanova|7:45.64|
+5|Ky Robinson|Stanford|7:46.13|
+6|Brian Musau|Oklahoma State|7:46.79|
+7|Habtom Samuel|New Mexico|7:46.86|
+8|Ryan Schoppe|Oklahoma State|7:48.11|
+9|Aaron Las Heras|Northern Arizona|7:50.54|
+10|Anass Essayi|South Carolina|7:54.67|
+11|David Mullarkey|Florida State|7:55.42|
+12|Yaseen Abdalla|Tennessee|7:55.57|
+13|Theo Quax|Northern Arizona|7:56.35|
+14|Marco Langdon|Villanova|8:00.83|
+15|Luke Houser|Washington|8:08.03|
+16|Matt Strangio|Portland|8:24.07|
+@M5000
+1|Nico Young|Northern Arizona|13:25.29|
+2|Parker Wolfe|North Carolina|13:27.37|
+3|Ky Robinson|Stanford|13:27.79|
+4|Habtom Samuel|New Mexico|13:30.07|
+5|Peter Maru|Arkansas|13:30.51|
+6|Alex Maier|Oklahoma State|13:31.17|
+7|Aaron Las Heras|Northern Arizona|13:31.55|
+8|Jackson Sharp|Wisconsin|13:31.63|
+9|Kirami Yego|Arkansas|13:36.32|
+10|Said Mechaal|Iowa State|13:36.99|
+11|Patrick Kiprop|Arkansas|13:39.18|
+12|Alex Phillip|North Carolina|13:43.00|
+13|Denis Kipngetich|Oklahoma State|13:43.26|
+14|Theo Quax|Northern Arizona|13:45.34|
+15|Evans Kiplagat|New Mexico|13:46.41|
+16|Tom Brady|Michigan|13:48.32|
+@M60H
+1|Caleb Dean|Texas Tech|7.56|
+2|Johnny Brackins|USC|7.57|
+3|Jaqualon Scott|Texas A&M|7.59|
+4|De' Vion Wilson|Houston|7.65|
+5|Connor Schulman|Texas A&M|7.66|
+6|Jaheem Hayles|Syracuse|7.73|
+7|Darius Brown|DePaul|7.74|
+8|Ethan Exilhomme|Northeastern|7.82|
+@MHJ
+1|Romaine Beckford|Arkansas|2.27|
+2|Caleb Snowden|Arkansas-Pine Bluff|2.24|
+3|Devin Loudermilk|Kansas|2.21|
+4|Tyus Wilson|Nebraska|2.21|
+5|Omamuyovwi Erhire|Texas Tech|2.18|
+5|Zayne Palomino|Southern Miss|2.18|
+7|Riyon Rankin|Georgia|2.18|
+8|Andrew Taylor|High Point|2.18|
+9|Kennedy Sauder|Miami|2.18|
+9|Tito Alofe|Harvard|2.18|
+11|Kamyren Garrett|Illinois|2.15|
+11|Brion Stephens|Louisville|2.15|
+13|Ushan Perera|Texas A&M|2.15|
+14|Trey Allen|Louisville|2.15|
+15|Kaithon McDonald|Texas Tech|2.10|
+16|Kampton Kam|Penn|2.10|
+@MPV
+1|Keaton Daniel|Kentucky|5.70|
+2|Bradley Jelmert|Arkansas State|5.65|
+3|Conner McClure|Virginia Tech|5.55|
+4|James Rhoads|Penn|5.50|
+5|Scott Toney|Penn|5.50|
+6|Clayton Simms|Kansas|5.50|
+7|Alexander Slinkman|Rice|5.40|
+8|Marshall Faurot|South Dakota|5.40|
+9|William Staggs|Indiana State|5.40|
+10|Christyan Sampy|Houston|5.30|
+11|Mathis Bresko|Washington|5.30|
+11|Max Manson|Washington|5.30|
+13|Ashton Barkdull|Kansas|5.30|
+@MLJ
+1|Wayne Pinnock|Arkansas|8.40|
+2|Jeremiah Davis|Florida State|8.20|
+3|Malcolm Clemons|Florida|8.11|
+4|Johnny Brackins|USC|8.01|
+5|Prestin Artis|Washington|8.00|
+6|Sincere Robinson|Rutgers|7.90|
+7|Till Steinforth|Nebraska|7.87|
+8|Caleb Foster|Florida|7.73|
+9|Tye Hunt|Youngstown State|7.66|
+10|Salif Mane|Fairleigh Dickinson|7.56|
+11|Chrstyn John (Jc) Stevenson|USC|7.45|
+11|Kareem Mersal|Wyoming|7.45|
+13|Jordan Turner|Florida State|7.31|
+14|Kenson Tate|Lamar|7.11|
+15|Remar Pitter|Wyoming|6.75|
+@MTJ
+1|Russell Robinson|Miami|16.76|
+2|Luke Brown|Kentucky|16.73|
+3|Jeremiah Davis|Florida State|16.60|
+4|Salif Mane|Fairleigh Dickinson|16.58|
+5|Sean Dixon-Bodie|Florida|16.50|
+6|Brandon Green JR|Oklahoma|16.41|
+7|Micaylon Moore|Nebraska|16.11|
+8|Kelsey Daniel|Texas|16.00|
+9|Praise Aniamaka|Purdue|15.98|
+10|Daniel Falode|Harvard|15.76|
+11|Sterling Scott|Missouri|15.50|
+12|Zavien Wolfe|Georgia|15.47|
+13|Terrol Wilson|Nebraska|15.43|
+14|Theophilus Mudzengerere|South Carolina|15.33|
+15|Mitchell Effing|Northern Arizona|15.20|
+16|Astley Davis|Southern Utah|15.16|
+@MSP
+1|Tarik Robinson-O'Hagan|Ole Miss|21.05|
+2|Roje Stona|Arkansas|20.48|
+3|Dylan Targgart|South Carolina|19.95|
+4|Jason Swarens|Wisconsin|19.87|
+5|Thomas Kitchell|Wake Forest|19.73|
+6|Michael Shoaf|Notre Dame|19.43|
+7|Alexander Kolesnikoff|Georgia|19.16|
+8|John Meyer|LSU|19.05|
+9|Courtney Lawrence|Clemson|18.94|
+10|Kai Chang|Florida|18.78|
+11|Hayden Tobias|Ohio State|18.70|
+12|Cam Jones|Iowa State|18.67|
+13|Djimon Gumbs|Northwestern State|18.60|
+14|Kevin Shubert|Nebraska|18.53|
+15|Andrew Stone|Wisconsin|18.46|
+16|Warren Barrett|Liberty|17.98|
+@MWT
+1|Kenneth Ikeji|Harvard|24.32|
+2|Trey Knight|Cal State-Northridge|24.14|
+3|Garret Bernt|Northern Arizona|23.09|
+4|Ruben Banks|Alabama|23.05|
+5|Tarik Robinson-O'Hagan|Ole Miss|22.97|
+6|Parker Feuerborn|SE Missouri|22.81|
+7|Henry Zimmerman|Nebraska|22.63|
+8|Jayden White|Washington|22.23|
+9|Jeremiah Nubbe|Texas|22.19|
+10|Jacob Mechler|Texas Tech|21.80|
+11|Daniel Cope|Clemson|21.70|
+12|Rowan Hamilton|California|21.52|
+13|Tyler Sudduth|Illinois|21.48|
+14|Cam Jones|Iowa State|21.47|
+15|Dennis Ohene-Adu|Kentucky|21.35|
+16|Johnathan Witte|LSU|20.91|
+@W60
+1|Brianna Lyston|LSU|7.03|
+2|Kaila Jackson|Georgia|7.08|
+3|Jadyn Mays|Oregon|7.12|
+4|Jacious Sears|Tennessee|7.13|
+5|Shenese Walker|Florida State|7.19|
+6|Grace Stark|Florida|7.20|
+7|Semira Killebrew|Texas A&M|7.20|
+8|Alyssa Colbert|Texas Tech|7.22|
+@W200
+1|JaMeesia Ford|South Carolina|22.34|
+2|McKenzie Long|Ole Miss|22.51|
+3|Jadyn Mays|Oregon|22.60|
+4|Kaila Jackson|Georgia|22.63|
+5|Jacious Sears|Tennessee|22.69|
+6|Rosey Effiong|Arkansas|23.10|
+7|Nickisha Pryce|Arkansas|23.18|
+8|Amber Anning|Arkansas|23.62|
+@W400
+1|Amber Anning|Arkansas|50.79|
+2|Nickisha Pryce|Arkansas|51.00|
+3|Rosey Effiong|Arkansas|51.03|
+4|Aaliyah Butler|Georgia|51.64|
+5|Jermaisha Arnold|Texas A&M|51.83|
+6|Yemi John|USC|51.97|
+7|Savannah Sutherland|Michigan|52.33|
+8|Kenisha Phillips|Indiana|53.92|
+@W800
+1|Juliette Whittaker|Stanford|1:59.53|
+2|Michaela Rose|LSU|1:59.81|
+3|Meghan Hunter|BYU|2:02.15|
+4|Hayley Kitching|Penn State|2:02.16|
+5|Gabija Galvydyte|Oklahoma State|2:02.31|
+6|Wilma Nielsen|Washington|2:02.33|
+7|Lindsey Butler|Virginia Tech|2:02.39|
+8|Maggi Congdon|Northern Arizona|2:06.41|
+@Wmile
+1|Maia Ramsden|Harvard|4:25.13|
+2|Billah Jepkirui|Oklahoma State|4:27.14|
+3|Kimberley May|Providence|4:27.36|
+4|Melissa Riggins|Georgetown|4:29.02|
+5|Margo Appleton|Virginia|4:29.07|
+6|Ceili McCabe|West Virginia|4:29.26|
+7|Klaudia Kazimierska|Oregon|4:30.65|
+8|Flomena Asekol|Florida|4:35.34|
+9|Maggie Congdon|Northern Arizona|4:36.71|
+10|Shannon Flockhart|Providence|4:36.73|
+@W3000
+CUT
+1|Parker Valby|Florida|8:41.50|
+2|Olivia Markezich|Notre Dame|8:46.51|
+3|Doris Lemngole|Alabama|8:50.70|
+4|Lexy Halladay-Lowry|BYU|8:53.08|
+5|Hilda Olemomoi|Alabama|8:55.88|
+6|Riley Chamberlain|BYU|8:56.89|
+7|Chloe Scrimgeour|Georgetown|8:57.28|
+8|Maddy Elmore|Oregon|8:58.52|
+9|Sadie Sargent|BYU|9:02.90|
+10|Kaylee Mirtchell|Oregon State|9:02.91|
+11|Melissa Riggins|Georgetown|9:15.87|
+12|Billah Jepkirui|Oklahoma State|9:16.97|
+@W5000
+1|Parker Valby|Florida|14:52.79|
+2|Taylor Roe|Oklahoma State|15:15.01|
+3|Hilda Olemomoi|Alabama|15:17.27|
+4|Doris Lemngole|Alabama|15:17.43|
+5|Lexy Halladay-Lowry|BYU|15:20.73|
+6|Molly Born|Oklahoma State|15:20.89|
+7|Chloe Scrimgeour|Georgetown|15:21.80|
+8|Grace Hartman|NC State|15:28.57|
+9|Jenna Hutchins|BYU|15:31.42|
+10|Phoebe Anderson|Columbia|15:37.21|
+11|Aubrey Frentheway|BYU|15:37.30|
+12|Ella Baran|Colorado|15:38.72|
+13|Samantha Bush|NC State|15:40.83|
+14|Kenzie Doyle|UMass Lowell|15:49.30|
+15|Gracelyn Larkin|Northern Arizona|16:03.80|
+16|Lucy Jenks|Stanford|16:07.16|
+@W60H
+1|Jasmine Jones|USC|7.77|
+2|Grace Stark|Florida|7.81|
+3|Alia Armstrong|LSU|7.94|
+4|Destiny Huven|Arkansas|7.99|
+5|Leah Phillips|LSU|8.00|
+6|Aasia Laurencin|Michigan|8.04|
+7|Aaliyah McCormick|Oregon|8.26|
+8|Rosealee Cooper|Mississippi State|8.27|
+@WHJ
+1|Rachel Glenn|Arkansas|2.00|
+2|Lamara Distin|Texas A&M|1.97|
+3|Elena Kulichenko|Georgia|1.91|
+4|Temitope Adeshina|Texas Tech|1.91|
+5|Bára Sajdoková|Illinois|1.88|
+6|Roschell Clayton|Villanova|1.88|
+6|Jenna Rogers|Nebraska|1.88|
+8|Rose Yeboah|Illinois|1.88|
+9|Sanaa Barnes|Auburn|1.85|
+10|Lilian Turban|Hawaii|1.85|
+11|Charity Hufnagel|Kentucky|1.85|
+12|Destiny Masters|Wichita State|1.85|
+13|Miracle Ailes|Alabama|1.80|
+14|Sharie Enoe|Kansas State|1.75|
+15|Alyssa Jones|Stanford|1.75|
+@WPV
+1|Hana Moll|Washington|4.60|
+2|Riley Felts|Charlotte|4.50|
+3|Chloe Timberg|Rutgers|4.45|
+3|Sydney Horn|High Point|4.45|
+5|Olivia Lueking|Oklahoma|4.40|
+6|Tori Thomas|Illinois|4.40|
+6|Heather Abadie|Texas A&M|4.40|
+8|Jessica Mercier|Indiana|4.40|
+9|Molly Haywood|Baylor|4.40|
+10|Alencia Lentz|Baylor|4.30|
+11|Nastassja Campbell|Washington|4.30|
+11|Marleen Mülla|South Dakota|4.30|
+13|Ka'Leila Abrille|UCLA|4.15|
+13|Tessa Mudd|Princeton|4.15|
+15|Mason Meinershagen|Kansas|4.15|
+15|Eva Lowder|Washington State|4.15|
+@WLJ
+1|Sydney Willits|Iowa State|6.74|
+2|Claire Bryant|Florida|6.71|
+3|Alyssa Jones|Stanford|6.66|
+4|Nia Robinson|Arkansas|6.56|
+5|Alexis Brown|Baylor|6.48|
+6|Ida Breigan|UTSA|6.38|
+7|Elizabeth Ndudi|Illinois|6.35|
+8|Aaliyah Foster|Texas|6.35|
+9|Tionna Tobias|Iowa|6.32|
+10|Funminiyi Olajide|SMU|6.32|
+11|Victoria Gorlova|Virginia Tech|6.31|
+12|Ackelia Smith|Texas|6.21|
+13|Tacoria Humphrey|Illinois|6.20|
+14|Joniar Thomas|Texas A&M|6.11|
+15|Emilia Sjöstrand|San Jose State|6.06|
+16|Sophia Beckmon|Illinois|6.02|
+@WTJ
+1|Rūta Kate Lasmane|Texas Tech|14.47|
+2|Emilia Sjöstrand|San Jose State|13.72|
+3|Mikeisha Welcome|Georgia|13.71|
+4|Victoria Gorlova|Virginia Tech|13.65|
+5|Rhianna Phipps|Nebraska|13.59|
+6|Darja Sopova|Illinois|13.58|
+7|Winny Bii|Oklahoma State|13.42|
+8|Temitope Ojora|USC|13.34|
+9|Xiamara Young|San Diego State|13.26|
+10|Anne-Suzanna Fosther-Katta|Texas Tech|13.23|
+11|Simone Johnson|Auburn|13.17|
+12|Shantae Foreman|Clemson|13.16|
+13|Rachela Pace|Fresno State|13.03|
+14|Busola Akinduro|California|12.89|
+15|Daniela Wamokpego|Iowa|12.66|
+@WSP
+1|Mya Lesnar|Colorado State|18.53|
+2|Jaida Ross|Oregon|18.47|
+3|Jalani Davis|Ole Miss|18.15|
+4|Nina Ndubuisi|Texas|18.07|
+5|Alida Van Daalen|Florida|17.74|
+6|Jayden Ulrich|Louisville|17.62|
+7|Miné de Klerk|Nebraska|17.11|
+8|Chrystal Herpin|Texas|17.09|
+9|MyeJoi Williams|Alabama|16.69|
+10|Marilyn Nwora|Texas|16.64|
+11|KeAyla Dove|North Texas|16.48|
+12|Jasmine Mitchell|Ole Miss|16.37|
+13|Gabby Morris|Colorado State|16.25|
+14|Paige Low|Oklahoma|16.23|
+15|MaKayla Mason|Duke|15.72|
+16|Mensi Stiff|Ole Miss|15.62|
+@WWT
+1|Jalani Davis|Ole Miss|24.80|
+2|Shelby Frank|Minnesota|22.69|
+3|Jasmine Mitchell|Ole Miss|22.15|
+4|Gudrun Hallgrimsdottir|VCU|22.07|
+5|Marie Forbes|Clemson|21.76|
+6|Giavonna Meeks|Vanderbilt|21.73|
+7|Olivia Roberts|Wisconsin|21.71|
+8|Sara Killinen|Virginia Tech|21.53|
+9|Chloe Lindeman|Wisconsin|21.52|
+10|Chandler Hayden|Alabama|21.37|
+11|Monique Hardy|Kansas State|21.19|
+12|Tara Simpson-Sullivan|Rice|20.92|
+13|Amber Simpson|Illinois|20.72|
+14|Kenna Curry|North Dakota|20.51|
+15|Foluke Olujide-Ajibade|Pittsburgh|20.50|
+16|Anthonett Nabwe|Minnesota|20.08|

@@ -1,0 +1,231 @@
+#CH 2022-NCAAO|NCAA Outdoor Championships|Eugene|2022
+#DATES June 8–11, 2022
+@M100
+1|Joseph Fahnbulleh|Florida Gators|10.00|
+2|Favour Ashe|Tennessee Volunteers|10.08|
+3|Javonte Harding|North Carolina A&T|10.08|
+4|JoVaughn Martin|Florida State Seminoles|10.09|
+5|Dedrick Vanover|Florida Gators|10.16|
+6|Matthew Boling|Georgia Bulldogs|10.18|
+7|Micah Williams|Oregon Ducks|10.19|
+8|Da'Marcus Fleming|LSU Tigers|10.20|
+9|Shaun Maswanganyi|Houston Cougars|10.26|
+@M200
+1|Joseph Fahnbulleh|Florida Gators|19.83|
+2|Matthew Boling|Georgia Bulldogs|20.13|
+3|Udodi Onwuzurike|Stanford Cardinal|20.15|
+4|Micaiah Harris|Texas Longhorns|20.45|
+5|Tarsis Orogot|Alabama Crimson Tide|20.48|
+6|Shaun Maswanganyi|Houston Cougars|20.51|
+7|Robert Gregory|TCU Horned Frogs|20.54|
+8|Courtney Lindsey|Texas Tech Red Raiders|20.67|
+9|Eric Harrison|Ohio State Buckeyes|20.71|
+@M400
+1|Randolph Ross|North Carolina A&T|44.13|
+2|Champion Allison|Florida Gators|44.41|
+3|Elija Godwin|Georgia Bulldogs|44.50|
+4|Jonathan Jones|Texas Longhorns|44.93|
+5|Ryan Willie|Florida Gators|45.00|
+6|Richard Kuykendoll|Oklahoma Sooners|45.73|
+7|Jevaughn Powell|UTEP|45.81|
+@M800
+1|Moad Zahafi|Texas Tech Red Raiders|1:44.49|
+2|Navasky Anderson|Mississippi State Bulldogs|1:45.02|
+3|Brandon Miller|Texas A&M Aggies|1:45.09|
+4|Jason Gomez|Iowa State Cyclones|1:46.34|
+5|Sean Dolan|Villanova Wildcats|1:46.38|
+6|Dayton Carlson|Arizona State Sun Devils|1:46.72|
+7|Samuel Rodman|Princeton Tigers|1:46.96|
+8|Jonathan Schwind|Lipscomb Bisons|1:47.12|
+9|Yusuf Bizimana|Texas Longhorns|1:47.17|
+@M1500
+1|Joe Waskom|Washington Huskies|3:45.58|
+2|Mario Garcia Romo|Ole Miss Rebels|3:45.69|
+3|Sam Ellis|Princeton Tigers|3:45.82|
+4|Thomas Vanoppen|Wake Forrest Demon Deacons|3:46.03|
+5|Luke Houser|Washington Huskies|3:46.13|
+6|Jonathan Davis|Illinois Fighting Illini|3:46.15|
+7|Nathan Green|Washington Huskies|3:46.26|
+8|Adam Spencer|Wisconsin Badgers|3:46.28|
+9|John Petruno|Michigan State|3:46.56|
+10|Isaac Basten|Drake|3:46.67|
+11|George Kusche|Northern Arizona Lumberjacks|3:47.20|
+12|Ryan Schoppe|Oklahoma State Cowboys|3:47.68|
+@M5000
+1|Olin Hacker|Wisconsin Badgers|13:27.73|
+2|Morgan Beadlescomb|Michigan State|13:28.38|
+3|Nico Young|Northern Arizona Lumberjacks|13:28.62|
+4|Ky Robinson|Stanford|13:30.23|
+5|Sam Gilman|Air Force|13:30.82|
+6|Michael Power|Tulsa|13:31.23|
+7|Brian Fay|Washington Huskies|13:31.39|
+8|Alex Ostberg|North Carolina Tar Heels|13:31.60|
+9|Cole Sprout|Stanford|13:32.53|
+10|Casey Clinger|BYU Cougars|13:33.20|
+11|Zach Facioni|Wake Forest Demon Deacons|13:33.46|
+12|Acer Iverson|Harvard|13:34.01|
+13|Aaron Bienenfeld|Oregon Ducks|13:34.36|
+14|Ahmed Muhumed|Florida State Seminoles|13:36.40|
+15|Amon Kemboi|Arkansas Razorbacks|13:37.13|
+16|Adriaan Wildschutt|Florida State Seminoles|13:37.60|
+17|Dylan Jacobs|Notre Dame Fighting Irish|13:39.21|
+18|Vincent Mauri|Arizona State Sun Devils|13:45.54|
+19|Athanas Kioko|Campbell|13:47.61|
+20|Eric Van der Els|Connecticut Huskies|13:48.37|
+21|Ryan Ford|Iowa State Cyclones|13:50.03|
+22|Matthew Pereira|Harvard|13:53.09|
+23|Cole Bullock|Ole Miss Rebels|13:55.07|
+24|Dan Schaffer|Binghamton|14:00.95|
+@M10000
+1|Dylan Jacobs|Notre Dame Fighting Irish|28:12.31|
+2|Alex Maier|Oklahoma State Cowboys|28:12.68|
+3|Abdihamid Nur|Northern Arizona Lumberjacks|28:14.51|
+4|Cole Sprout|Stanford Cardinal|28:14.89|
+5|Athanas Kioko|Campbell|28:17.17|
+6|Charles Hicks|Stanford Cardinal|28:17.88|
+7|Adriaan Wildschutt|Florida State Seminoles|28:18.28|
+8|Aaron Bienenfeld|Oregon Ducks|28:19.05|
+9|Barry Keane|Butler Bulldogs|28:19.94|
+10|Amon Kemboi|Arkansas Razorbacks|28:21.64|
+11|Brandon Garnica|BYU Cougars|28:21.81|
+12|Casey Clinger|BYU Cougars|28:22.99|
+13|Acer Iverson|Harvard Crimson|28:23.29|
+14|Patrick Kiprop|Arkansas Razorbacks|28:26.25|
+15|James Mwaura|Gonzaga Bulldogs|28:29.58|
+16|Matthew Carmody|Notre Dame Fighting Irish|28:34.28|
+17|Kieran Lumb|Washington Huskies|28:36.31|
+18|Matthew Pereira|Harvard Crimson|28:43.95|
+19|Haftu Strintzos|Villanova Wildcats|28:47.35|
+20|Fearghal Curtin|Charleston Southern Buccaneers|28:52.40|
+21|Josh Methner|Notre Dame Fighting Irish|28:57.31|
+22|Bob Liking|Wisconsin Badgers|29:02.46|
+23|Victor Kiprop|Alabama Crimson Tide|29:05.83|
+24|Andrew Alexander|Notre Dame Fighting Irish|29:09.02|
+@M110H
+1|Trey Cunningham|Florida State Seminoles|13.00|
+2|Eric Edwards Jr.|LSU Tigers|13.15|
+3|Joshua Zeller|Michigan Wolverines|13.26|
+4|Giano Roberts|Clemson Tigers|13.45|
+5|Lafranz Campell|Clemson Tigers|13.45|
+6|Kentre Patterson|Ohio State Buckeyes|13.46|
+7|Justin Leaston|Charlotte|13.50|
+8|Tade Ojora|USC Trojans|13.58|
+9|Jaheem Hayles|Syracuse Orange|13.73|
+@M400H
+1|Sean Burrell|LSU Tigers|48.70|
+2|Malik Metivier|Texas Tech Red Raiders|49.13|
+3|Isaiah Levingston|Oklahoma Sooners|49.20|
+4|Nathaniel Ezekiel|Baylor Bears|49.24|
+5|Quivell Jordan-Bacot|Houston Cougars|49.52|
+6|Drake Schneider|Montana State Bobcats|49.75|
+7|Colten Yardley|BYU Cougars|50.10|
+8|James Smith II|Texas A&M Aggies|50.19|
+9|Rivaldo Leacock|New Mexico Lobos|50.84|
+@M3000SC
+1|Ahmed Jaziri|Eastern Kentucky Colonels|8:18.70|
+2|Duncan Hamilton|Montana State Bobcats|8:18.88|
+3|Parker Stokes|Georgetown Hoyas|8:18.88|
+4|Ryan Smeeton|Oklahoma State Cowboys|8:20.06|
+5|Ed Trippas|Princeton Tigers|8:20.29|
+6|Kenneth Rooks|BYU Cougars|8:22.56|
+7|Alec Basten|Minnesota Golden Gophers|8:23.86|
+8|Matthew Wilkinson|Minnesota Golden Gophers|8:25.03|
+9|Levi Taylor|Montana State Bobcats|8:33.37|
+10|Estanis Ruiz|Loyola Marymount Lions|8:36.02|
+11|Colton Johnsen|Washington State Cougars|8:37.38|
+12|Bennett Pascoe|Arkansas State Red Wolves|9:02.51|
+@MHT
+CUT
+1|Logan Blomquist|SE Missouri|73.37|
+2|Tyler Merkley|Penn State|72.70|
+3|Kostas Zaltos|Minnesota|72.51|
+4|Bobby Colantonio|Alabama|71.97|
+5|Michael Bryan|Wichita State|71.56|
+6|Alexander Talley|Nebraska|71.52|
+7|Decio Andrade|Miami|70.86|
+@W100
+1|Julien Alfred|Texas Longhorns|11.02|
+2|Kemba Nelson|Oregon Ducks|11.02|
+3|Abbey Steiner|Kentucky Wildcats|11.08|
+4|Rosemary Chukwuma|Texas Tech Red Raiders|11.14|
+5|Favour Ofili|LSU Tigers|11.17|
+6|Grace Nwokocha|North Carolina A&T|11.21|
+7|Kevona Davis|Texas Longhorns|11.22|
+8|Melissa Jefferson|Coastal Carolina|11.24|
+9|Joella Lloyd|Tennessee Volunteers|11.29|
+@W200
+1|Abby Steiner|Kentucky Wildcats|21.80|
+2|Favour Ofili|LSU Tigers|22.05|
+3|Anavia Battle|Ohio State Buckeyes|22.33|
+4|Kynnedy Flannel|Texas Longhorns|22.35|
+5|Kevona Davis|Texas Longhorns|22.50|
+6|Grace Nwokocha|North Carolina A&T|22.52|
+7|Edidiong Odiong|Florida State|22.70|
+8|Joella Lloyd|Tennessee Volunteers|22.80|
+9|Melissa Jefferson|Coastal Carolina|22.90|
+@W400
+1|Talitha Diggs|Florida Gators|49.99|
+2|Charokee Young|Texas A&M Aggies|50.65|
+3|Kennedy Simon|Texas Longhorns|50.69|
+4|Alexis Holmes|Kentucky Wildcats|50.71|
+5|Stacey Ann Williams|Texas Longhorns|51.13|
+6|Shae Anderson|UCLA Bruins|51.50|
+7|Rosey Effiong|Arkansas Razorbacks|51.55|
+8|Kavia Francis|Baylor Bears|52.16|
+9|Makenzie Dunmore|South Carolina Gamecocks|54.73|
+@W800
+1|Kristie Schoffield|Boise State|2:01.09|
+2|McKenna Keegan|Villanova Wildcats|2:01.71|
+3|Gabija Galvydyte|Oklahoma State Cowboys|2:01.76|
+4|Imogen Barrett|Florida Gators|2:02.05|
+5|Sarah Hendrick|Kennesaw State|2:02.19|
+6|Valery Tobias|Texas Longhorns|2:02.74|
+7|Aaliyah Miller|Baylor Bears|2:03.05|
+8|Katy-Ann McDonald|LSU Tigers|2:03.57|
+9|Gabrielle Wilkinson|Florida Gators|2:06.40|
+@W1500
+1|Sintayehu Vissa|Ole Miss Rebels|4:09.42|
+2|Micaela Degenero|Colorado|4:09.62|
+3|Christina Aragon|Stanford Cardinal|4:10.00|
+4|Krissy Gear|Arkansas Razorbacks|4:10.06|
+5|Julia Heymach|Stanford Cardinal|4:10.58|
+6|Emily Mackay|Binghampton Bearcats|4:11.10|
+7|Shannon Flockhart|Providence Friars|4:11.11|
+8|Eusila Chepkemei|Middle Tennessee State|4:11.44|
+9|Olivia Howell|Illinois Fighting Illini|4:12.22|
+10|Maia Ramsden|Harvard Crimson|4:12.46|
+11|Ellie Leather|Cincinnati Bearcats|4:13.37|
+12|Melissa Tenaka|Stanford Cardinal|4:21.28|
+@W5000
+1|Katelyn Tuohy|NC State Wolfpack|15:18.39|
+2|Parker Valby|Florida Gators|15:20.10|
+3|Taylor Roe|Oklahoma State Cowboys|15:24.41|
+4|Mercy Chelangat|Alabama Crimson Tide|15:24.54|
+5|Lauren Gregory|Arkansas Razorbacks|15:28.33|
+6|Abby Nichols|Colorado|15:33.09|
+7|Gracelyn Larkin|New Mexico Lobos|15:33.10|
+8|Isabel Van Camp|Arkansas Razorbacks|15:35.64|
+9|Marlee Starliper|NC State Wolfpack|15:36.51|
+10|Samantha Bush|NC State Wolfpack|15:42.61|
+11|Hannah Steelman|NC State Wolfpack|15:43.45|
+12|Cara Woolnough|Utah|15:45.26|
+13|Sydney Seymour|Tennessee Volunteers|15:51.50|
+14|Emily Covert|Colorado|15:52.99|
+15|Lucy Jenks|Stanford Cardinal|15:55.19|
+16|Amelia Mazza-Downie|New Mexico Lobos|15:58.39|
+17|Amaris Tyynismaa|Alabama Crimson Tide|15:59.19|
+18|Emma Heckel|New Mexico Lobos|16:01.51|
+19|Eusila Chepkemei|Middle Tennessee State|16:01.65|
+20|Savannah Shaw|NC State Wolfpack|16:02.32|
+21|Nicole Fegans|Georgia Tech Yellow Jackets|16:05.64|
+22|Bethany Hasz|Minnesota Golden Gophers|16:12.58|
+23|India Johnson|Colorado|16:16.09|
+@W100H
+1|Alia Amrstrong|Louisiana State|12.57|
+2|Jamine Jones|Southern California|12.66|
+3|Masai Russell|Kentucky|12.81|
+4|Paula Salmon|North Carolina A&T|12.85|
+5|Kaylah Robinson|Texas A&M|12.86|
+6|Destiny Huven|Wisconsin|12.92|
+7|Demisha Roswell|Texas Tech|12.94|
+8|Destinee Rocker|South Carolina|13.07|

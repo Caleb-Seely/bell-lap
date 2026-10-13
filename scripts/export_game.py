@@ -2,15 +2,19 @@
 import json, os
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 qs = json.load(open(os.path.join(ROOT, "data", "questions.json")))
+CTX = {"Olympic Games": "Olympic final", "World Championships": "World Championships final",
+       "NCAA Indoor Championships": "NCAA Indoor final", "NCAA Outdoor Championships": "NCAA Outdoor final"}
 out = []
 for q in qs:
     w = q["wr_before"]
     item = {"id": q["id"], "label": q["label"],
-            "ctx": ("Olympic final" if q["championship"] == "Olympic Games" else "World Championships final") + f' · {q["city"]} {q["year"]}',
+            "ctx": CTX[q["championship"]] + f' · {q["city"]} {q["year"]}',
             "group": q["group"], "g": q["gender"][0], "fmt": q["fmt"], "clue": q["clue_index"],
             "results": [[r[0], r[1], r[2], round(r[3], 2)] for r in q["results"]], "src": q["source_page"]}
     if q["field"]: item["field"] = q["field"]
     if q["partial"]: item["partial"] = 1
+    if q["cut"]: item["cut"] = 1
+    if q["ncaa"]: item["ncaa"] = 1
     if w: item["wr"] = [round(w["value"], 2), w["holder"], w["year"]]
     if q["wr_broken"]: item["wrBroken"] = 1
     out.append(item)
