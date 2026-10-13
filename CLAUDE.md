@@ -66,6 +66,7 @@ Current bank: 304 finals, covering every individual event at the 2016, 2020 and 
 - The women's marathon record uses the outright mark (Radcliffe 2:15:25 until Kosgei 2019), not the women-only one.
 - Chepngetich's 2:09:56 is listed as the record going into 2025, despite her 2025 doping suspension. Decided to keep it.
 - Results stand as Wikipedia showed them, including later reallocations. Some athletes have since been sanctioned.
+- Tokyo is labelled "Tokyo 2021" (the year it was held), not the official "Tokyo 2020". Decided to keep it.
 
 ## Next up (ideas, not started)
 
