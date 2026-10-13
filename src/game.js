@@ -99,18 +99,18 @@ function save(){if(!practice)store(dayKey,game);}
 // ---- render ----
 function render(){
   $("#day").textContent=practice?"Practice":"No. "+dayNo;
+  $("#hintbtn").hidden=game.phase!=="g1";
+  if(game.phase!=="g1") $("#hintpop").hidePopover?.();
   $("#lanes").innerHTML=game.rounds.map((r,k)=>`<li class="${k===game.cur&&game.phase!=="done"?"cur":""}"><span>${k+1}</span>${r.score!=null?`<b>${r.score}</b>`:""}</li>`).join("");
   if(game.phase==="done") return renderResults();
   const r=game.rounds[game.cur], q=BYID[r.id];
   const head=`<div><p class="eyebrow">${esc(q.ctx)}</p><h1 class="event">${esc(q.label)}</h1></div>`;
   if(game.phase==="reveal") return renderReveal(head,r,q);
 
-  const c=clueRow(q), isLast=q.clue===q.results.length-1;
-  const clue=()=>r.hint?`<div class="cr"><span class="l">${isLast?"Last place":ord(c[0])+" place"} · ${ord(c[0])} of ${q.n}</span>
-      <span class="v">${fmt(c[3],q.fmt)}</span><span class="w">${esc(c[1])}, ${c[2]}</span></div>`
-    :`<button class="cr peek" id="hint" type="button"><span class="l">Hint</span><span class="w">Tap to see a slower finisher's mark</span></button>`;
+  // Hint: the clue row, in a popup from the header button.
+  const c=clueRow(q);
+  $("#hintpop").innerHTML=`<span class="w">${esc(c[1])}</span> <span class="v">${fmt(c[3],q.fmt)}</span>`;
   $("#stage").innerHTML=`${head}
-    <div class="clue" id="clue">${clue()}</div>
     <p class="ask">What was the winning ${q.field?"mark":"time"}? One guess.</p>
     <form class="guess" id="f" autocomplete="off">
       <input id="guess" type="text" inputmode="decimal" placeholder="${PLACEHOLDER[q.fmt]}" aria-label="Your guess" enterkeyhint="go">
@@ -119,7 +119,6 @@ function render(){
     <p class="readas" id="readas" aria-live="polite">${q.fmt==="ms"?"Dots work too, e.g. 1.58.20":q.fmt==="hms"?"Dots work too, e.g. 2.08.30":""}</p>`;
   const inp=$("#guess"), go=$("#go"), ra=$("#readas"), tip=ra.innerHTML, ref=c[3];
   let armed=false;
-  if(!r.hint) $("#hint").onclick=()=>{r.hint=true;save();$("#clue").innerHTML=clue();inp.focus({preventScroll:true});};
   inp.addEventListener("input",()=>{
     const v=parse(inp.value,q.fmt,ref);
     armed=false;go.textContent="Go";
@@ -173,8 +172,7 @@ function straight(q,g){
 }
 
 function board(q,g){
-  const res=q.results, n=res.length, slot=placing(q,g).ahead;
-  const show=n<=6?new Set(res.map((_,k)=>k)):new Set([0,slot-1,slot,n-1]);
+  const res=q.results, n=res.length;
   const rank={you:0,r:1,wr:2};
   const rows=[...res.map((x,k)=>({t:"r",v:x[3],k,x})),{t:"you",v:g},...(q.wr?[{t:"wr",v:q.wr[0]}]:[])]
     .sort((a,b)=>a.v===b.v?(rank[a.t]-rank[b.t])||((a.k||0)-(b.k||0)):(better(q,a.v,b.v)?-1:1));
@@ -183,7 +181,6 @@ function board(q,g){
   rows.forEach(rw=>{
     if(rw.t==="r"){
       if(q.partial&&rw.k===n-1) hidden+=rw.x[0]-res[n-2][0]-1;   // unlisted finishers between 10th and last
-      if(!show.has(rw.k)){hidden++;return;}
     }
     flush();
     if(rw.t==="you") html+=`<tr class="you"><td>You</td><td>Your guess</td><td class="m">${fmt(g,q.fmt)}</td></tr>`;

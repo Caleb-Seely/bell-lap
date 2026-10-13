@@ -29,6 +29,12 @@ button,input{font:inherit;color:inherit}
 .mark{display:flex;align-items:center;gap:8px;font-family:var(--f-display);font-weight:700;font-size:22px;letter-spacing:.06em;text-transform:uppercase}
 .mark i{width:10px;height:20px;background:repeating-conic-gradient(var(--ink) 0 25%,transparent 0 50%) 0 0/10px 10px}
 .day{font-family:var(--f-mono);font-size:12px;color:var(--muted)}
+.tools{display:flex;align-items:center;gap:12px}
+.hintbtn{border:1.5px solid var(--line);border-radius:6px;background:transparent;font-family:var(--f-display);font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;padding:3px 10px;cursor:pointer}
+.hintbtn[hidden]{display:none}
+.pop{margin:0;inset:auto;top:52px;right:max(16px,calc((100vw - 460px)/2 + 16px));max-width:calc(100vw - 32px);padding:10px 14px;border:1px solid var(--line);border-radius:10px;background:var(--surface);color:var(--ink);box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.pop .v{font-family:var(--f-mono);font-weight:600;font-size:20px;font-variant-numeric:tabular-nums;margin-left:8px}
+.pop .w{color:var(--muted);font-size:14px}
 
 /* rounds as five lanes */
 .lanes{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);border:1px solid var(--line);border-width:1px 0}
@@ -41,18 +47,10 @@ button,input{font:inherit;color:inherit}
 .eyebrow{margin:0;font-size:13px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
 .event{margin:2px 0 0;font-family:var(--f-display);font-weight:700;font-size:44px;line-height:1;text-transform:uppercase;text-wrap:balance}
 .ask{margin:6px 0 0;color:var(--muted)}
-.clue{display:flex;flex-direction:column;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-.cr{display:flex;align-items:baseline;column-gap:12px;flex-wrap:wrap;padding:10px 0}
-.cr+.cr{border-top:1px dashed var(--line)}
-.cr .l{font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);flex-basis:100%}
-.cr .v{font-family:var(--f-mono);font-weight:600;font-size:24px;font-variant-numeric:tabular-nums}
-.cr .w{color:var(--muted);font-size:14px;min-width:0}
 .badge{display:inline-block;margin-top:4px;font-family:var(--f-display);font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;background:var(--track);color:var(--on-track);padding:1px 8px;border-radius:3px}
 .board tr.wr td{color:var(--muted);font-style:italic}
 .board tr.wr td:first-child{font-style:normal}
-.peek{all:unset;box-sizing:border-box;width:100%;cursor:pointer;display:flex;align-items:baseline;column-gap:12px;flex-wrap:wrap;padding:10px 0}
-.peek:focus-visible,.fix:focus-visible{outline:2px solid var(--track);outline-offset:2px}
-.peek .w{text-decoration:underline;text-underline-offset:2px}
+.fix:focus-visible{outline:2px solid var(--track);outline-offset:2px}
 .guess{display:flex;gap:8px}
 .guess input{flex:1;min-width:0;font-family:var(--f-mono);font-weight:600;font-size:28px;padding:10px 14px;border:1.5px solid var(--line);border-radius:10px;background:var(--surface);font-variant-numeric:tabular-nums}
 .guess input::placeholder{color:var(--line)}
@@ -116,8 +114,9 @@ button,input{font:inherit;color:inherit}
 <div class="app">
   <header class="top">
     <div class="mark"><i aria-hidden="true"></i>Bell-Lap</div>
-    <div class="day" id="day"></div>
+    <div class="tools"><button class="hintbtn" id="hintbtn" type="button" popovertarget="hintpop" hidden>Hint</button><div class="day" id="day"></div></div>
   </header>
+  <div class="pop" id="hintpop" popover></div>
   <ol class="lanes" id="lanes" aria-label="Rounds"></ol>
   <main class="stage" id="stage"></main>
   <p class="foot">Five Olympic and World Championships finals a day, 2016 to 2025. One guess at each winning mark. Results from <a href="https://en.wikipedia.org/">Wikipedia</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a>.</p>
