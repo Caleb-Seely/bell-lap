@@ -1,4 +1,4 @@
-"""Write the question bank as a review workbook: data/photo-finish-bank.xlsx (needs openpyxl)"""
+"""Write the question bank as a review workbook: data/bell-lap-bank.xlsx (needs openpyxl)"""
 import json, csv, os
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment
@@ -37,7 +37,7 @@ def sheet(title, headers, widths):
 # README
 ws = wb.active; ws.title = "Read me"
 lines = [
-    ("Photo Finish question bank", bold),
+    ("Bell-Lap question bank", bold),
     ("Every individual final at the Olympic Games and outdoor World Athletics Championships, 2016 to 2025 (8 championships, 38 events each, 304 finals).", body),
     ("Relays, race walks and combined events are left out. Source: the final results table on each event's Wikipedia page, collected October 2026.", body),
     ("", body),
@@ -95,5 +95,5 @@ for row in rv.iter_rows(min_row=2):
     for c in row[:3]: c.font = body
 rv.auto_filter.ref = rv.dimensions
 
-wb.save(os.path.join(HERE, "photo-finish-bank.xlsx"))
+wb.save(os.path.join(HERE, "bell-lap-bank.xlsx"))
 print("saved")

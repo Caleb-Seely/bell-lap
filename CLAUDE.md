@@ -1,4 +1,4 @@
-# Photo Finish
+# Bell-Lap
 
 A daily guessing game for track and field fans. Each day has five championship finals. For each one the player sees the event and a clue (a slower finisher's mark) and makes **one guess** at the winning time or distance. Points depend on how close the guess is, up to 1,000 a round and 5,000 a day. The reveal places the guess among the real field, and a share line shows coloured squares per round.
 
@@ -9,7 +9,7 @@ data/raw/*.txt        Source of truth: one file per championship (see format bel
 data/questions.json   Built bank: one object per final (generated, committed)
 data/wr_history.json  World record per event, going into each championship and set in its finals (generated)
 data/review.csv       Items to check by hand (generated)
-data/photo-finish-bank.xlsx  Review workbook (generated with `sh build.sh --xlsx`)
+data/bell-lap-bank.xlsx  Review workbook (generated with `sh build.sh --xlsx`)
 scripts/build.py      raw -> questions.json, wr_history.json, review.csv
 scripts/export_game.py  questions.json + src/ -> site/index.html (bank embedded as `const BANK=...`)
 scripts/make_xlsx.py  questions.json -> review workbook

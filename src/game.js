@@ -194,7 +194,7 @@ function next(){
 
 function shareText(){
   const t=game.rounds.reduce((a,r)=>a+r.score,0);
-  return `Photo Finish ${practice?"practice":"No. "+dayNo}\n${t.toLocaleString()} / 5,000\n${game.rounds.map(r=>chip(r.score)).join("")}`;
+  return `Bell-Lap ${practice?"practice":"No. "+dayNo}\n${t.toLocaleString()} / 5,000\n${game.rounds.map(r=>chip(r.score)).join("")}`;
 }
 function renderResults(){
   const t=game.rounds.reduce((a,r)=>a+r.score,0);

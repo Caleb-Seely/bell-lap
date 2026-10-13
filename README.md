@@ -1,10 +1,10 @@
-# Photo Finish
+# Bell-Lap
 
 A daily track and field guessing game. You get five championship finals, one guess at each winning mark, and up to 5,000 points.
 
 ```sh
 sh build.sh            # rebuild the question bank and site/index.html
-sh build.sh --xlsx     # also rebuild data/photo-finish-bank.xlsx (needs openpyxl)
+sh build.sh --xlsx     # also rebuild data/bell-lap-bank.xlsx (needs openpyxl)
 open site/index.html   # play locally
 ```
 

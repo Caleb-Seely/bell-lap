@@ -1,4 +1,4 @@
-"""Build the Photo Finish question bank from raw championship files.
+"""Build the Bell-Lap question bank from raw championship files.
 
 Input:  data/raw/*.txt  (one file per championship; see format in raw files)
 Output: data/questions.json   every final, ready for the game
