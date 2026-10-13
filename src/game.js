@@ -1,7 +1,11 @@
 // Questions come from the bank (BANK, built by build.py): every individual Olympic and
 // World Championships final 2016–2025. results[0] is the answer; q.clue is the clue row.
-// SCHEDULE (from schedule.py) lists each day's five questions as indexes into BANK.
+// SCHEDULE (from schedule.py) lists each day's sets as indexes into BANK: [Standard, Warm-up, Bell-Lap].
 const ROUNDS=5, START=new Date(2026,9,11), SITE="https://bell-lap.vercel.app";
+// Modes. Warm-up: multiple choice. Bell-Lap: 60 s for all five. Workout: endless, +15 s a final,
+// unused time carries over; ends on an empty clock or a guess under SPLIT points.
+const MODES={warmup:{name:"Warm-up",set:1}, standard:{name:"Standard",set:0}, bell:{name:"Bell-Lap",tag:"60 s",set:2,clock:60000}, workout:{name:"Workout",clock:15000}};
+const SPLIT=500, MC_PTS=[1000,300,100,0];
 const PLACEHOLDER={s:"0.00", ms:"0:00.00", hms:"0:00:00", m:"0.00"};
 const BYID={};
 BANK.forEach(q=>{q.mark=q.results[0][3]; q.n=q.results[q.results.length-1][0]; BYID[q.id]=q;});
@@ -69,9 +73,15 @@ function placing(q,g){
 const chip=p=>p>=900?"🟩":p>=600?"🟨":p>=300?"🟧":"🟥";
 const who=r=>`${esc(r[1])} <small>${r[2]}</small>`;
 
-// Daily sets are fixed in SCHEDULE (built by schedule.py with the same picker, so days already
-// played never change). If the schedule ever runs out it wraps around.
-const daily=day=>SCHEDULE[(day-1)%SCHEDULE.length].map(i=>BANK[i].id);
+// Daily sets are fixed in SCHEDULE (built by schedule.py, so days already played never change).
+// If the schedule ever runs out it wraps around.
+const dayIds=(day,set)=>SCHEDULE[(day-1)%SCHEDULE.length][set].map(i=>BANK[i].id);
+// Workout order: every final not in today's other sets, shuffled by the day.
+function workoutSeq(seed,day){
+  const skip=new Set(day?[0,1,2].flatMap(k=>dayIds(day,k)):[]), r=rng(seed), a=BANK.map(q=>q.id).filter(id=>!skip.has(id));
+  for(let i=a.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[a[i],a[j]]=[a[j],a[i]];}
+  return a;
+}
 // Practice sets: one sprint/hurdles, one middle/distance/road, one jump, one throw, one wildcard,
 // balanced between men's and women's events.
 function pick(seed,used=new Set()){
@@ -85,24 +95,74 @@ function pick(seed,used=new Set()){
   for(let i=chosen.length-1;i>0;i--){const j=Math.floor(r()*(i+1));[chosen[i],chosen[j]]=[chosen[j],chosen[i]];}
   return chosen;
 }
+// Warm-up choices: the answer and three decoys about 1.5% apart (jittered so they look like real
+// marks), the answer in a random slot.
+function choices(q,seed){
+  const r=rng(seed), unit=q.fmt==="hms"?1:0.01, step=Math.max(3*unit,q.mark*0.015), k=Math.floor(r()*4);
+  return [0,1,2,3].map(i=>i===k?q.mark:Math.round((q.mark+(i-k+(r()-0.5)*0.6)*step)/unit)*unit);
+}
+const hash=s=>[...s].reduce((h,c)=>(h*31+c.charCodeAt(0))>>>0,7);
 
 // ---- state ----
 const today=new Date();today.setHours(0,0,0,0);
-const dayNo=Math.round((today-START)/864e5)+1;
-const dayKey="pf9-day-"+today.toISOString().slice(0,10);
-let practice=false, interacted=false;
-let game=valid(store(dayKey))||fresh(daily(Math.max(1,dayNo)));
-function valid(g){return g&&g.rounds&&g.rounds.every(r=>BYID[r.id])?g:null;}
-function fresh(ids){return {rounds:ids.map(id=>({id,g1:null,score:null})),cur:0,phase:"g1"};}
-function save(){if(!practice)store(dayKey,game);}
+const dayNo=Math.max(1,Math.round((today-START)/864e5)+1);
+const date=today.toISOString().slice(0,10);
+const keyFor=m=>m==="standard"?"pf9-day-"+date:`pf9-${m}-`+date;   // Standard keeps its original key
+let mode=MODES[store("pf9-mode")]?store("pf9-mode"):"standard";
+let practice=false, interacted=false, game=load(mode);
+function load(m){const g=store(keyFor(m));return valid(g,m)?Object.assign(g,{mode:m}):fresh(m,dayNo);}
+function valid(g,m){return g&&(g.mode||"standard")===m&&g.rounds&&g.rounds.every(r=>BYID[r.id])?g:null;}
+// day = today's number, or null for a practice set
+function fresh(m,day){
+  const seed=day?day*7919+41:Math.floor(Math.random()*1e9), M=MODES[m];
+  const g={mode:m,cur:0,phase:M.clock?"ready":"g1"};
+  if(m==="workout"){g.seq=workoutSeq(seed,day);g.rounds=[{id:g.seq[0],g1:null,score:null}];}
+  else g.rounds=(day?dayIds(day,M.set):pick(seed)).map(id=>({id,g1:null,score:null}));
+  if(m==="warmup") g.rounds.forEach(r=>r.opts=choices(BYID[r.id],hash(r.id)+(day||seed)));
+  if(M.clock) g.clock={left:M.clock,t0:null};
+  return g;
+}
+function save(){if(!practice)store(keyFor(mode),game);}
+function setMode(m){
+  if(m===mode&&!practice) return;
+  save();mode=m;practice=false;store("pf9-mode",m);game=load(m);render();window.scrollTo({top:0});
+}
+
+// ---- clock ----
+// The clock runs only while a guess is open; t0 is a wall-clock start so a reload can't stop it.
+const timeLeft=()=>{const c=game.clock;return !c?0:c.t0?c.left-(Date.now()-c.t0):c.left;};
+function stopClock(){const c=game.clock;if(c&&c.t0){c.left=Math.max(0,timeLeft());c.t0=null;}}
+const clockText=ms=>{const t=Math.max(0,Math.ceil(ms/1000));return Math.floor(t/60)+":"+pad(t%60,2);};
+function tick(){
+  if(!game.clock) return;
+  const t=timeLeft(), el=$("#clock");
+  el.textContent=clockText(t); el.classList.toggle("low",game.phase==="g1"&&t<10000);
+  if(game.phase==="g1"&&t<=0) timeout();
+}
+setInterval(tick,200);
+function timeout(){
+  stopClock();game.clock.left=0;
+  game.rounds.forEach(r=>{if(r.score==null){r.score=0;r.out=true;}});
+  game.phase="done";save();render();
+}
 
 // ---- render ----
 function render(){
+  const M=MODES[game.mode];
   $("#day").textContent=practice?"Practice":"No. "+dayNo;
+  $("#modes").innerHTML=Object.entries(MODES).map(([k,v])=>`<button type="button" data-m="${k}" aria-pressed="${k===mode}">${v.name}</button>`).join("");
+  $("#modes").querySelectorAll("button").forEach(b=>b.onclick=()=>setMode(b.dataset.m));
   $("#hintbtn").hidden=game.phase!=="g1";
   if(game.phase!=="g1") $("#hintpop").hidePopover?.();
-  $("#lanes").innerHTML=game.rounds.map((r,k)=>`<li class="${k===game.cur&&game.phase!=="done"?"cur":""}"><span>${k+1}</span>${r.score!=null?`<b>${r.score}</b>`:""}</li>`).join("");
+  $("#clock").hidden=!M.clock||game.phase==="done";
+  // lanes: the five rounds, or the last five intervals of a workout
+  const off=Math.max(0,game.rounds.length-ROUNDS), shown=game.rounds.slice(off);
+  while(game.mode==="workout"&&shown.length<ROUNDS) shown.push(null);
+  $("#lanes").innerHTML=shown.map((r,k)=>`<li class="${k+off===game.cur&&r&&game.phase!=="done"&&game.phase!=="ready"?"cur":""}">${r||game.mode!=="workout"?`<span>${k+off+1}</span>`:""}${r&&r.score!=null?`<b>${r.out?"–":r.score}</b>`:""}</li>`).join("");
+  tick();
   if(game.phase==="done") return renderResults();
+  if(game.phase==="ready") return renderReady();
+  if(game.clock&&game.phase==="g1"&&!game.clock.t0){game.clock.t0=Date.now();save();}
   const r=game.rounds[game.cur], q=BYID[r.id];
   const head=`<div><p class="eyebrow">${esc(q.ctx)}</p><h1 class="event">${esc(q.label)}</h1></div>`;
   if(game.phase==="reveal") return renderReveal(head,r,q);
@@ -110,6 +170,13 @@ function render(){
   // Hint: the clue row, in a popup from the header button.
   const c=clueRow(q);
   $("#hintpop").innerHTML=`<span class="l">${ord(c[0])} place</span><span class="r"><span class="w">${esc(c[1])}</span><span class="v">${fmt(c[3],q.fmt)}</span></span>`;
+  if(game.mode==="warmup"){
+    $("#stage").innerHTML=`${head}
+      <p class="ask">Pick the winning ${q.field?"mark":"time"}.</p>
+      <div class="opts">${r.opts.map((v,k)=>`<button type="button" class="opt" data-k="${k}">${fmt(v,q.fmt)}</button>`).join("")}</div>`;
+    $("#stage").querySelectorAll(".opt").forEach(b=>b.onclick=()=>submit(r.opts[+b.dataset.k]));
+    return;
+  }
   $("#stage").innerHTML=`${head}
     <p class="ask">What was the winning ${q.field?"mark":"time"}? One guess.</p>
     <form class="guess" id="f" autocomplete="off">
@@ -137,13 +204,24 @@ function render(){
     if(!sane(v,ref)&&!armed){armed=true;go.textContent="Sure?";return;}
     submit(v);
   });
-  if(interacted) inp.focus({preventScroll:true});
+  if(interacted||game.clock) inp.focus({preventScroll:true});
+}
+
+function renderReady(){
+  const w=game.mode==="workout";
+  $("#stage").innerHTML=`<div><p class="eyebrow">${MODES[game.mode].name}${practice?" · Practice":""}</p>
+      <h1 class="event">${w?"15-second intervals":"60 seconds, five finals"}</h1></div>
+    <p class="ask">${w?`Each final adds 15 seconds. Unused time carries over. The run ends when the clock does, or on a guess under ${SPLIT} points.`:"The clock stops while you read each result."}</p>
+    <button class="btn wide" id="start">Start</button>`;
+  $("#start").onclick=()=>{interacted=true;game.phase="g1";render();};
 }
 
 function submit(v){
-  interacted=true;
+  interacted=true;stopClock();
   const r=game.rounds[game.cur], q=BYID[r.id];
-  r.g1=v; r.score=points(v,q); game.phase="reveal";
+  r.g1=v; game.phase="reveal";
+  if(game.mode==="warmup"){const best=r.opts.indexOf(r.opts.reduce((a,b)=>Math.abs(b-q.mark)<Math.abs(a-q.mark)?b:a));r.score=MC_PTS[Math.abs(r.opts.indexOf(v)-best)];}
+  else r.score=points(v,q);
   save();render();
 }
 
@@ -192,7 +270,7 @@ function board(q,g){
 }
 
 function renderReveal(head,r,q){
-  const g=r.g1, w=q.results[0];
+  const g=r.g1, w=q.results[0], wo=game.mode==="workout", last=wo?r.score<SPLIT:game.cur===ROUNDS-1;
   const note=(q.wrBroken&&q.wr?`Broke the world record of ${fmt(q.wr[0],q.fmt)} set by ${esc(q.wr[1])} in ${q.wr[2]}. `:"")
     +`<a href="https://en.wikipedia.org/wiki/${encodeURIComponent(q.src.replace(/ /g,"_"))}" target="_blank" rel="noopener">Full results</a>`;
   $("#stage").innerHTML=`${head}
@@ -200,28 +278,39 @@ function renderReveal(head,r,q){
       <div><span class="l">Winner</span><div class="big">${fmt(q.mark,q.fmt)}</div><div class="who">${esc(w[1])}, ${w[2]}</div>${q.wrBroken?`<span class="badge">New world record</span>`:""}</div>
       <div class="score"><span class="l">Points</span><div class="big">${r.score}</div></div>
     </div>
-    <p class="placed">${placedLine(q,g)}</p>
+    <p class="placed">${wo&&r.score<SPLIT?"Missed split. ":""}${placedLine(q,g)}</p>
     ${straight(q,g)}
-    <button class="btn wide" id="next">${game.cur===ROUNDS-1?"See results":"Next final"}</button>
+    <button class="btn wide" id="next">${last?"See results":wo?"Next interval":"Next final"}</button>
     <details class="more"><summary>Results</summary>${board(q,g)}<p class="note">${note}</p></details>`;
   $("#next").onclick=next;
   if(interacted) $("#next").focus({preventScroll:true});
 }
 function next(){
-  if(game.cur>=ROUNDS-1) game.phase="done"; else {game.cur++;game.phase="g1";}
+  if(game.mode==="workout"){
+    const r=game.rounds[game.cur], id=game.seq[game.rounds.length%game.seq.length];
+    if(r.score<SPLIT) game.phase="done";
+    else {game.rounds.push({id,g1:null,score:null});game.cur++;game.clock.left+=MODES.workout.clock;game.phase="g1";}
+  }
+  else if(game.cur>=ROUNDS-1) game.phase="done"; else {game.cur++;game.phase="g1";}
   save();render();window.scrollTo({top:0});
 }
 
+const total=()=>game.rounds.reduce((a,r)=>a+(r.score||0),0);
+const cleared=()=>game.rounds.filter(r=>r.score>=SPLIT).length;
 function shareText(){
-  const t=game.rounds.reduce((a,r)=>a+r.score,0);
-  return `Bell-Lap ${practice?"practice":"No. "+dayNo}\n${t.toLocaleString()} / 5,000\n${game.rounds.map(r=>chip(r.score)).join("")}\n${SITE}`;
+  const m=game.mode, tag=(practice?"practice":"No. "+dayNo)+(m==="standard"?"":" · "+(MODES[m].tag||MODES[m].name));
+  const line=m==="workout"?`${cleared()} interval${cleared()===1?"":"s"} · ${total().toLocaleString()} pts`
+    :`${total().toLocaleString()} / 5,000`+(m==="bell"?` · ${clockText(game.clock.left)} left`:"");
+  return `Bell-Lap ${tag}\n${line}\n${game.rounds.map(r=>chip(r.score||0)).join("")}\n${SITE}`;
 }
 function renderResults(){
-  const t=game.rounds.reduce((a,r)=>a+r.score,0);
-  $("#stage").innerHTML=`<div><p class="eyebrow">${practice?"Practice set":"Today"}</p><div class="total">${t.toLocaleString()} <small>/ 5,000</small></div></div>
-    <table class="board sum">${game.rounds.map(r=>{const q=BYID[r.id],p=placing(q,r.g1);return `<tr><td>${chip(r.score)}</td>
-      <td>${esc(q.label)}<small>${esc(q.ctx)} · ${fmt(q.mark,q.fmt)}, you ${fmt(r.g1,q.fmt)}${p.place?` (${ord(p.place)})`:""}</small></td>
-      <td class="s">${r.score}</td></tr>`;}).join("")}</table>
+  const m=game.mode, wo=m==="workout";
+  const big=wo?`${cleared()} <small>interval${cleared()===1?"":"s"} · ${total().toLocaleString()} pts</small>`
+    :`${total().toLocaleString()} <small>/ 5,000${m==="bell"?` · ${clockText(game.clock.left)} left`:""}</small>`;
+  $("#stage").innerHTML=`<div><p class="eyebrow">${MODES[m].name} · ${practice?"Practice":"Today"}</p><div class="total">${big}</div></div>
+    <table class="board sum">${game.rounds.map(r=>{const q=BYID[r.id],p=r.g1!=null?placing(q,r.g1):{};return `<tr><td>${chip(r.score||0)}</td>
+      <td>${esc(q.label)}<small>${esc(q.ctx)} · ${fmt(q.mark,q.fmt)}, ${r.g1!=null?`you ${fmt(r.g1,q.fmt)}${p.place?` (${ord(p.place)})`:""}`:"out of time"}</small></td>
+      <td class="s">${r.score||0}</td></tr>`;}).join("")}</table>
     <pre class="share" id="share">${esc(shareText())}</pre>
     <div class="row"><button class="btn" id="copy">Copy</button><button class="btn quiet" id="again">Practice</button></div>`;
   $("#copy").onclick=()=>{
@@ -229,7 +318,7 @@ function renderResults(){
     navigator.clipboard.writeText(shareText()).then(()=>{b.textContent="Copied";},()=>{
       const s=window.getSelection(),rg=document.createRange();rg.selectNodeContents($("#share"));s.removeAllRanges();s.addRange(rg);b.textContent="Selected";});
   };
-  $("#again").onclick=()=>{practice=true;interacted=true;game=fresh(pick(Math.floor(Math.random()*1e9)));render();window.scrollTo({top:0});};
+  $("#again").onclick=()=>{practice=true;interacted=true;game=fresh(mode,null);render();window.scrollTo({top:0});};
 }
 
 document.addEventListener("keydown",e=>{if(e.key==="Enter"&&game.phase==="reveal"&&document.activeElement?.id!=="next"&&!e.target.closest?.("summary,a")){e.preventDefault();next();}});

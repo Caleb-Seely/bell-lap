@@ -40,6 +40,12 @@ Current bank: 304 finals, covering every individual event at the 2016, 2020 and 
 
 ## Game decisions (keep unless asked to change)
 
+- **Modes** (tabs under the header; last one used is remembered in `pf9-mode`):
+  - **Warm-up:** multiple choice. The answer plus three decoys ~1.5% apart (jittered), answer in a random slot. 1000 for the right pick, 300/100/0 by how many slots off.
+  - **Standard** (default): the original game, untimed free-text guess.
+  - **Bell-Lap:** Standard rules with 60 seconds for all five. The clock runs only while a guess is open (paused on reveals) and is stored as a wall-clock start, so reloading or switching modes doesn't stop it. Unanswered finals score 0 when it hits zero.
+  - **Workout:** endless finals in a daily order (every final not in today's other sets). Each final adds 15 s; unused time carries over (no cap). The run ends on an empty clock or a guess under 500 ("Missed split"). Score = intervals cleared (finals scoring 500+).
+  - Timed modes open on a Start screen. Share text names the mode ("· Warm-up", "· 60 s", "· Workout").
 - **One guess per final.** A second guess with a higher/lower hint was tried and removed.
 - **Clue = last finisher**, shown only as a popup ("8th place" over "Name | mark") from a "Hint" button in the header during a guess. Free: no points cost or share marker. Exceptions:
   - If the last finisher was far behind (an injury, e.g. Ta Lou-Smith 13.84 in the Paris 100 m), the clue is the next one up. "Far behind" means the last gap is more than 3× the typical gap and more than half the rest of the field's spread.
@@ -47,12 +53,12 @@ Current bank: 304 finals, covering every individual event at the 2016, 2020 and 
   
   Showing the world record as a second clue was tried. It made typing in the world record the best strategy, so it was dropped.
 - **Scoring is deliberately generous** ("big numbers feel good"). `points = 1000 / (1 + e²)`, where `e = |guess − winner| / tolerance` and `tolerance = winner × max(4%, |clue − winner| / winner)`. The scoring is not explained in the UI.
-- **Daily set:** one sprint/hurdles, one middle/distance/road, one jump, one throw and one wildcard, balanced men/women. Days walk through the bank without repeats (about 60 days per cycle). Day 1 = 2026-10-11. Sets come from `data/schedule.json`: days up to tomorrow (UTC) never change, so adding or removing questions only affects days nobody has played. Removing a question that a played day uses fails the build. The page wraps around if the schedule (built 400 days ahead on every build) runs out.
+- **Daily sets:** Standard, Warm-up and Bell-Lap each get their own five (one sprint/hurdles, one middle/distance/road, one jump, one throw and one wildcard, balanced men/women). Days walk through the bank with no repeats across modes (about 20 days per cycle). Day 1 = 2026-10-11. Standard days 1–4 predate the other modes and are unchanged. Sets come from `data/schedule.json`: days up to tomorrow (UTC) never change, so adding or removing questions only affects days nobody has played. Removing a question that a played day uses fails the build. The page wraps around if the schedule (built 400 days ahead on every build) runs out.
 - **Input:** free text. Dots work in place of colons. Ambiguous input like "1.57" is read as whichever meaning is closer to the clue mark (1:57).
 - **Typo guard:** a guess more than ~1.5x from the clue mark (the real winner is never more than 26% away) shows "Did you mean …?" with the digits re-read (6759 → 67.59) and needs a second press ("Sure?") to submit.
 - **Reveal:** winner, points, a placing line ("That mark would place 4th of 8", never "you finished": the player didn't race), a red "straight" with the finish line on the right (winner at the finish, clue runner at the left), then the Next button. Below it a collapsed "Results" section holds the full results board (every finisher we have, guess slotted in, world record going in as a row; big road fields show "N more" for the unlisted places), the old-record note if a record fell, and a link to the event's Wikipedia page. A record also shows a "New world record" badge. No "% off".
 - **Design:** minimal and mobile-first. Off-white or charcoal background, one track-red accent, Barlow Condensed / Barlow / IBM Plex Mono. The five rounds are shown as lane boxes. Avoid adding explanatory copy.
-- Progress is stored in localStorage per day (key `pf9-day-YYYY-MM-DD`). Bump the prefix if the saved-state shape changes.
+- Progress is stored in localStorage per mode and day (`pf9-day-YYYY-MM-DD` for Standard, `pf9-<mode>-YYYY-MM-DD` for the others). Bump the prefix if the saved-state shape changes. Each Workout run saves its order (`seq`), so a bank change can't reshuffle a run in progress, but it can change a day's Workout order before it's started.
 
 ## Known data questions
 

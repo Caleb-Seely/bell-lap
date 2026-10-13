@@ -5,7 +5,10 @@ are frozen and never change. Later days are generated from the current bank, so 
 questions only affect days nobody has seen yet. The generator is a straight port of the original
 in-browser picker, so with an unchanged bank it reproduces the same days.
 
-Each day is {"day": n, "cycle": c, "ids": [5 question ids]}. A cycle walks the bank without repeats.
+Each day is {"day": n, "cycle": c, "ids": [...], "bell": [...], "warmup": [...]}: five questions each for
+Standard, Bell-Lap and Warm-up, with no repeats across modes within a cycle. "ids" (Standard) is picked first
+with the original seed, so Standard days 1-4, played before the other modes existed, are unchanged.
+Workout's endless order is derived in the page from the day number.
 """
 import json, os, datetime
 
@@ -13,6 +16,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DATA = os.path.join(ROOT, "data")
 START = datetime.date(2026, 10, 11)   # Day 1
 AHEAD = 400                           # days generated past the frozen ones
+MODES = [("bell", 37), ("warmup", 29)]  # extra daily sets and their seed offsets (Standard uses 13)
+PER_DAY = 5 * (1 + len(MODES))
 BUCKETS = [("sprint", "hurdles"), ("middle", "distance", "road"), ("jumps",), ("throws",)]
 
 
@@ -55,18 +60,28 @@ def build(today=None):
     today = today or datetime.datetime.now(datetime.timezone.utc).date()
     frozen = (today - START).days + 2          # tomorrow's day number
     days = old[:frozen]
+    cycle, used = (days[0]["cycle"] if days else 1), set()
     for d in days:
-        missing = [i for i in d["ids"] if i not in byid]
+        if d["cycle"] != cycle:
+            cycle, used = d["cycle"], set()
+        missing = [i for m in ["ids"] + [m for m, _ in MODES] for i in d.get(m, []) if i not in byid]
         if missing:
             raise SystemExit(f'day {d["day"]} was already played but its questions are gone from the bank: {missing}')
-    cycle = days[-1]["cycle"] if days else 1
-    used = {i for d in days if d["cycle"] == cycle for i in d["ids"]}
+        used.update(d["ids"])
+        for m, off in MODES:   # frozen days from before a mode existed get its set now (nobody has played it)
+            if m not in d:
+                avoid = used | {i for e in days if e["cycle"] == cycle for i in e["ids"]}
+                d[m] = pick(d["day"] * 7919 + off, bank, byid, avoid if len(bank) - len(avoid) >= 10 else used)
+            used.update(d[m])
     for n in range(len(days) + 1, frozen + AHEAD + 1):
-        if len(bank) - len(used & byid.keys()) < 5:
+        if len(bank) - len(used & byid.keys()) < PER_DAY:
             cycle, used = cycle + 1, set()
-        ids = pick(n * 7919 + 13, bank, byid, used)
-        used.update(ids)
-        days.append({"day": n, "cycle": cycle, "ids": ids})
+        d = {"day": n, "cycle": cycle, "ids": pick(n * 7919 + 13, bank, byid, used)}
+        used.update(d["ids"])
+        for m, off in MODES:
+            d[m] = pick(n * 7919 + off, bank, byid, used)
+            used.update(d[m])
+        days.append(d)
     with open(path, "w", encoding="utf-8") as fh:
         fh.write("[\n" + ",\n".join(json.dumps(d) for d in days) + "\n]\n")
     return days, frozen

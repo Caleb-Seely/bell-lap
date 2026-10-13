@@ -17,7 +17,7 @@ for q in qs:
 bank = "const BANK=" + json.dumps(out, ensure_ascii=False, separators=(",", ":")) + ";\n"
 index = {q["id"]: k for k, q in enumerate(qs)}
 days = json.load(open(os.path.join(ROOT, "data", "schedule.json"), encoding="utf-8"))
-bank += "const SCHEDULE=" + json.dumps([[index[i] for i in d["ids"]] for d in days], separators=(",", ":")) + ";\n"
+bank += "const SCHEDULE=" + json.dumps([[[index[i] for i in d[m]] for m in ("ids", "warmup", "bell")] for d in days], separators=(",", ":")) + ";\n"
 page = open(os.path.join(ROOT, "src", "page.html"), encoding="utf-8").read()
 game = open(os.path.join(ROOT, "src", "game.js"), encoding="utf-8").read()
 os.makedirs(os.path.join(ROOT, "site"), exist_ok=True)
